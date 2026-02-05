@@ -1,0 +1,1415 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1,shrink-to-fit=no'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel='shortcut icon' href='/theme/favicon.ico' type='image/x-icon'>
+        <title>SAFE TFA Matrix</title>
+        <!-- USWDS CSS -->
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='/theme/style/vendors/bootstrap.min.css' />
+        <link rel='stylesheet' href='/theme/style/vendors/bootstrap-tourist.css' />
+        <link rel='stylesheet' href='/theme/style/vendors/bootstrap-select.min.css' />
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/brands.min.css"/>
+        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/solid.min.css"/>
+            <link rel="stylesheet" href="/theme/style-user.css"/>
+
+</head>
+
+<body>
+
+    <div class="container-fluid attack-website-wrapper d-flex flex-column h-100">
+        <div class="row sticky-top flex-grow-0 flex-shrink-1">
+            <!-- header elements -->
+            <header class="col px-0">
+                    <nav class='navbar navbar-expand-lg navbar-dark position-static'>
+        <a class='navbar-brand' href='/'><img src="/theme/images/safe_logo_header.png" class="attack-logo"></a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarCollapse'
+                aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
+                <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarCollapse'>
+            <ul class='nav nav-tabs ml-auto'>
+                        <li class="nav-item">
+                            <a href="/matrices/tfa/"  class="nav-link" ><b>Matrix</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/tactics/tfa/"  class="nav-link" ><b>Tactics</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/techniques/tfa/"  class="nav-link" ><b>Techniques</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="search-button" class="btn search-button">Search <div id="search-icon" class="icon-button search-icon"></div></button>
+                        </li>
+                <li class="nav-item">
+                    <a href="https://form.jotform.com/260340396646056" target="_blank" class="nav-link">
+                        <b>Submit a Pattern</b>&nbsp;
+                        <img src="/theme/images/external-site.svg" alt="External site" class="external-icon" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/notastandard-org/tfa-matrix" target="_blank" class="nav-link">
+                        <b>Contribute</b>&nbsp;
+                        <img src="/theme/images/external-site.svg" alt="External site" class="external-icon" />
+                    </a>
+                </li>
+            </ul>
+            <a href="https://doodles.google" id="quick-exit-btn" class="btn ml-3"
+               style="background-color: #e65100; color: white; font-weight: bold; padding: 8px 16px; border-radius: 4px;"
+               title="Press Escape to quickly leave this site">Quick Exit</a>
+        </div>
+    </nav>
+
+            </header>
+        </div>
+        <div class="row flex-grow-0 flex-shrink-1">
+            <!-- banner elements -->
+            <div class="col px-0">
+                <!-- don't edit or remove the line below even though it's commented out, it gets parsed and replaced by the versioning feature -->
+                <!-- !versions banner! -->
+            </div>
+        </div>
+        <div class="row flex-grow-1 flex-shrink-0">
+            <!-- main content elements -->
+            <!--start-indexing-for-search-->
+         
+    <div id="attack-jumbotron" class="col jumbotron-fluid">
+        <div class="container home-banner">
+            <div class="row-main-page pt-5">
+                    <p class="text-justify">
+                        The <strong>TFA Matrix</strong> (Technology-Facilitated Abuse Matrix) is a knowledge base of tactics and techniques used in technology-facilitated interpersonal harm. It provides a structured framework for understanding, documenting, and addressing technology-enabled abuse.
+                    </p>
+                    <p class="text-justify pb-2">
+                        The TFA Matrix is part of the <strong>SAFE Framework</strong> developed by Not A Standard to help researchers, practitioners, and technologists better understand and mitigate technology-facilitated abuse.
+                    </p>
+                    <div class="p-line">
+                        <p class="py-3">
+                            This matrix maps <strong>7 tactics</strong> and <strong>74 techniques</strong> commonly observed in technology-facilitated abuse scenarios, providing a common language for describing these behaviors.
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="matrix-section" class="container-fluid bg-alternate pt-5 pb-3">
+        <div id="matrix-header" class="container text-center">
+            <h2>TFA Matrix — Technology-Facilitated Abuse</h2>
+        </div>
+        <div id="matrix-enterprise">
+            <div id="tour-matrix-container">
+            <div class="matrix-container p-3">
+    <div class="scroll-indicator-group">
+        <div class="scroll-indicator left">
+            <div class="cover"></div>
+        </div>
+        <div class="overflow-x-auto matrix-scroll-box pb-3">
+                <table class="matrix side">
+    <thead>
+        <tr>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0001" data-toggle="tooltip" data-placement="top" title="TFA-TA-0001">Surveillance & Tracking</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0002" data-toggle="tooltip" data-placement="top" title="TFA-TA-0002">Account & Access Compromise</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0003" data-toggle="tooltip" data-placement="top" title="TFA-TA-0003">Harassment & Intimidation</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0004" data-toggle="tooltip" data-placement="top" title="TFA-TA-0004">Information Manipulation</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0005" data-toggle="tooltip" data-placement="top" title="TFA-TA-0005">Isolation & Control</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0006" data-toggle="tooltip" data-placement="top" title="TFA-TA-0006">Resource & Financial Control</a></td>
+                <td class="tactic name"><a href="/tactics/TFA-TA-0007" data-toggle="tooltip" data-placement="top" title="TFA-TA-0007">Physical Enablement</a></td>
+        </tr>
+        <tr>
+                <td class="tactic count">
+                    10&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    10&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    12&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    11&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    10&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    11&nbsp;techniques
+                </td>
+                <td class="tactic count">
+                    10&nbsp;techniques
+                </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--038b15fd-a3a5-5b2f-b408-23fdf226453a">
+    <a href="/techniques/TFA-T-1008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--038b15fd-a3a5-5b2f-b408-23fdf226453a" title="TFA-T-1008">Calendar/Schedule Surveillance</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--038b15fd-a3a5-5b2f-b408-23fdf226453a">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--aacd5cf6-7fda-5049-aceb-4f79fbb4f139">
+    <a href="/techniques/TFA-T-1005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--aacd5cf6-7fda-5049-aceb-4f79fbb4f139" title="TFA-T-1005">Communication Interception</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--aacd5cf6-7fda-5049-aceb-4f79fbb4f139">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--bf29cf73-4a8a-5fc7-8404-c2f933e2ff52">
+    <a href="/techniques/TFA-T-1010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--bf29cf73-4a8a-5fc7-8404-c2f933e2ff52" title="TFA-T-1010">Fitness/Health Tracker Surveillance</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--bf29cf73-4a8a-5fc7-8404-c2f933e2ff52">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--4f38805a-327f-5e52-b4c3-e53aa47072bb">
+    <a href="/techniques/TFA-T-1007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--4f38805a-327f-5e52-b4c3-e53aa47072bb" title="TFA-T-1007">Network Traffic Monitoring</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--4f38805a-327f-5e52-b4c3-e53aa47072bb">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--54d76db6-0175-5721-b271-222b5b4fd3c9">
+    <a href="/techniques/TFA-T-1002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--54d76db6-0175-5721-b271-222b5b4fd3c9" title="TFA-T-1002">Physical Tracker Planting</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--54d76db6-0175-5721-b271-222b5b4fd3c9">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--92795804-248a-53f8-90d3-d25547527e63">
+    <a href="/techniques/TFA-T-1003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--92795804-248a-53f8-90d3-d25547527e63" title="TFA-T-1003">Shared Account Surveillance</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--92795804-248a-53f8-90d3-d25547527e63">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--2ff5b6c1-66c0-51d4-9ecc-3fd55d7bd033">
+    <a href="/techniques/TFA-T-1006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--2ff5b6c1-66c0-51d4-9ecc-3fd55d7bd033" title="TFA-T-1006">Smart Home Surveillance</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--2ff5b6c1-66c0-51d4-9ecc-3fd55d7bd033">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f452cc5b-84e4-5014-a0d6-01fd38284a48">
+    <a href="/techniques/TFA-T-1004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f452cc5b-84e4-5014-a0d6-01fd38284a48" title="TFA-T-1004">Social Media Monitoring</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f452cc5b-84e4-5014-a0d6-01fd38284a48">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--e7be1c26-1c65-53d1-aa8c-187e9a661847">
+    <a href="/techniques/TFA-T-1001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--e7be1c26-1c65-53d1-aa8c-187e9a661847" title="TFA-T-1001">Stalkerware Installation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--e7be1c26-1c65-53d1-aa8c-187e9a661847">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f1e3fecc-32ff-59fa-b06c-954d531d7984">
+    <a href="/techniques/TFA-T-1009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f1e3fecc-32ff-59fa-b06c-954d531d7984" title="TFA-T-1009">Third-Party Monitoring Recruitment</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--b6bc07bb-cfa1-5640-a2b9-7806008ed31e--attack-pattern--f1e3fecc-32ff-59fa-b06c-954d531d7984">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--6418c4a2-4e08-5c15-88f2-4876cd0c4f92">
+    <a href="/techniques/TFA-T-2002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--6418c4a2-4e08-5c15-88f2-4876cd0c4f92" title="TFA-T-2002">Account Takeover</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--6418c4a2-4e08-5c15-88f2-4876cd0c4f92">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--d2cc520b-d9d1-5730-9bc6-1690ddcb0628">
+    <a href="/techniques/TFA-T-2010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--d2cc520b-d9d1-5730-9bc6-1690ddcb0628" title="TFA-T-2010">Administrative Access Abuse</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--d2cc520b-d9d1-5730-9bc6-1690ddcb0628">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--1ed1224b-5957-5c01-8243-467781d63dac">
+    <a href="/techniques/TFA-T-2007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--1ed1224b-5957-5c01-8243-467781d63dac" title="TFA-T-2007">Backup/Cloud Access</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--1ed1224b-5957-5c01-8243-467781d63dac">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--8e447f09-1d9d-5c83-9807-d21e5e5bfd17">
+    <a href="/techniques/TFA-T-2001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--8e447f09-1d9d-5c83-9807-d21e5e5bfd17" title="TFA-T-2001">Credential Theft</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--8e447f09-1d9d-5c83-9807-d21e5e5bfd17">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--9e9609f7-4fd9-5526-92c6-0cbd79b6aa85">
+    <a href="/techniques/TFA-T-2005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--9e9609f7-4fd9-5526-92c6-0cbd79b6aa85" title="TFA-T-2005">Device Lockout</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--9e9609f7-4fd9-5526-92c6-0cbd79b6aa85">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b8a66d72-c47c-52e8-b4bf-afb898c42bfd">
+    <a href="/techniques/TFA-T-2009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b8a66d72-c47c-52e8-b4bf-afb898c42bfd" title="TFA-T-2009">Device Sabotage</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b8a66d72-c47c-52e8-b4bf-afb898c42bfd">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b45147ce-44e8-5829-b96b-dbaa42dec505">
+    <a href="/techniques/TFA-T-2003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b45147ce-44e8-5829-b96b-dbaa42dec505" title="TFA-T-2003">Password/Recovery Change</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--b45147ce-44e8-5829-b96b-dbaa42dec505">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--facb0c31-d359-5e8d-bf2f-af743222c509">
+    <a href="/techniques/TFA-T-2004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--facb0c31-d359-5e8d-bf2f-af743222c509" title="TFA-T-2004">Session Hijacking</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--facb0c31-d359-5e8d-bf2f-af743222c509">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--ea511197-03f5-549d-b92d-62b7c75f2bea">
+    <a href="/techniques/TFA-T-2008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--ea511197-03f5-549d-b92d-62b7c75f2bea" title="TFA-T-2008">Shared Account Weaponization</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--ea511197-03f5-549d-b92d-62b7c75f2bea">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--0e850217-6812-5246-a844-99ce41159fc5">
+    <a href="/techniques/TFA-T-2006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--0e850217-6812-5246-a844-99ce41159fc5" title="TFA-T-2006">Two-Factor Interception</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--0b38e4a2-32d0-535e-98de-1f947354ab37--attack-pattern--0e850217-6812-5246-a844-99ce41159fc5">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0fd5d1f9-6c26-54f0-ad8e-04cd1b8f28b7">
+    <a href="/techniques/TFA-T-3003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0fd5d1f9-6c26-54f0-ad8e-04cd1b8f28b7" title="TFA-T-3003">Contact After Blocking</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0fd5d1f9-6c26-54f0-ad8e-04cd1b8f28b7">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--95f9504a-078a-5ce5-ad85-b4c0b7f6c44e">
+    <a href="/techniques/TFA-T-3011" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--95f9504a-078a-5ce5-ad85-b4c0b7f6c44e" title="TFA-T-3011">Contact Bombing</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--95f9504a-078a-5ce5-ad85-b4c0b7f6c44e">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--f631c37f-553f-51da-b4e5-17db4ab6671b">
+    <a href="/techniques/TFA-T-3004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--f631c37f-553f-51da-b4e5-17db4ab6671b" title="TFA-T-3004">Coordinated Harassment Campaign</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--f631c37f-553f-51da-b4e5-17db4ab6671b">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0536c256-7022-5ee9-b48e-a556a17fa532">
+    <a href="/techniques/TFA-T-3001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0536c256-7022-5ee9-b48e-a556a17fa532" title="TFA-T-3001">Direct Threat Messaging</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--0536c256-7022-5ee9-b48e-a556a17fa532">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--1676b414-8279-54dd-909f-6d51c86e4007">
+    <a href="/techniques/TFA-T-3005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--1676b414-8279-54dd-909f-6d51c86e4007" title="TFA-T-3005">Doxxing</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--1676b414-8279-54dd-909f-6d51c86e4007">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9be63b18-d8f2-5964-a9b9-95d3c123312c">
+    <a href="/techniques/TFA-T-3009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9be63b18-d8f2-5964-a9b9-95d3c123312c" title="TFA-T-3009">Impersonation Harassment</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9be63b18-d8f2-5964-a9b9-95d3c123312c">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--d29af7c9-ed6b-5d41-ae0b-6e12a8f40425">
+    <a href="/techniques/TFA-T-3002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--d29af7c9-ed6b-5d41-ae0b-6e12a8f40425" title="TFA-T-3002">Persistent Unwanted Contact</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--d29af7c9-ed6b-5d41-ae0b-6e12a8f40425">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--13f74c77-f80a-516b-8d0b-69452b11a1c7">
+    <a href="/techniques/TFA-T-3007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--13f74c77-f80a-516b-8d0b-69452b11a1c7" title="TFA-T-3007">Platform Abuse Reporting</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--13f74c77-f80a-516b-8d0b-69452b11a1c7">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5b4655b2-1b14-583f-ba1e-e6fbd9ac3ca9">
+    <a href="/techniques/TFA-T-3012" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5b4655b2-1b14-583f-ba1e-e6fbd9ac3ca9" title="TFA-T-3012">Proxy Harassment via AI</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5b4655b2-1b14-583f-ba1e-e6fbd9ac3ca9">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5fbca7a8-d178-5abd-b343-2074eb08b22a">
+    <a href="/techniques/TFA-T-3008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5fbca7a8-d178-5abd-b343-2074eb08b22a" title="TFA-T-3008">Public Humiliation Posts</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--5fbca7a8-d178-5abd-b343-2074eb08b22a">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--06ffd72c-2d6f-52b7-b3c2-b7ec8d559445">
+    <a href="/techniques/TFA-T-3010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--06ffd72c-2d6f-52b7-b3c2-b7ec8d559445" title="TFA-T-3010">Review/Rating Attacks</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--06ffd72c-2d6f-52b7-b3c2-b7ec8d559445">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9569f0af-25b6-5e46-83ef-bc87bce17079">
+    <a href="/techniques/TFA-T-3006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9569f0af-25b6-5e46-83ef-bc87bce17079" title="TFA-T-3006">Swatting</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--f6a6d7a2-12ec-5e26-9eed-e71e7c857b78--attack-pattern--9569f0af-25b6-5e46-83ef-bc87bce17079">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--817bf05e-1dc8-5dd2-a29a-08cdacec1c51">
+    <a href="/techniques/TFA-T-4008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--817bf05e-1dc8-5dd2-a29a-08cdacec1c51" title="TFA-T-4008">Catfishing/Romance Fraud</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--817bf05e-1dc8-5dd2-a29a-08cdacec1c51">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--ce0fb7f7-6bc8-598a-b767-2b766cd02276">
+    <a href="/techniques/TFA-T-4006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--ce0fb7f7-6bc8-598a-b767-2b766cd02276" title="TFA-T-4006">Context Manipulation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--ce0fb7f7-6bc8-598a-b767-2b766cd02276">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--10230246-de54-5c75-b0cc-91f0619db49f">
+    <a href="/techniques/TFA-T-4004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--10230246-de54-5c75-b0cc-91f0619db49f" title="TFA-T-4004">Deepfake Creation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--10230246-de54-5c75-b0cc-91f0619db49f">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--c919aed7-3530-5c26-86d0-0bdfd8f13fd7">
+    <a href="/techniques/TFA-T-4002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--c919aed7-3530-5c26-86d0-0bdfd8f13fd7" title="TFA-T-4002">Digital Gaslighting</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--c919aed7-3530-5c26-86d0-0bdfd8f13fd7">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--eb4f74d2-be47-5d40-9eb5-9979e351df9c">
+    <a href="/techniques/TFA-T-4011" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--eb4f74d2-be47-5d40-9eb5-9979e351df9c" title="TFA-T-4011">Fake Evidence Creation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--eb4f74d2-be47-5d40-9eb5-9979e351df9c">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--6b8b327c-3231-5f73-9b60-7b5df45e4fb1">
+    <a href="/techniques/TFA-T-4005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--6b8b327c-3231-5f73-9b60-7b5df45e4fb1" title="TFA-T-4005">False Narrative Campaigns</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--6b8b327c-3231-5f73-9b60-7b5df45e4fb1">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--9753e695-85f9-5c81-9cd6-727aba922711">
+    <a href="/techniques/TFA-T-4010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--9753e695-85f9-5c81-9cd6-727aba922711" title="TFA-T-4010">Historical Content Weaponization</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--9753e695-85f9-5c81-9cd6-727aba922711">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b750f0ae-f35b-53b5-8899-1861d5593695">
+    <a href="/techniques/TFA-T-4001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b750f0ae-f35b-53b5-8899-1861d5593695" title="TFA-T-4001">Message/Evidence Tampering</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b750f0ae-f35b-53b5-8899-1861d5593695">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--06cc00c4-2c8b-50a3-9eef-1138959258df">
+    <a href="/techniques/TFA-T-4003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--06cc00c4-2c8b-50a3-9eef-1138959258df" title="TFA-T-4003">Non-Consensual Intimate Image Distribution</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--06cc00c4-2c8b-50a3-9eef-1138959258df">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b5f5b7fa-a311-5bd8-9b8f-e08d2680fcb2">
+    <a href="/techniques/TFA-T-4009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b5f5b7fa-a311-5bd8-9b8f-e08d2680fcb2" title="TFA-T-4009">Reputation Destruction SEO</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--b5f5b7fa-a311-5bd8-9b8f-e08d2680fcb2">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--32a1d7ac-d9e5-5fd1-9077-58fb87822e24">
+    <a href="/techniques/TFA-T-4007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--32a1d7ac-d9e5-5fd1-9077-58fb87822e24" title="TFA-T-4007">Sextortion</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--887034b3-9c97-511f-ae5b-f4f2519d1f0a--attack-pattern--32a1d7ac-d9e5-5fd1-9077-58fb87822e24">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--421b7811-e982-59bc-b5e3-49cd484a17b3">
+    <a href="/techniques/TFA-T-5001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--421b7811-e982-59bc-b5e3-49cd484a17b3" title="TFA-T-5001">Communication Interception & Response</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--421b7811-e982-59bc-b5e3-49cd484a17b3">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--57b07909-4a76-5f0b-b8f3-361e44c84722">
+    <a href="/techniques/TFA-T-5007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--57b07909-4a76-5f0b-b8f3-361e44c84722" title="TFA-T-5007">Communication Monitoring Disclosure</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--57b07909-4a76-5f0b-b8f3-361e44c84722">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--d714e4f3-6854-5361-833e-5bc1b710ede1">
+    <a href="/techniques/TFA-T-5002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--d714e4f3-6854-5361-833e-5bc1b710ede1" title="TFA-T-5002">Contact Blocking/Filtering</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--d714e4f3-6854-5361-833e-5bc1b710ede1">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--91bcfc1e-6342-55a5-aadf-0675551bd690">
+    <a href="/techniques/TFA-T-5004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--91bcfc1e-6342-55a5-aadf-0675551bd690" title="TFA-T-5004">Device Time/Access Restrictions</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--91bcfc1e-6342-55a5-aadf-0675551bd690">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--303d05c5-f812-5106-9f76-df9dd81a1a6f">
+    <a href="/techniques/TFA-T-5010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--303d05c5-f812-5106-9f76-df9dd81a1a6f" title="TFA-T-5010">Email/Communication Rerouting</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--303d05c5-f812-5106-9f76-df9dd81a1a6f">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--706a0d42-4ef8-53f0-b268-59d58a055be8">
+    <a href="/techniques/TFA-T-5009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--706a0d42-4ef8-53f0-b268-59d58a055be8" title="TFA-T-5009">Identity Document Control</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--706a0d42-4ef8-53f0-b268-59d58a055be8">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--1b09ae41-8a64-598e-a446-7c24a8b11d87">
+    <a href="/techniques/TFA-T-5005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--1b09ae41-8a64-598e-a446-7c24a8b11d87" title="TFA-T-5005">Network Poisoning</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--1b09ae41-8a64-598e-a446-7c24a8b11d87">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--10f0ca9e-bb17-5530-bd10-0306ef517c4b">
+    <a href="/techniques/TFA-T-5006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--10f0ca9e-bb17-5530-bd10-0306ef517c4b" title="TFA-T-5006">Platform Banning Coordination</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--10f0ca9e-bb17-5530-bd10-0306ef517c4b">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--9b9f5056-0377-5fb6-bba1-38e56b60b8de">
+    <a href="/techniques/TFA-T-5003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--9b9f5056-0377-5fb6-bba1-38e56b60b8de" title="TFA-T-5003">Social Media Control</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--9b9f5056-0377-5fb6-bba1-38e56b60b8de">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--a3db7ac3-6c2b-5013-b2b6-075747f1fe3c">
+    <a href="/techniques/TFA-T-5008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--a3db7ac3-6c2b-5013-b2b6-075747f1fe3c" title="TFA-T-5008">Support Resource Blocking</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--14ca4b8b-7c2f-5459-bba5-a49f1c82333e--attack-pattern--a3db7ac3-6c2b-5013-b2b6-075747f1fe3c">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--af9fa2c6-2b17-5a20-be79-957582afc6e1">
+    <a href="/techniques/TFA-T-6007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--af9fa2c6-2b17-5a20-be79-957582afc6e1" title="TFA-T-6007">Benefits/Payments Interception</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--af9fa2c6-2b17-5a20-be79-957582afc6e1">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b8753029-3aa1-55ba-bf8f-d7093a5721ec">
+    <a href="/techniques/TFA-T-6005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b8753029-3aa1-55ba-bf8f-d7093a5721ec" title="TFA-T-6005">Coerced Transactions</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b8753029-3aa1-55ba-bf8f-d7093a5721ec">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3497968f-db3a-578c-9548-139eeca4ff68">
+    <a href="/techniques/TFA-T-6008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3497968f-db3a-578c-9548-139eeca4ff68" title="TFA-T-6008">Credit/Identity Theft</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3497968f-db3a-578c-9548-139eeca4ff68">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--7a0fc883-5367-5d11-8ae0-335596ea5089">
+    <a href="/techniques/TFA-T-6006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--7a0fc883-5367-5d11-8ae0-335596ea5089" title="TFA-T-6006">Crypto/Investment Fraud</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--7a0fc883-5367-5d11-8ae0-335596ea5089">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--fdb91504-8d90-5497-8bba-2109c6696c78">
+    <a href="/techniques/TFA-T-6010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--fdb91504-8d90-5497-8bba-2109c6696c78" title="TFA-T-6010">Employment Sabotage</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--fdb91504-8d90-5497-8bba-2109c6696c78">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3d8a566b-89e2-5086-b945-6a4b7c3087dd">
+    <a href="/techniques/TFA-T-6001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3d8a566b-89e2-5086-b945-6a4b7c3087dd" title="TFA-T-6001">Financial Account Lockout</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3d8a566b-89e2-5086-b945-6a4b7c3087dd">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b75e4c57-8502-5e4c-8402-a49fa55e71a7">
+    <a href="/techniques/TFA-T-6009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b75e4c57-8502-5e4c-8402-a49fa55e71a7" title="TFA-T-6009">Smart Home Resource Control</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--b75e4c57-8502-5e4c-8402-a49fa55e71a7">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--4a69bbdb-98d4-518d-b808-b9232ab175f9">
+    <a href="/techniques/TFA-T-6003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--4a69bbdb-98d4-518d-b808-b9232ab175f9" title="TFA-T-6003">Spending Restrictions</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--4a69bbdb-98d4-518d-b808-b9232ab175f9">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--a960a087-9314-550f-a7f8-8a2d509a5d10">
+    <a href="/techniques/TFA-T-6011" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--a960a087-9314-550f-a7f8-8a2d509a5d10" title="TFA-T-6011">Subscription/Service Cancellation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--a960a087-9314-550f-a7f8-8a2d509a5d10">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3bf80802-3bff-53d7-b9fe-ea37349d450e">
+    <a href="/techniques/TFA-T-6002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3bf80802-3bff-53d7-b9fe-ea37349d450e" title="TFA-T-6002">Transaction Monitoring</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--3bf80802-3bff-53d7-b9fe-ea37349d450e">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--bae72db1-aeb3-5e24-a52d-b7d6af6de796">
+    <a href="/techniques/TFA-T-6004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--bae72db1-aeb3-5e24-a52d-b7d6af6de796" title="TFA-T-6004">Unauthorized Transactions</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--d98cdb0a-e076-56f5-ac67-12faf5691cfd--attack-pattern--bae72db1-aeb3-5e24-a52d-b7d6af6de796">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+                <td class="tactic">
+                    <table class="techniques-table">
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d910367f-435d-5412-9810-b4641e4127f2">
+    <a href="/techniques/TFA-T-7010" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d910367f-435d-5412-9810-b4641e4127f2" title="TFA-T-7010">Child Custody Tech Abuse</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d910367f-435d-5412-9810-b4641e4127f2">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--79c54363-7f98-5198-898b-2b8bdae2aed2">
+    <a href="/techniques/TFA-T-7009" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--79c54363-7f98-5198-898b-2b8bdae2aed2" title="TFA-T-7009">Emergency Service Manipulation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--79c54363-7f98-5198-898b-2b8bdae2aed2">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--efdfe932-8e02-5b0e-860b-5f8bae4b95af">
+    <a href="/techniques/TFA-T-7006" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--efdfe932-8e02-5b0e-860b-5f8bae4b95af" title="TFA-T-7006">IoT Device Weaponization</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--efdfe932-8e02-5b0e-860b-5f8bae4b95af">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--ed809847-8af5-596f-9fc8-1eb5d903e510">
+    <a href="/techniques/TFA-T-7001" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--ed809847-8af5-596f-9fc8-1eb5d903e510" title="TFA-T-7001">Location-Based Assault</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--ed809847-8af5-596f-9fc8-1eb5d903e510">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--c8a69025-8c32-556d-bc92-dcd0b959400e">
+    <a href="/techniques/TFA-T-7007" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--c8a69025-8c32-556d-bc92-dcd0b959400e" title="TFA-T-7007">Medical Device Interference</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--c8a69025-8c32-556d-bc92-dcd0b959400e">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--54ac0d6e-a095-5189-a5c7-ad5113d38a85">
+    <a href="/techniques/TFA-T-7003" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--54ac0d6e-a095-5189-a5c7-ad5113d38a85" title="TFA-T-7003">Movement Interception</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--54ac0d6e-a095-5189-a5c7-ad5113d38a85">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--89d781af-61b2-5227-b400-78112978b4f9">
+    <a href="/techniques/TFA-T-7002" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--89d781af-61b2-5227-b400-78112978b4f9" title="TFA-T-7002">Safe Location Disclosure</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--89d781af-61b2-5227-b400-78112978b4f9">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d16cacbe-14bb-595e-b77e-9c8003a00e3c">
+    <a href="/techniques/TFA-T-7004" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d16cacbe-14bb-595e-b77e-9c8003a00e3c" title="TFA-T-7004">Smart Lock Manipulation</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d16cacbe-14bb-595e-b77e-9c8003a00e3c">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d4fe24cc-eac7-5b5c-a42e-77244866913a">
+    <a href="/techniques/TFA-T-7008" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d4fe24cc-eac7-5b5c-a42e-77244866913a" title="TFA-T-7008">Stalking Coordination</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--d4fe24cc-eac7-5b5c-a42e-77244866913a">
+                                    </div>
+                                </td>
+                            </tr>
+                        <!-- tour technique is scheduled task under privilege escalation -->
+
+                            <tr class="technique-row" >
+                                <td>
+                                        
+<div class="technique-cell "  id="technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--7caf29e5-86bb-5d88-924a-f3a9acb3839e">
+    <a href="/techniques/TFA-T-7005" data-toggle="tooltip" data-placement="top" data-animation="false" data-container="#technique-cell--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--7caf29e5-86bb-5d88-924a-f3a9acb3839e" title="TFA-T-7005">Vehicle Sabotage</a>
+</div>
+
+                                </td>
+                                <td class="subtechniques-td">
+                                    <div class="subtechniques hidden subtechniques-container subtechniques--x-mitre-tactic--5d8e2b60-a460-57a8-be0e-7681cba07047--attack-pattern--7caf29e5-86bb-5d88-924a-f3a9acb3839e">
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                </td>
+        </tr>
+    </tbody>
+</table>
+
+        </div>
+        <div class="scroll-indicator right">
+            <div class="cover"></div>
+        </div>
+    </div>
+    <!-- TODO: Re-enable this once we figure out how to show the last modified timestamp of the
+               latest domain release, not the Matrix object itself
+    -->
+</div>
+
+</div>
+
+        </div>
+    </div>
+    <!--start-indexing-for-search-->
+            <!--stop-indexing-for-search-->
+            <!-- search overlay for entire page -- not displayed inline -->
+            <div class="overlay search" id="search-overlay" style="display: none;">
+    <div class="overlay-inner">
+        <!-- text input for searching -->
+        <div class="search-header">
+            <div class="search-input">
+                <input type="text" id="search-input" placeholder="search">
+            </div>
+            <div class="search-icons">
+                <div class="search-parsing-icon spinner-border" style="display: none" id="search-parsing-icon"></div>
+                <div class="close-search-icon" id="close-search-icon">&times;</div>
+            </div>
+        </div>
+        <!-- results and controls for loading more results -->
+        <div id="search-body" class="search-body">
+            <div class="results" id="search-results">
+                <!-- content will be appended here on search -->
+            </div>
+            <div id="load-more-results" class="load-more-results">
+                <button class="btn btn-default" id="load-more-results-button">load more results</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="row flex-grow-0 flex-shrink-1">
+            <!-- footer elements -->
+            <footer class="col footer">
+                <div class="container-fluid">
+                    <div class="row row-footer">
+                        <div class="col-2 col-sm-2 col-md-2">
+                            <div class="footer-center-responsive my-auto">
+                                <a href="https://notastandard.org" target="_blank" rel="noopener" aria-label="Not A Standard">
+                                    <img src="/theme/images/safe_logo_footer.png" class="mitre-logo-wtrans">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-2 footer-responsive-break"></div>
+                        <div class="footer-link-group">
+                            <div class="row row-footer">
+                                <div class="px-3 col-footer">
+                                    <u class="footer-link"><a href="https://notastandard.org" class="footer-link">About SAFE</a></u>
+                                </div>
+                                <div class="px-3 col-footer">
+                                    <u class="footer-link"><a href="https://form.jotform.com/260340396646056" class="footer-link" target="_blank">Submit a Pattern</a></u>
+                                </div>
+                                <div class="px-3 col-footer">
+                                    <u class="footer-link"><a href="https://github.com/notastandard-org/tfa-matrix" class="footer-link" target="_blank">Contribute</a></u>
+                                </div>
+                                <div class="px-3 col-footer">
+                                    <u class="footer-link"><a href="https://notastandard.org/contact" class="footer-link">Contact</a></u>
+                                </div>
+                                <div class="px-3 col-footer">
+                                    <u class="footer-link"><a href="/resources/changelog.html" class="footer-link" data-toggle="tooltip" data-placement="top" data-html="true" title="TFA Matrix v1.0&#013;Website v4.4.1">Changelog</a></u>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <small class="px-3">
+                                    &copy;&nbsp;2026, Not A Standard Pty Ltd. SAFE and TFA Matrix are trademarks of Not A Standard Pty Ltd.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="w-100 p-2 footer-responsive-break"></div>
+                        <div class="col footer-float-right-responsive-centered">
+                            <div>
+                                <div>
+                                    <a href="https://notastandard.org" class="btn btn-primary w-100">
+                                        notastandard.org
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+<!--stopindex-->
+
+</div>
+    <!--SCRIPTS-->
+        <!--SCRIPTS-->
+    <script src="/theme/scripts/jquery-3.5.1.min.js"></script>
+    <script src="/theme/scripts/popper.min.js"></script>
+    <script src="/theme/scripts/bootstrap-select.min.js"></script>
+    <script src="/theme/scripts/bootstrap.bundle.min.js"></script>
+    <script src="/theme/scripts/site.js"></script>
+    <script src="/theme/scripts/settings.js"></script>
+    <script src="/theme/scripts/search_bundle.js"></script>
+    <script>
+        // Quick Exit - Escape key shortcut
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                window.location.href = 'https://doodles.google';
+            }
+        });
+    </script>
+
+    <script src="/theme/scripts/matrix.js"></script>
+    <script src="/theme/scripts/bootstrap-tourist.js"></script>
+    <script src="/theme/scripts/settings.js"></script>
+    <script src="/theme/scripts/tour/tour-introduction.js"></script>
+    <script src="/theme/scripts/random_page.js"></script>
+</body>
+</html>
