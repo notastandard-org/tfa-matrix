@@ -163,7 +163,9 @@ a .anchor::before {
 
 .mitre-logo-wtrans {
   width: 9rem;
-  height: 4.125rem;
+  height: auto;
+  max-height: 3rem;
+  object-fit: contain;
 }
 
 .quick-links {
@@ -1090,7 +1092,7 @@ img.yt-core-image {
 .attack-logo {
   margin: 8px 0;
   display: block;
-  height: 24px;
+  height: 40px;
 }
 
 /* **** */
