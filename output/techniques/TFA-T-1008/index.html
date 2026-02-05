@@ -199,9 +199,51 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1027</strong></td>
+                                    <td><strong>Calendar Sharing Audit</strong><br>Review and remove unauthorised calendar sharing permissions across all calendar applications.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1028</strong></td>
+                                    <td><strong>Sensitive Appointment Isolation</strong><br>Use separate calendar on adversary-unknown account for sensitive appointments.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1029</strong></td>
+                                    <td><strong>Medical Portal Security</strong><br>Change credentials on health portals. Remove adversary as authorised contact.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1026</strong></td>
+                                    <td><strong>Appointment Interception</strong><br>Adversary appears at calendar events they should not know about.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1027</strong></td>
+                                    <td><strong>Schedule Knowledge Indicators</strong><br>Adversary references upcoming appointments before disclosure.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1028</strong></td>
+                                    <td><strong>Active Calendar Sharing</strong><br>Audit reveals adversary retains calendar viewing access.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

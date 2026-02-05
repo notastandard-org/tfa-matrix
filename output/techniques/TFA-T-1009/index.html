@@ -199,9 +199,51 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1030</strong></td>
+                                    <td><strong>Information Compartmentalisation</strong><br>Limit sensitive information shared with contacts who maintain relationship with adversary.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1031</strong></td>
+                                    <td><strong>Network Trust Assessment</strong><br>Identify which contacts may relay information to adversary based on information leakage patterns.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1032</strong></td>
+                                    <td><strong>Canary Information Testing</strong><br>Share unique details with specific contacts to identify information relay sources.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1029</strong></td>
+                                    <td><strong>Source-Specific Information Leakage</strong><br>Adversary gains knowledge of information shared only with specific individuals.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1030</strong></td>
+                                    <td><strong>Unusual Contact Questioning</strong><br>Contacts ask unusually specific questions about location, plans, or relationships.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1031</strong></td>
+                                    <td><strong>Recruitment Attempt Reports</strong><br>Trusted contacts report adversary has requested information about target.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

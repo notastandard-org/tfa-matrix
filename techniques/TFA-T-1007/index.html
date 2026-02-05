@@ -203,9 +203,51 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1024</strong></td>
+                                    <td><strong>Router Credential Reset</strong><br>Change router admin credentials. Factory reset router if adversary configured it.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1025</strong></td>
+                                    <td><strong>Traffic Encryption</strong><br>Use VPN to encrypt internet traffic and prevent network-level monitoring.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1026</strong></td>
+                                    <td><strong>Network Bypass</strong><br>Use mobile data instead of home network for sensitive browsing.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1023</strong></td>
+                                    <td><strong>Browsing Activity Knowledge</strong><br>Adversary references websites visited or searches performed.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1024</strong></td>
+                                    <td><strong>Unauthorised Network Controls</strong><br>Router contains parental controls, content filtering, or logging not configured by target.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1025</strong></td>
+                                    <td><strong>Network Monitoring Tools Present</strong><br>Discovery of network monitoring software or devices on home network.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

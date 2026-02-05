@@ -199,9 +199,51 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1033</strong></td>
+                                    <td><strong>Health Account Separation</strong><br>Unlink health and fitness accounts from shared or adversary-known accounts. Create new accounts with private credentials.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1034</strong></td>
+                                    <td><strong>Fitness App Privacy Settings</strong><br>Disable public profiles, activity sharing, and social features on fitness platforms.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1035</strong></td>
+                                    <td><strong>Wearable Device Reset</strong><br>Factory reset wearable devices and configure with sole-controlled account.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1032</strong></td>
+                                    <td><strong>Health Data Knowledge</strong><br>Adversary references exercise patterns, sleep data, health metrics, or location data from fitness tracking.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1033</strong></td>
+                                    <td><strong>Active Health Data Sharing</strong><br>Audit reveals fitness or health apps sharing data with adversary's account.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1034</strong></td>
+                                    <td><strong>Wearable Account Linkage</strong><br>Fitness tracker connected to adversary-controlled account.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

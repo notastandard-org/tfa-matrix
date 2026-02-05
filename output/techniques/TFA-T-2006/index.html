@@ -199,9 +199,47 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-2015</strong></td>
+                                    <td><strong>Authenticator App Security</strong><br>Use authenticator app on secure device rather than SMS-based 2FA.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2016</strong></td>
+                                    <td><strong>SIM Security Controls</strong><br>Contact carrier to add SIM lock PIN and port-out protection.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2017</strong></td>
+                                    <td><strong>Hardware Security Key</strong><br>Use hardware security key for highest-risk accounts.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-2013</strong></td>
+                                    <td><strong>SIM Swap Indicators</strong><br>Sudden loss of mobile service may indicate SIM swap attack.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-2014</strong></td>
+                                    <td><strong>Unrequested 2FA Codes</strong><br>Receiving 2FA codes without initiating login attempts.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

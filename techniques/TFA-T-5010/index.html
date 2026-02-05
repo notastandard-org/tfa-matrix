@@ -198,9 +198,43 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-5019</strong></td>
+                                    <td><strong>Forwarding Rule Audit</strong><br>Check email settings for unauthorised forwarding rules and filters.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-5020</strong></td>
+                                    <td><strong>Call Forwarding Check</strong><br>Check phone settings and carrier account for call forwarding configurations.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-5019</strong></td>
+                                    <td><strong>Missing Expected Communications</strong><br>Emails, messages, or calls that senders confirm were sent but never received.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-5020</strong></td>
+                                    <td><strong>Forwarding Discovery</strong><br>Audit reveals email forwarding or call forwarding to unknown destinations.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

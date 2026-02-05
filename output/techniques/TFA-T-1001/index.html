@@ -221,9 +221,67 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1001</strong></td>
+                                    <td><strong>Anti-Stalkerware Scanning</strong><br>Deploy anti-stalkerware detection tools to identify monitoring applications. Scan for apps with excessive permissions including location, microphone, camera, and message access.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1002</strong></td>
+                                    <td><strong>Device Access Controls</strong><br>Implement strong device authentication. Disable installation from unknown sources. Maintain physical control of devices.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1003</strong></td>
+                                    <td><strong>Safe Device Acquisition</strong><br>Obtain a separate device for sensitive communications if stalkerware is suspected. Removing stalkerware may alert the monitoring party.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1004</strong></td>
+                                    <td><strong>Operating System Hardening</strong><br>Maintain current OS versions. Security updates frequently patch vulnerabilities exploited by stalkerware.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1005</strong></td>
+                                    <td><strong>Forensic Device Audit</strong><br>Engage professional forensic analysis to identify monitoring software and preserve evidence.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1001</strong></td>
+                                    <td><strong>Anomalous Battery Consumption</strong><br>Device battery depletes faster than baseline due to continuous background data transmission.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1002</strong></td>
+                                    <td><strong>Unexplained Data Usage</strong><br>Increased mobile data consumption without corresponding user activity. Monitor per-app data usage for unknown processes.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1003</strong></td>
+                                    <td><strong>Device Temperature Anomalies</strong><br>Device runs hot during idle periods indicating background process activity.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1004</strong></td>
+                                    <td><strong>Information Leakage Indicators</strong><br>Adversary demonstrates knowledge of private communications, locations, or activities accessible only through device monitoring.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1005</strong></td>
+                                    <td><strong>Unknown Applications or Profiles</strong><br>Presence of unrecognised apps, device administrator privileges, or configuration profiles.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

@@ -202,9 +202,55 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-1013</strong></td>
+                                    <td><strong>Privacy Configuration Hardening</strong><br>Configure maximum privacy settings on all social media platforms. Restrict visibility of posts, connections, and activity.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1014</strong></td>
+                                    <td><strong>Connection Audit</strong><br>Review all followers and connections for adversary-controlled accounts. Remove suspicious connections.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1015</strong></td>
+                                    <td><strong>Information Disclosure Controls</strong><br>Avoid posting real-time locations, routines, or future plans. Delay posting until after events conclude.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-1016</strong></td>
+                                    <td><strong>Tag and Mention Restrictions</strong><br>Disable or require approval for tags and mentions to prevent third-party location disclosure.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-1013</strong></td>
+                                    <td><strong>Non-Public Activity Knowledge</strong><br>Adversary references social media activity that should not be visible given current privacy settings.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1014</strong></td>
+                                    <td><strong>Suspicious Account Patterns</strong><br>New follower accounts created recently with minimal activity or connections to adversary's network.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-1015</strong></td>
+                                    <td><strong>Third-Party Monitoring Reports</strong><br>Contacts report adversary has shown them target's social media content or asked about online activity.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

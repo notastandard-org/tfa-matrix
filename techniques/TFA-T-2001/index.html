@@ -203,9 +203,55 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-2001</strong></td>
+                                    <td><strong>Password Manager Deployment</strong><br>Use password manager with strong master password. Generate unique passwords for all accounts.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2002</strong></td>
+                                    <td><strong>Multi-Factor Authentication</strong><br>Enable MFA on all accounts using authenticator app on secure device.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2003</strong></td>
+                                    <td><strong>Credential Entry Security</strong><br>Use privacy screens. Avoid password entry where adversary can observe.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2004</strong></td>
+                                    <td><strong>Post-Separation Credential Reset</strong><br>Change all passwords after separation, starting with email accounts.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-2001</strong></td>
+                                    <td><strong>Unauthorised Access Alerts</strong><br>Login notifications from unrecognised devices or locations.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-2002</strong></td>
+                                    <td><strong>Account Lockout Events</strong><br>Unable to access accounts with previously valid credentials.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-2003</strong></td>
+                                    <td><strong>Account Content Knowledge</strong><br>Adversary demonstrates knowledge of account-specific content.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 

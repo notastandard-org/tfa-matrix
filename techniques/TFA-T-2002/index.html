@@ -205,9 +205,51 @@
                             </div>
                         </div>
                             <h2 class="pt-3" id ="mitigations">Mitigations</h2>
-                                <p>
-                                    COMING SOON! If you would like to make a suggestion or contribution - <a href="https://form.jotform.com/260340396646056">click here</a>.
-                                </p>
+                                <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Mitigation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-M-2005</strong></td>
+                                    <td><strong>Account Documentation</strong><br>Document all account details including usernames, associated contacts, and creation dates for recovery purposes.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2006</strong></td>
+                                    <td><strong>Recovery Contact Security</strong><br>Change recovery email and phone to adversary-unknown contacts.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-M-2007</strong></td>
+                                    <td><strong>Platform Recovery Engagement</strong><br>Contact platform support for account recovery. Many platforms have DFV-specific recovery processes.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+<h2 class="pt-3" id="detections">Detection Indicators</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 120px;">ID</th>
+                                        <th>Detection Indicator</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><strong>TFA-D-2004</strong></td>
+                                    <td><strong>Complete Account Lockout</strong><br>Unable to access accounts. Password reset attempts fail or redirect to unknown contacts.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-2005</strong></td>
+                                    <td><strong>Unauthorised Profile Changes</strong><br>Contacts report changes to profile content not made by account owner.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>TFA-D-2006</strong></td>
+                                    <td><strong>Recovery Option Modification</strong><br>Account recovery reveals changed backup contacts or security questions.</td>
+                                </tr>
+                                </tbody>
+                            </table>
 
                     
 
