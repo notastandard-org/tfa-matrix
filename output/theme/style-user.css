@@ -2604,4 +2604,62 @@ body.technical-view .technique-cell[data-public-title] a .public-title {
   font-style: italic;
 }
 
+/* Browser Safety Banner */
+.safety-banner {
+  display: none;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1050;
+  border-bottom: 2px solid #e65100;
+}
+
+.safety-banner-content {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.safety-banner-content strong {
+  color: #fff;
+}
+
+.safety-banner-content a {
+  color: #81d4fa;
+  margin-left: 0.5rem;
+}
+
+.safety-banner-close {
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+.safety-banner-close:hover {
+  color: #fff;
+}
+
+/* Footer second row for legal links */
+.footer-legal-row {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.footer-legal-row a {
+  color: #aaa;
+  margin: 0 0.75rem;
+}
+
+.footer-legal-row a:hover {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style-user.css.map */

@@ -23,6 +23,16 @@
 
 <body>
 
+    <div class="safety-banner" id="browser-safety-banner">
+        <div class="safety-banner-content">
+            <strong>Is someone checking your browsing?</strong>
+            This website will appear in your browser history. If you're concerned someone may be monitoring your internet use, consider using a trusted friend's device, a library computer, or your browser's private/incognito mode. You can press <strong>Quick Exit</strong> or hit <strong>Escape</strong> at any time to leave this site quickly.
+            <a href="/about/online-safety/">Learn more about staying safe online</a>
+        </div>
+        <button class="safety-banner-close" id="close-safety-banner" aria-label="Dismiss safety notice">&times;</button>
+    </div>
+
+
     <div class="container-fluid attack-website-wrapper d-flex flex-column h-100">
         <div class="row sticky-top flex-grow-0 flex-shrink-1">
             <!-- header elements -->
@@ -291,5 +301,6 @@
             }
         });
     </script>
+    <script src="/theme/scripts/safety-banner.js"></script>
 </body>
 </html>
