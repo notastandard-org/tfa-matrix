@@ -2469,4 +2469,139 @@ body.technical-view .technique-cell[data-public-title] a .public-title {
   display: none;
 }
 
+/* ============================================
+   DISCLAIMER STYLES
+   ============================================ */
+
+/* Public View Footer Disclaimer */
+.public-disclaimer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.public-disclaimer p {
+  margin-bottom: 1rem;
+}
+
+.public-disclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.public-disclaimer a {
+  color: #4f7cac;
+}
+
+.public-disclaimer strong {
+  color: #39434c;
+}
+
+/* Technical View Footer Disclaimer */
+.technical-disclaimer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.technical-disclaimer p {
+  margin-bottom: 0.75rem;
+}
+
+.technical-disclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.technical-disclaimer a {
+  color: #4f7cac;
+}
+
+/* Matrix Page Disclaimer */
+.matrix-disclaimer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.matrix-disclaimer p {
+  margin-bottom: 0.5rem;
+}
+
+.matrix-disclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.matrix-disclaimer a {
+  color: #4f7cac;
+  font-weight: 500;
+}
+
+/* Limitations Page */
+.limitations-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.8;
+}
+
+.limitations-page h1 {
+  font-size: 2rem;
+  color: #1b2a4a;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #40916c;
+}
+
+.limitations-page h2 {
+  font-size: 1.4rem;
+  color: #1b2a4a;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.limitations-page h3 {
+  font-size: 1.15rem;
+  color: #2d6a4f;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.limitations-page p {
+  margin-bottom: 1rem;
+  color: #39434c;
+}
+
+.limitations-page ul, .limitations-page ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.limitations-page li {
+  margin-bottom: 0.5rem;
+}
+
+.limitations-page a {
+  color: #4f7cac;
+}
+
+.limitations-page blockquote {
+  border-left: 4px solid #40916c;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #555;
+  font-style: italic;
+}
+
 /*# sourceMappingURL=style-user.css.map */

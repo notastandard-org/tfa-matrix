@@ -25,6 +25,20 @@ MATRIX_PATH = BASE_DIR / "matrices" / "tfa" / "index.html"
 # Extension ID for TFA properties
 EXT_ID = "extension-definition--acf2f380-0000-4000-8000-000000000001"
 
+# Disclaimer HTML
+PUBLIC_DISCLAIMER = '''<div class="public-disclaimer">
+                                        <p><strong>Important:</strong> This information is general in nature and does not constitute personal, legal, or clinical advice. Every situation is different. Actions that are safe for one person may not be safe for another — especially if the person causing harm may escalate when they notice changes. If you're unsure, speak with a specialist service before making changes to your devices or accounts.</p>
+                                        <p><a href="/about/limitations/">Read our full disclaimer</a></p>
+                                    </div>'''
+
+TECHNICAL_DISCLAIMER = '''<div class="technical-disclaimer">
+                                <p><strong>Framework Limitations:</strong> This framework is provided for informational purposes. It is not forensic methodology, legal advice, or clinical guidance. Detection indicators identify possible signs, not evidence. Mitigation descriptions are not step-by-step instructions. <a href="/about/limitations/">Full limitations and methodology</a>.</p>
+                            </div>'''
+
+MATRIX_DISCLAIMER = '''<div class="matrix-disclaimer view-public">
+                            <p><strong>Important:</strong> This matrix shows patterns of technology-facilitated abuse. The information is general in nature and does not constitute personal advice. If you recognise something that's happening to you and want to take action, please contact a specialist service first — some responses may alert the person causing harm. <a href="/about/limitations/">Read our full disclaimer</a>. Need support? <a href="tel:1800737732">1800RESPECT (1800 737 732)</a></p>
+                        </div>'''
+
 
 def load_stix_bundle():
     """Load and parse the STIX bundle."""
@@ -156,6 +170,7 @@ def generate_public_view(technique):
                                     <p class="public-summary">{public_summary}</p>
                                     {generate_notices_html(technique.get('notices', []))}
                                     {generate_actions_html(technique.get('actions', []))}
+                                    {PUBLIC_DISCLAIMER}
                                 </div>'''
 
 
@@ -245,6 +260,7 @@ def process_technique_page(html_path, technique_data):
         public_view_html + '\n' +
         '                            <div class="view-technical" style="display: none;">\n' +
         '                            ' + html[h1_start:content_end] +
+        '\n' + TECHNICAL_DISCLAIMER +
         '\n                            </div><!-- end view-technical -->' +
         html[content_end:]
     )
@@ -301,6 +317,7 @@ def process_tactic_page(html_path, tactic_data):
                                     {generate_safety_warning(public_safety) if public_safety else ''}
                                     <h1>{public_name}</h1>
                                     <p class="public-summary">{public_intro}</p>
+                                    {PUBLIC_DISCLAIMER}
                                 </div>'''
 
     new_html = (
@@ -310,6 +327,7 @@ def process_tactic_page(html_path, tactic_data):
         public_view_html + '\n' +
         '                            <div class="view-technical" style="display: none;">\n' +
         '                            ' + html[h1_start:table_start] +
+        '\n' + TECHNICAL_DISCLAIMER +
         '\n                            </div><!-- end view-technical -->' +
         html[table_start:]
     )
@@ -343,7 +361,7 @@ def process_matrix_page(matrix_path, techniques):
     if breadcrumb_end != -1:
         insert_pos = html.find('\n', breadcrumb_end) + 1
         toggle_html = generate_toggle_html()
-        html = html[:insert_pos] + '    ' + toggle_html + '\n' + html[insert_pos:]
+        html = html[:insert_pos] + '    ' + toggle_html + '\n' + MATRIX_DISCLAIMER + '\n' + html[insert_pos:]
 
     # Find technique cells and add data attributes
     # Pattern: <a href="/techniques/TFA-T-XXXX" ...>Title</a> inside technique-cell div
