@@ -94,12 +94,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Safe Location Disclosure</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If your safe location has been compromised, contact the service managing your safety immediately. You may need to relocate.
+                                    </div>
+                                    <h1>Revealing Your Safe Location</h1>
+                                    <p class="public-summary">Someone discovers and reveals the address of your refuge, shelter, safe house, or new home — putting you and potentially others at risk.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person references or appears near your safe location</strong>
+                                            <p>They know where you're staying despite it being confidential.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive communications indicating your address is known</strong>
+                                            <p>Messages referencing your current location.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Contact your support service or refuge immediately</strong>
+                                            <p>They can help assess the risk and arrange relocation if needed.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact police if there's an immediate safety threat</strong>
+                                            <p>Call 000 if you're in danger.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Review how the location may have been discovered</strong>
+                                            <p>Check devices for tracking, review social media for location clues, and consider whether anyone might have shared the information.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Safe Location Disclosure
                     </h1>
 
@@ -160,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

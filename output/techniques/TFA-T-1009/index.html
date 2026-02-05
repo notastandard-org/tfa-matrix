@@ -94,12 +94,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Third-Party Monitoring Recruitment</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Getting Others to Watch You</h1>
+                                    <p class="public-summary">Someone convinces friends, family, neighbours, or mutual contacts to report back on your activities, either openly or without you knowing.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Information you only shared with specific people gets back to the other person</strong>
+                                            <p>Things you told a friend in confidence are known to someone who shouldn't know.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Mutual contacts ask unusually detailed questions</strong>
+                                            <p>People start asking where you're going, who you're seeing, or what your plans are — more than feels natural.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You notice people watching or checking on you</strong>
+                                            <p>Neighbours, work colleagues, or acquaintances seem to be tracking your comings and goings.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Be thoughtful about what you share and with whom</strong>
+                                            <p>Consider which contacts might pass information to the other person, even without bad intent.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Create an inner circle of trusted people</strong>
+                                            <p>Identify a small number of people you trust completely and keep sensitive information within that circle.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Have a conversation with people you suspect are reporting back</strong>
+                                            <p>Sometimes people don't realise they're being used. A calm conversation may help.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Third-Party Monitoring Recruitment
                     </h1>
 
@@ -160,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

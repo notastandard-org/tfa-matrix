@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Impersonation Harassment</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Pretending to Be You Online</h1>
+                                    <p class="public-summary">Someone creates fake accounts impersonating you — using your name, photos, and personal details to damage your reputation, harass others in your name, or create confusion.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>People tell you about accounts or messages 'from you' that you didn't create or send</strong>
+                                            <p>Friends receive messages from someone pretending to be you.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Fake profiles using your photos and name appear on social media or dating sites</strong>
+                                            <p>Your identity is being used without your consent.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You're blamed for things the impersonator said or did</strong>
+                                            <p>People are angry at you for things you didn't do.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report impersonation accounts to the platform immediately</strong>
+                                            <p>All major platforms have dedicated impersonation reporting tools.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Notify your contacts</strong>
+                                            <p>Let people know about the fake accounts so they're not deceived.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document the fake accounts</strong>
+                                            <p>Screenshot profiles, messages, and any damage caused.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Impersonation for the purpose of harassment is a criminal offence.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Impersonation Harassment
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

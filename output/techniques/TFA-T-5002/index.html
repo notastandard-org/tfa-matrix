@@ -94,12 +94,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Contact Blocking/Filtering</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Blocking Your Contacts Without Your Knowledge</h1>
+                                    <p class="public-summary">Someone blocks phone numbers, email addresses, or social media connections on your devices — so messages from friends, family, or services never reach you, and you don't know they tried.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>People say they tried to contact you but you never received the messages</strong>
+                                            <p>Friends, family, or services report messages and calls going unanswered.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You feel increasingly isolated without understanding why</strong>
+                                            <p>People seem to have stopped reaching out, but they actually haven't.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Blocked contact lists on your phone contain numbers you didn't block</strong>
+                                            <p>Check your device's blocked contacts list for unexpected entries.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Regularly check your blocked contacts and email filters</strong>
+                                            <p>On iPhone: Settings &gt; Phone &gt; Blocked Contacts. Check email spam/filter rules too.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Ask trusted people to test whether their messages reach you</strong>
+                                            <p>A simple 'did you get my text?' check can reveal blocking.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use a secondary contact method for critical relationships</strong>
+                                            <p>Give key people an alternate way to reach you if your primary phone seems unreliable.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Contact Blocking/Filtering
                     </h1>
 
@@ -160,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

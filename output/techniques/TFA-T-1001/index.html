@@ -94,12 +94,79 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Stalkerware Installation</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you think there's a monitoring app on your phone, don't remove it straight away. The person who installed it may be alerted and could become dangerous. Get advice from a specialist service first.
+                                    </div>
+                                    <h1>Hidden Monitoring Apps</h1>
+                                    <p class="public-summary">Someone installs a hidden app on your phone or computer that secretly tracks your location, reads your messages, and monitors your calls — without anything visible on screen.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your phone battery is draining much faster than usual</strong>
+                                            <p>Monitoring apps run constantly in the background, which uses a lot of battery power.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You're using more mobile data than expected</strong>
+                                            <p>The app sends your information to the other person, which uses data — even when you're not actively using your phone.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your phone feels warm even when you're not using it</strong>
+                                            <p>Background monitoring processes generate heat.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person seems to know things they shouldn't</strong>
+                                            <p>They mention details from your private messages, know where you've been, or reference conversations they weren't part of.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You notice unfamiliar apps or settings on your device</strong>
+                                            <p>Look for apps you don't recognise, or device administrator settings you didn't set up.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Use a stalkerware detection app to check your phone</strong>
+                                            <p>Apps like those recommended by the Coalition Against Stalkerware can scan for known monitoring software.</p>
+                                            <p class="safety-note">Running a scan is generally safe — the monitoring person typically can't see that you've installed a detection app.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep your phone locked with a PIN or biometric</strong>
+                                            <p>Use a strong passcode that the other person doesn't know. Avoid patterns that are easy to watch and copy.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Consider getting a separate safe phone</strong>
+                                            <p>A prepaid phone the other person doesn't know about can be used for sensitive calls and messages.</p>
+                                            <p class="safety-note">Keep it hidden and don't connect it to any accounts the other person knows about.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep your phone's software up to date</strong>
+                                            <p>Updates fix security holes that monitoring apps exploit.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Get a professional to examine your device</strong>
+                                            <p>A digital forensic specialist can find hidden monitoring software and preserve evidence.</p>
+                                            <p class="safety-note">Ask a support service for referrals — don't search for this on a monitored device.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Stalkerware Installation
                     </h1>
 
@@ -160,7 +227,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +347,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

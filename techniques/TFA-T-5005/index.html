@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Network Poisoning</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Sabotaging Your Network &amp; Connections</h1>
+                                    <p class="public-summary">Someone contacts your friends, family, colleagues, or community to spread lies about you — turning your support network against you so you have nowhere to turn.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>People in your life are distancing themselves based on false information</strong>
+                                            <p>Relationships change because of things the other person has told them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person contacts your friends, family, or workplace</strong>
+                                            <p>They reach out to people in your life under various pretexts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your reputation within your community shifts without explanation</strong>
+                                            <p>People treat you differently based on a narrative you didn't create.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Talk directly to the people who matter</strong>
+                                            <p>Have honest conversations with close friends and family about what's happening.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep records of what the other person tells people</strong>
+                                            <p>If you learn about specific lies, document them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Don't try to counter every lie</strong>
+                                            <p>Focus on your closest relationships. You can't control everyone's perception.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Network Poisoning
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

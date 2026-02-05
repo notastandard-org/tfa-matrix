@@ -2277,4 +2277,196 @@ div#sidebars {
   padding: 1rem 0;
 }
 
+/* ============================================
+   PUBLIC/TECHNICAL VIEW TOGGLE STYLES
+   ============================================ */
+
+/* View Toggle Controls */
+.view-toggle-container {
+  display: flex;
+  margin: 1rem 0 1.5rem 0;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid #40916c;
+  width: fit-content;
+}
+
+.view-toggle-btn {
+  padding: 10px 24px;
+  border: none;
+  background: white;
+  color: #40916c;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.view-toggle-btn.active {
+  background: #40916c;
+  color: white;
+}
+
+.view-toggle-btn:hover:not(.active) {
+  background: #f0f7f4;
+}
+
+.view-toggle-btn:focus {
+  outline: 3px solid #2d6a4f;
+  outline-offset: 2px;
+}
+
+.view-toggle-btn + .view-toggle-btn {
+  border-left: 1px solid #40916c;
+}
+
+/* Helpline Banner */
+.helpline-banner {
+  background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.helpline-banner strong {
+  font-weight: 700;
+}
+
+.helpline-banner a {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.helpline-banner a:hover {
+  color: #e0e0e0;
+}
+
+/* Safety Warning */
+.safety-warning {
+  background: #fff8e6;
+  border: 1px solid #f5c518;
+  border-left: 5px solid #e65100;
+  padding: 16px 20px;
+  margin-bottom: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.safety-warning-icon {
+  font-size: 1.3rem;
+  margin-right: 8px;
+}
+
+/* Public View Typography */
+.view-public h1 {
+  color: #1b2a4a;
+  font-size: 2rem;
+  font-family: "Roboto-Regular", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.view-public .public-summary {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #39434c;
+  margin-bottom: 2rem;
+}
+
+.view-public h2 {
+  color: #1b2a4a;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #40916c;
+}
+
+/* Notice and Action Lists */
+.notice-list,
+.action-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notice-list li,
+.action-list li {
+  background: #f8f9fa;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #40916c;
+}
+
+.notice-list li strong,
+.action-list li strong {
+  display: block;
+  color: #1b2a4a;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+.notice-list li p,
+.action-list li p {
+  margin: 0;
+  color: #39434c;
+  line-height: 1.6;
+}
+
+.action-list .safety-note {
+  background: #fff8e6;
+  border-left: 3px solid #e65100;
+  padding: 10px 12px;
+  margin-top: 12px;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: #5a5a5a;
+}
+
+/* View visibility - Public default */
+.view-technical {
+  display: none;
+}
+
+.view-public {
+  display: block;
+}
+
+body.technical-view .view-public {
+  display: none;
+}
+
+body.technical-view .view-technical {
+  display: block;
+}
+
+/* Matrix page - technique cells with dual titles */
+.technique-cell[data-public-title] a {
+  /* Technical title shown by data attribute swap */
+}
+
+body:not(.technical-view) .technique-cell[data-public-title] a .tech-title {
+  display: none;
+}
+
+body:not(.technical-view) .technique-cell[data-public-title] a .public-title {
+  display: inline;
+}
+
+body.technical-view .technique-cell[data-public-title] a .tech-title {
+  display: inline;
+}
+
+body.technical-view .technique-cell[data-public-title] a .public-title {
+  display: none;
+}
+
 /*# sourceMappingURL=style-user.css.map */

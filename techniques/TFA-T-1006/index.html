@@ -93,12 +93,70 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Smart Home Surveillance</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Smart home devices are often controlled by whoever set up the account. If you're in a shared home, the other person may have admin access to all devices.
+                                    </div>
+                                    <h1>Watching Through Smart Home Devices</h1>
+                                    <p class="public-summary">Someone uses smart home devices — cameras, doorbells, speakers, or home assistants — to watch, listen to, or record you in your own home.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Smart home devices behave unexpectedly</strong>
+                                            <p>Cameras move on their own, speakers activate without prompts, or lights/locks change without your input.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person knows what's happening inside the home</strong>
+                                            <p>They reference private conversations or activities that happened when they weren't present.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You can't control devices or change settings</strong>
+                                            <p>You don't have admin access, or settings keep reverting after you change them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Indicator lights on cameras or devices activate at odd times</strong>
+                                            <p>Small LED lights on cameras may blink when recording or being accessed remotely.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Check which accounts control your smart home devices</strong>
+                                            <p>Identify who has admin access to cameras, speakers, locks, and thermostats.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Physically disconnect devices you're concerned about</strong>
+                                            <p>Unplug cameras and smart speakers. Cover camera lenses with tape if you can't unplug.</p>
+                                            <p class="safety-note">The other person may notice if devices go offline.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Change Wi-Fi passwords</strong>
+                                            <p>This disconnects all devices. You can then selectively reconnect only the ones you control.</p>
+                                            <p class="safety-note">Only do this if you safely control the router.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Do a factory reset on devices you want to keep</strong>
+                                            <p>This removes previous account connections. Set them up fresh with your own account.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Smart Home Surveillance
                     </h1>
 
@@ -159,7 +217,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +337,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

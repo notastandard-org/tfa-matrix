@@ -94,12 +94,69 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Physical Tracker Planting</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you find a tracker, think carefully before removing it. Removing it tells the other person you found it. Document it first (photo with date) and get advice.
+                                    </div>
+                                    <h1>Hidden Tracking Devices</h1>
+                                    <p class="public-summary">Someone places a small tracking device — like an AirTag, Tile, or GPS tracker — in your bag, car, or belongings to follow your movements.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your phone alerts you about an unknown tracker travelling with you</strong>
+                                            <p>iPhones and some Android phones will warn you if an unknown AirTag or similar device is nearby for a long time.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person always seems to know where you are</strong>
+                                            <p>They reference specific places you've been, your routes, or when you arrived somewhere — without you telling them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You find a small unfamiliar device in your things</strong>
+                                            <p>Trackers can be small — about the size of a coin. Check under seats, in wheel wells, inside bag pockets, or attached to keyrings.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You hear periodic beeping from your bag or car</strong>
+                                            <p>Some trackers beep to help owners find them. If you hear unexplained beeping, investigate.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Enable unknown tracker alerts on your phone</strong>
+                                            <p>On iPhone, this is on by default. Android users can download the Tracker Detect app or enable similar built-in features.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check your car systematically</strong>
+                                            <p>Look under the chassis, in wheel wells, behind bumpers, in the boot, and under seats. A torch and mirror help.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check your everyday bags and belongings</strong>
+                                            <p>Go through pockets, linings, and any compartments. Feel for small hard objects that shouldn't be there.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document before removing</strong>
+                                            <p>If you find a tracker, photograph it in place with a timestamp. This preserves evidence.</p>
+                                            <p class="safety-note">Consider whether it's safer to leave it in place temporarily while you make a safety plan.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Physical Tracker Planting
                     </h1>
 
@@ -160,7 +217,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +337,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

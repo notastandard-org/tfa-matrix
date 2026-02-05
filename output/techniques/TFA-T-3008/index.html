@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Public Humiliation Posts</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Public Shaming Online</h1>
+                                    <p class="public-summary">Someone posts content designed to publicly humiliate, embarrass, or shame you — sharing private information, embarrassing images, or fabricated stories about you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>People you know reference embarrassing content about you online</strong>
+                                            <p>Friends, colleagues, or acquaintances have seen posts about you.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Humiliating content appears on the other person's or their friends' social media</strong>
+                                            <p>Posts that mock, shame, or expose private matters.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your private information or images are shared in group chats or forums</strong>
+                                            <p>Content circulates beyond the original post.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report content to the platform for removal</strong>
+                                            <p>Most platforms remove content designed to harass or bully.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact the eSafety Commissioner if content includes intimate images</strong>
+                                            <p>In Australia, non-consensual intimate image sharing can be actioned through eSafety.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Avoid responding publicly</strong>
+                                            <p>Public responses can fuel further sharing. Focus on removal and reporting.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Save evidence before it's deleted</strong>
+                                            <p>The poster may delete content later — screenshot everything first.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Public Humiliation Posts
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Calendar/Schedule Surveillance</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Tracking Your Calendar &amp; Schedule</h1>
+                                    <p class="public-summary">Someone monitors your calendar, schedule, or booking apps to know where you'll be and when — including appointments, meetings, and social plans.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person shows up at events or appointments they shouldn't know about</strong>
+                                            <p>They appear at places you only noted in your calendar.</p>
+                                        </li>
+                                        <li>
+                                            <strong>They reference your schedule without you telling them</strong>
+                                            <p>They mention meetings, appointments, or plans from your calendar.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your calendar is shared with accounts you don't recognise</strong>
+                                            <p>Check calendar sharing settings for unexpected connections.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review calendar sharing settings</strong>
+                                            <p>In Google Calendar: Settings &gt; each calendar &gt; Share with specific people. Remove anyone unexpected.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep a separate private calendar</strong>
+                                            <p>Use a different app or account for sensitive appointments — support services, legal consultations, etc.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check which apps have access to your calendar</strong>
+                                            <p>On your phone: Settings &gt; Privacy &gt; Calendar. Remove access for apps that don't need it.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Calendar/Schedule Surveillance
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -94,12 +94,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Contact After Blocking</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Getting Around Blocks</h1>
+                                    <p class="public-summary">After being blocked, someone finds ways to keep contacting you — using new accounts, new phone numbers, other people's devices, or different platforms.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>New unknown accounts contact you with familiar language</strong>
+                                            <p>The writing style, pet names, or references make it clear who it is.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Messages arrive from unknown numbers saying things only the person would know</strong>
+                                            <p>They create new accounts or get new numbers specifically to reach you.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact comes through unexpected platforms</strong>
+                                            <p>They find you on platforms you thought they didn't know about.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Keep blocking new accounts but document each one</strong>
+                                            <p>Each new attempt to circumvent blocking is evidence of a pattern.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Adjust privacy settings so only approved contacts can message you</strong>
+                                            <p>Many platforms allow you to restrict messages to friends/followers only.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report the pattern to police</strong>
+                                            <p>Circumventing blocking to maintain unwanted contact strengthens a stalking case.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Contact After Blocking
                     </h1>
 
@@ -160,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

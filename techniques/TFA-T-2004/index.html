@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Session Hijacking</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Accessing Your Active Sessions</h1>
+                                    <p class="public-summary">Someone accesses your accounts by using a session that's already logged in — such as a browser you forgot to sign out of on a shared device, or by copying your login session data.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your account shows active sessions on devices you don't recognise</strong>
+                                            <p>Check the 'active sessions' or 'logged-in devices' section of your accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Someone is reading new messages in real-time</strong>
+                                            <p>Messages are marked as read before you open them, or the other person responds to things instantly.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Account activity at times when you weren't online</strong>
+                                            <p>Login timestamps or activity logs show use when you were asleep or away.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Sign out of all sessions on important accounts</strong>
+                                            <p>Most platforms have a 'Sign out everywhere' option in security settings.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Never save passwords on shared or public devices</strong>
+                                            <p>Always use private/incognito mode on shared computers and sign out when done.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check your active sessions regularly</strong>
+                                            <p>Review logged-in devices weekly on your key accounts.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Session Hijacking
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

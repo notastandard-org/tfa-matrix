@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Password/Recovery Change</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Changing Your Recovery Options</h1>
+                                    <p class="public-summary">Someone changes the recovery email, phone number, or security questions on your accounts — so that if you try to reset your password, the reset goes to them instead of you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>You can't recover your account using your usual method</strong>
+                                            <p>Your recovery email or phone number has been changed.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive notifications about recovery option changes you didn't make</strong>
+                                            <p>Platforms often send alerts when recovery details are updated.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Security questions or backup codes have been modified</strong>
+                                            <p>Answers to your security questions no longer work.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Set up recovery options the other person can't access</strong>
+                                            <p>Use a new email address or phone number they don't know about.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Enable login notifications</strong>
+                                            <p>Get alerted every time someone logs into your account from a new device.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Regularly check your account recovery settings</strong>
+                                            <p>Make it a habit to verify your recovery email and phone number haven't changed.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Password/Recovery Change
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Shared Account Weaponization</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Using Shared Accounts Against You</h1>
+                                    <p class="public-summary">Someone weaponizes accounts you set up together — deleting shared photos, changing subscription settings, removing your access, or using shared content against you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Shared content starts disappearing</strong>
+                                            <p>Photos, documents, or files from shared accounts are being deleted.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You lose access to subscriptions or services</strong>
+                                            <p>Shared streaming, utility, or service accounts are modified or cancelled.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Shared account content is used to embarrass or control you</strong>
+                                            <p>Private content from shared accounts is shared with others or used as leverage.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Back up any important shared content to your own account</strong>
+                                            <p>Copy photos, documents, and files you need before separating accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Create your own individual accounts for essential services</strong>
+                                            <p>Set up fresh accounts for streaming, utilities, and other services.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document what exists in shared accounts</strong>
+                                            <p>Screenshot or save records of shared content in case it's deleted.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Shared Account Weaponization
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

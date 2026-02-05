@@ -93,12 +93,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Coerced Transactions</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Coerced financial transactions may be voidable under law. Talk to a lawyer — many legal aid services offer free advice.
+                                    </div>
+                                    <h1>Forcing You to Make Financial Decisions</h1>
+                                    <p class="public-summary">Someone uses threats, pressure, or manipulation to force you to sign contracts, take out loans, transfer money, or make financial decisions that benefit them and harm you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>You've been pressured into signing documents or making transfers</strong>
+                                            <p>Financial decisions made under duress or threat.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Debts or loans in your name that primarily benefit the other person</strong>
+                                            <p>You're legally responsible for obligations that serve them.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Seek legal advice about coerced transactions</strong>
+                                            <p>Legal aid services can advise on whether transactions can be reversed.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact your bank and explain the coercion</strong>
+                                            <p>Banks have processes for domestic and family violence situations.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep evidence of the pressure or threats</strong>
+                                            <p>Messages, recordings, or witness statements documenting the coercion.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Coerced Transactions
                     </h1>
 
@@ -159,7 +203,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +323,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

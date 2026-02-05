@@ -94,12 +94,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Emergency Service Manipulation</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If authorities arrive based on false reports, stay calm and cooperate. Document the false report for your own records and tell your lawyer.
+                                    </div>
+                                    <h1>Sending Authorities to Your Door</h1>
+                                    <p class="public-summary">Someone makes false reports to police, child protection, or other authorities about you — sending emergency services to your home, triggering investigations, or creating a record of false complaints.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Authorities arrive based on reports you didn't make</strong>
+                                            <p>Police, child protection, or other services respond to calls that didn't come from you.</p>
+                                        </li>
+                                        <li>
+                                            <strong>A pattern of false reports emerges</strong>
+                                            <p>Repeated false complaints to authorities.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Proactively brief local police about the false reporting risk</strong>
+                                            <p>Ask for your address to be flagged.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report false emergency calls as criminal offences</strong>
+                                            <p>Gather evidence that reports are fabricated.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep a chronological record of all false reports</strong>
+                                            <p>Dates, responding agencies, and outcomes.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Emergency Service Manipulation
                     </h1>
 
@@ -160,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

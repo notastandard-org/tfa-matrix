@@ -93,12 +93,64 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Non-Consensual Intimate Image Distribution</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        This is a criminal offence in Australia. You can get help from the eSafety Commissioner and police. You are not to blame.
+                                    </div>
+                                    <h1>Sharing Intimate Images Without Consent</h1>
+                                    <p class="public-summary">Someone shares or threatens to share intimate, sexual, or nude images of you without your consent — sometimes called 'revenge porn'. This includes images that were taken consensually in a relationship but shared without permission.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Someone tells you they've seen intimate images of you online</strong>
+                                            <p>Images you thought were private have been shared.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person threatens to share images unless you comply with demands</strong>
+                                            <p>Threats to distribute images are used as leverage.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Intimate images appear on websites, social media, or in group chats</strong>
+                                            <p>Your images have been posted publicly or semi-publicly.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report to the eSafety Commissioner immediately</strong>
+                                            <p>eSafety has legal powers to compel platforms to remove intimate images quickly.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Non-consensual sharing of intimate images is a criminal offence in all Australian states.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Don't try to get the images removed yourself by contacting each site</strong>
+                                            <p>The eSafety Commissioner has more effective tools for this.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Seek support</strong>
+                                            <p>This can be deeply distressing. Services like 1800RESPECT (1800 737 732) provide specialist support.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Non-Consensual Intimate Image Distribution
                     </h1>
 
@@ -159,7 +211,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +331,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

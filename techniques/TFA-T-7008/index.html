@@ -93,12 +93,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Stalking Coordination</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Coordinated stalking is dangerous and often escalates. Contact police and a specialist stalking support service.
+                                    </div>
+                                    <h1>Coordinated Physical Stalking</h1>
+                                    <p class="public-summary">Someone uses multiple technology methods together to stalk you — combining phone tracking, social media monitoring, third-party informants, and physical surveillance into a persistent pattern.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person knows your movements with impossible precision</strong>
+                                            <p>They know where you are at all times, suggesting multiple tracking methods.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You feel watched from multiple directions</strong>
+                                            <p>The surveillance feels comprehensive and persistent.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Others seem to be involved in tracking you</strong>
+                                            <p>Third parties appear to be reporting your movements.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Contact police and report the full pattern</strong>
+                                            <p>Present the complete picture, not just individual incidents.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Work with a specialist service to do a full technology safety audit</strong>
+                                            <p>Check all devices, accounts, vehicles, and belongings.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Create a comprehensive safety plan</strong>
+                                            <p>A specialist service can help plan for your physical and digital safety together.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Stalking Coordination
                     </h1>
 
@@ -159,7 +207,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +327,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

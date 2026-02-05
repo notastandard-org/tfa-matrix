@@ -94,12 +94,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Benefits/Payments Interception</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If your government payments are being intercepted, contact Services Australia directly.
+                                    </div>
+                                    <h1>Intercepting Your Centrelink or Benefits</h1>
+                                    <p class="public-summary">Someone intercepts, redirects, or controls your government payments — including Centrelink, child support, or other benefits — by changing account details or controlling your myGov access.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Centrelink or other payments aren't arriving in your account</strong>
+                                            <p>Payments have been redirected to a different bank account.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person controls your myGov or Centrelink access</strong>
+                                            <p>You can't log in to manage your own payments.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Contact Services Australia directly</strong>
+                                            <p>Visit in person or call. They can verify your identity and restore your access.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Request payments go to an account only you control</strong>
+                                            <p>Open a new bank account if needed.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Ask about a social worker at Centrelink</strong>
+                                            <p>They can provide additional support for domestic violence situations.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Benefits/Payments Interception
                     </h1>
 
@@ -160,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

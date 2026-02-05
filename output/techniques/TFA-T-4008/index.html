@@ -94,12 +94,64 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Catfishing/Romance Fraud</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you've sent money, contact your bank immediately. There's no shame in being deceived — these operations are sophisticated and target everyone.
+                                    </div>
+                                    <h1>Fake Identity Romance Scams</h1>
+                                    <p class="public-summary">Someone creates a fake online identity to form a romantic connection with you — using stolen photos and fabricated stories to build trust before exploiting it for money, information, or control.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The person always has excuses for not meeting in person or video calling</strong>
+                                            <p>They avoid any form of verification that would reveal their real identity.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The relationship moves unusually fast emotionally</strong>
+                                            <p>Declarations of love, plans for the future, and emotional intensity develop very quickly.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Requests for money, gift cards, or financial help</strong>
+                                            <p>A 'crisis' emerges that requires your financial help.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Reverse image search their photos</strong>
+                                            <p>Use Google Images or TinEye to check if their photos appear elsewhere online under different names.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Never send money to someone you haven't met in person</strong>
+                                            <p>Legitimate romantic interests don't need emergency funds from people they've never met.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to the platform and to Scamwatch</strong>
+                                            <p>Report at scamwatch.gov.au.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact your bank if you've sent money</strong>
+                                            <p>They may be able to recover or stop transfers.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Catfishing/Romance Fraud
                     </h1>
 
@@ -160,7 +212,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +332,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Location-Based Assault</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you are in immediate danger, call 000. If you suspect someone is tracking your location to find you, contact police and a support service for safety planning.
+                                    </div>
+                                    <h1>Using Your Location to Find and Harm You</h1>
+                                    <p class="public-summary">Someone uses tracking technology to locate you and then physically approaches, confronts, or assaults you. Technology enables the physical harm by revealing where you are.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person shows up at places you haven't told them about</strong>
+                                            <p>They appear at locations that should be unknown to them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Confrontations happen at locations you only visited once</strong>
+                                            <p>They're tracking your movements in real time.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review all tracking and location sharing immediately</strong>
+                                            <p>Check your phone, car, and belongings for trackers. Review all app permissions.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Create a safety plan with a support service</strong>
+                                            <p>1800RESPECT and local DV services can help you plan for physical safety.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Location-based stalking and assault are serious crimes.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Location-Based Assault
                     </h1>
 
@@ -159,7 +203,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +323,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

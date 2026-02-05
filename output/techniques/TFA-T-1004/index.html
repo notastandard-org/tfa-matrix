@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Social Media Monitoring</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Watching Your Social Media</h1>
+                                    <p class="public-summary">Someone closely monitors your social media accounts — tracking your posts, checking who you interact with, and using your activity to keep tabs on your life.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person comments on things you posted but didn't tell them about</strong>
+                                            <p>They reference photos, check-ins, or interactions they saw on your social media.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You notice unfamiliar accounts following you or viewing your stories</strong>
+                                            <p>They may have created fake accounts to watch you even after being blocked.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Friends mention the other person asking about your posts</strong>
+                                            <p>They may be monitoring through mutual contacts.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Tighten your privacy settings on every platform</strong>
+                                            <p>Set profiles to private. Review who can see your posts, stories, friends list, and tagged photos.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Review and clean up your followers and connections</strong>
+                                            <p>Remove accounts you don't recognise or that seem suspicious.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Stop posting real-time locations or future plans</strong>
+                                            <p>Share holiday photos after you're home. Don't tag your current location.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Turn off tagging or require approval for tags</strong>
+                                            <p>This prevents friends from accidentally revealing your location through their posts.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Social Media Monitoring
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

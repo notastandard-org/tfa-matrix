@@ -93,12 +93,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Crypto/Investment Fraud</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you've invested money in a scheme you now suspect is fraudulent, contact your bank and report to Scamwatch immediately.
+                                    </div>
+                                    <h1>Cryptocurrency &amp; Investment Scams</h1>
+                                    <p class="public-summary">Someone manipulates you into investing money in fake cryptocurrency schemes, fraudulent investments, or scam platforms — often through a romantic relationship or trusted connection.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Investment 'returns' exist only on screen, not as withdrawable money</strong>
+                                            <p>You can see profits on a platform but can't actually withdraw them.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Pressure to invest more, especially after initial 'gains'</strong>
+                                            <p>The scheme requires increasing investment.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person is unusually knowledgeable about your investment decisions</strong>
+                                            <p>They guide you to specific platforms or trades.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Stop investing immediately if you suspect fraud</strong>
+                                            <p>Don't send more money to recover losses.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to Scamwatch at scamwatch.gov.au</strong>
+                                            <p>Report the scheme to help protect others.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact your bank about recovering funds</strong>
+                                            <p>Quick action may help recover some money.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Crypto/Investment Fraud
                     </h1>
 
@@ -159,7 +207,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +327,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

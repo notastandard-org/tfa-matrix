@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Persistent Unwanted Contact</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Relentless Messaging</h1>
+                                    <p class="public-summary">Someone bombards you with constant messages, calls, voicemails, or contact attempts — dozens or hundreds a day — to overwhelm, exhaust, or frighten you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Overwhelming volume of messages, calls, or notifications</strong>
+                                            <p>Dozens or hundreds of messages across multiple platforms.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact continues despite you asking them to stop</strong>
+                                            <p>Clear requests to stop are ignored.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The content cycles between hostile, loving, and desperate</strong>
+                                            <p>The tone swings wildly — threats, then apologies, then anger again.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Block across all platforms but save evidence first</strong>
+                                            <p>Screenshot the volume of messages before blocking. You may need this for legal proceedings.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Enable 'Do Not Disturb' or silence unknown callers</strong>
+                                            <p>Reduce the immediate impact while preserving evidence in the background.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document the pattern</strong>
+                                            <p>Keep a log of dates, times, number of contacts, and platforms used.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Persistent unwanted contact can constitute stalking. File a report.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Persistent Unwanted Contact
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

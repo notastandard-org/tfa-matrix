@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Device Time/Access Restrictions</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Controlling someone's access to communication technology is a form of coercive control. In Australia, this can be a criminal offence.
+                                    </div>
+                                    <h1>Restricting Your Access to Devices</h1>
+                                    <p class="public-summary">Someone controls when and how you can use your phone, computer, or internet — imposing time limits, taking your devices, or restricting your access to technology.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person takes your phone or controls when you can use it</strong>
+                                            <p>Your access to devices is rationed or conditional.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Parental control software is installed on your devices (when you're an adult)</strong>
+                                            <p>Screen time limits or content restrictions are applied to your devices without your consent.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Internet access is turned off as punishment or control</strong>
+                                            <p>Wi-Fi passwords are changed, routers are unplugged, or data is restricted.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Identify a safe communication method the other person can't control</strong>
+                                            <p>A device at work, a trusted friend's phone, or a library computer.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Remove parental control profiles from your devices</strong>
+                                            <p>These should not be on an adult's device without their consent.</p>
+                                            <p class="safety-note">The other person may be notified.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Talk to a support service</strong>
+                                            <p>Call 1800RESPECT (1800 737 732) from a safe phone. Controlling access to technology is recognised as abuse.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Device Time/Access Restrictions
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

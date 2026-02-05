@@ -93,12 +93,62 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Shared Account Surveillance</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Changing shared account settings may alert the other person. Plan which accounts to separate first and do them in a safe order.
+                                    </div>
+                                    <h1>Monitoring Through Shared Accounts</h1>
+                                    <p class="public-summary">Someone uses accounts you share — like a family phone plan, streaming service, or cloud storage — to track your location, purchases, or activity.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person knows about purchases, locations, or content you haven't shared</strong>
+                                            <p>Shared accounts like Google, Apple Family, or phone plans often show activity to all members.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You discover location sharing is turned on with their account</strong>
+                                            <p>Check your phone's location sharing settings — someone may have enabled sharing without you realising.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Unfamiliar devices appear in your account's trusted devices list</strong>
+                                            <p>Someone else's phone or computer may be logged into your shared accounts.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review all location sharing settings on your devices</strong>
+                                            <p>On iPhone: Settings &gt; Privacy &gt; Location Services &gt; Share My Location. On Android: Google Maps &gt; your profile &gt; Location sharing.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Gradually move to your own individual accounts</strong>
+                                            <p>Create new accounts with a fresh email address the other person doesn't know about.</p>
+                                            <p class="safety-note">Do this from a device and network you're confident isn't monitored.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check your phone plan</strong>
+                                            <p>Family plans often let the account holder see call logs, texts, and data usage for all lines.</p>
+                                            <p class="safety-note">Moving to your own plan is ideal, but timing matters — plan it.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Shared Account Surveillance
                     </h1>
 
@@ -159,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

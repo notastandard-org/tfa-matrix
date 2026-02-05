@@ -93,12 +93,70 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Communication Interception</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If your communications are being intercepted, the other person can see your safety planning. Use a different device or in-person conversations for sensitive discussions.
+                                    </div>
+                                    <h1>Reading Your Messages &amp; Emails</h1>
+                                    <p class="public-summary">Someone intercepts and reads your private messages, emails, or calls — either by accessing your accounts directly or by using software that copies your communications.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Messages show as 'read' before you've opened them</strong>
+                                            <p>Someone else may be accessing your messaging accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person responds to things said in private conversations</strong>
+                                            <p>They reference details from messages or calls you had with other people.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Email forwarding rules you didn't set up</strong>
+                                            <p>Check your email settings for auto-forwarding to unknown addresses.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Unfamiliar devices in your account's active sessions</strong>
+                                            <p>Most email and messaging services show which devices are currently logged in.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Check active sessions on all your accounts</strong>
+                                            <p>Gmail: Security &gt; Your devices. Facebook: Settings &gt; Security &gt; Where you're logged in. Do this for all platforms.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check for email forwarding rules</strong>
+                                            <p>In Gmail: Settings &gt; Forwarding. In Outlook: Settings &gt; Mail &gt; Forwarding. Remove anything you didn't set up.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use end-to-end encrypted messaging for sensitive conversations</strong>
+                                            <p>Apps like Signal encrypt messages so only you and the recipient can read them.</p>
+                                            <p class="safety-note">Only useful if your device itself isn't compromised.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Change passwords from a safe device</strong>
+                                            <p>Use a device the other person hasn't had access to.</p>
+                                            <p class="safety-note">A trusted friend's phone or a library computer can work.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Communication Interception
                     </h1>
 
@@ -159,7 +217,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +337,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

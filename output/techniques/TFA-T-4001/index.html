@@ -94,12 +94,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Message/Evidence Tampering</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you suspect evidence is being tampered with, start keeping your own independent records immediately.
+                                    </div>
+                                    <h1>Altering Messages &amp; Evidence</h1>
+                                    <p class="public-summary">Someone edits, deletes, or fabricates digital messages and evidence — changing what was said in text conversations, deleting messages to change the narrative, or creating fake screenshots.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Conversations look different from how you remember them</strong>
+                                            <p>Messages appear edited, missing, or rearranged.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person shows 'evidence' of things you didn't say</strong>
+                                            <p>Screenshots or messages that don't match your memory or records.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Messages in shared conversations have been selectively deleted</strong>
+                                            <p>Key context is missing from threads.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Keep your own copies of important conversations</strong>
+                                            <p>Screenshot, export, or back up conversations regularly to a location only you control.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use platforms with edit history or deletion tracking</strong>
+                                            <p>Some apps show when messages have been edited or deleted.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Don't rely solely on digital records the other person can access</strong>
+                                            <p>Keep physical notes or voice memos as backup records.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Message/Evidence Tampering
                     </h1>
 
@@ -160,7 +208,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +328,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Device Lockout</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Being locked out of your phone can be a safety risk in an emergency. Consider having a backup way to contact emergency services.
+                                    </div>
+                                    <h1>Locking You Out of Your Devices</h1>
+                                    <p class="public-summary">Someone locks you out of your own phone, tablet, or computer — by changing the passcode, using remote lock features, or triggering factory resets.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your device passcode suddenly stops working</strong>
+                                            <p>The password, PIN, or biometric you set has been changed.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your device has been remotely wiped or reset</strong>
+                                            <p>All your data, photos, and apps are gone.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive a message saying your device is locked</strong>
+                                            <p>Features like 'Find My iPhone' or 'Find My Device' can be used to remotely lock a device.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Contact your device manufacturer's support</strong>
+                                            <p>Apple, Samsung, and Google all have processes for recovering locked devices.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use a different device to secure your cloud accounts</strong>
+                                            <p>If your phone is locked, secure your iCloud, Google, or Microsoft accounts from another device immediately.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Keep your cloud account credentials separate and private</strong>
+                                            <p>The person who controls your iCloud or Google account can remotely control your device.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Device Lockout
                     </h1>
 
@@ -159,7 +207,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +327,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -94,12 +94,53 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Platform Banning Coordination</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Getting You Banned from Platforms</h1>
+                                    <p class="public-summary">Someone coordinates false reports to get your accounts suspended or banned from platforms you rely on — for work, social connection, or accessing services.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your accounts are suspended for violations you didn't commit</strong>
+                                            <p>Bans or restrictions appear after waves of false reports.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Multiple platform bans happen in a short period</strong>
+                                            <p>Coordinated reporting across platforms.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Appeal every suspension</strong>
+                                            <p>Platforms have appeal processes. Use them and explain the pattern of false reporting.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document the pattern across platforms</strong>
+                                            <p>Evidence of coordinated false reporting strengthens your case.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact platform trust and safety teams directly</strong>
+                                            <p>Explain the situation and request protection for your accounts.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Platform Banning Coordination
                     </h1>
 
@@ -160,7 +201,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +321,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

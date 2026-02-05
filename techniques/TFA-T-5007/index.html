@@ -93,12 +93,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Communication Monitoring Disclosure</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Even if the monitoring claims are exaggerated or false, the fear they create is real. Reach out for help through a channel you believe is safe.
+                                    </div>
+                                    <h1>Making You Afraid to Communicate</h1>
+                                    <p class="public-summary">Someone tells you they're monitoring everything you say and do online — creating a chilling effect where you're afraid to reach out for help, talk to friends, or communicate freely.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person explicitly tells you they can see everything</strong>
+                                            <p>Statements like 'I know everything you do' or 'I can read all your messages'.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You self-censor everything because you assume you're watched</strong>
+                                            <p>Fear of surveillance prevents you from seeking help.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person demonstrates knowledge that seems to prove monitoring</strong>
+                                            <p>They may have some access, but use it to imply total surveillance.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Understand that total monitoring is very difficult</strong>
+                                            <p>Most people can't actually see everything. The claim is often bigger than the reality.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Find one safe way to communicate</strong>
+                                            <p>Even one unmonitored channel — a friend's phone, an in-person conversation — is enough to start getting help.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact 1800RESPECT from a safe phone</strong>
+                                            <p>They can help you assess how much monitoring is actually happening and make a safety plan.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Communication Monitoring Disclosure
                     </h1>
 
@@ -159,7 +207,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +327,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,27 @@
             <li class="breadcrumb-item"><a href="/tactics/">Tactics</a></li>
         <li class="breadcrumb-item">Harassment & Intimidation</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1>
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Harassment &amp; Intimidation</h1>
+                                    <p class="public-summary"></p>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1>
                         Harassment & Intimidation
                     </h1>
 
@@ -121,7 +136,8 @@
                             </div>
                         </div>
                         <h2 class="pt-3" id ="techniques">Techniques</h2><h6 class="table-object-count">Techniques: 12</h6>
-                        <table class="table-techniques">
+                        
+                            </div><!-- end view-technical --><table class="table-techniques">
         <thead>
             <tr>
                 <td colspan="2" style="min-width: 120px;">ID</td>
@@ -393,5 +409,6 @@
 
     <!--SCRIPTS-->
     <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

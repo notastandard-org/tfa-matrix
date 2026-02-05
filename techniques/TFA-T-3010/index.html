@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Review/Rating Attacks</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Fake Negative Reviews</h1>
+                                    <p class="public-summary">Someone posts fake negative reviews about your business, professional services, or public presence — using fabricated or exaggerated claims to damage your livelihood.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>A sudden cluster of negative reviews from accounts with no history</strong>
+                                            <p>Reviews appear from profiles that were recently created or have no other activity.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Reviews contain personal attacks rather than genuine customer feedback</strong>
+                                            <p>The content is about you personally, not about a product or service.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The timing correlates with conflict with the other person</strong>
+                                            <p>Bad reviews appear after arguments, separation, or legal action.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report fake reviews to the platform</strong>
+                                            <p>Google, Facebook, and other review platforms have processes for flagging fake reviews.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Respond professionally to reviews you can't get removed</strong>
+                                            <p>A calm, factual response shows other readers the reviews aren't genuine.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document the connection between reviews and the other person</strong>
+                                            <p>Pattern evidence strengthens any legal or platform complaint.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Review/Rating Attacks
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

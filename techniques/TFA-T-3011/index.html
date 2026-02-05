@@ -93,12 +93,53 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Contact Bombing</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Signing You Up for Unwanted Services</h1>
+                                    <p class="public-summary">Someone signs your phone number or email up for hundreds of services, newsletters, or verification codes — flooding you with constant notifications and messages.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Sudden flood of verification codes, newsletters, or spam</strong>
+                                            <p>Your phone or email is overwhelmed with messages you didn't sign up for.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The volume makes it hard to find real, important messages</strong>
+                                            <p>Legitimate messages from friends, work, or services are buried.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Use email filtering rules to manage the flood</strong>
+                                            <p>Set up filters to automatically sort or delete the spam.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report the pattern to your phone carrier</strong>
+                                            <p>They may be able to help with SMS flooding.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Consider a new phone number or email for important contacts</strong>
+                                            <p>Share the new details only with trusted people.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Contact Bombing
                     </h1>
 
@@ -159,7 +200,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +320,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

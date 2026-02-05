@@ -94,12 +94,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Subscription/Service Cancellation</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Cancelling Your Services</h1>
+                                    <p class="public-summary">Someone cancels your subscriptions, services, or utilities — phone plan, internet, streaming, insurance, or other services you depend on — to disrupt your life and assert control.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Services stop working unexpectedly</strong>
+                                            <p>Your phone, internet, or other services are disconnected.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive cancellation confirmations you didn't request</strong>
+                                            <p>Services you rely on have been cancelled.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person has account access to services in your name</strong>
+                                            <p>They can make changes because they know the login details.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Contact service providers to secure your accounts</strong>
+                                            <p>Add passwords or PINs that only you know.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Set up essential services in your own name with your own credentials</strong>
+                                            <p>Independent accounts can't be cancelled by someone else.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document cancelled services and the impact</strong>
+                                            <p>This evidence may be relevant for legal proceedings.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Subscription/Service Cancellation
                     </h1>
 
@@ -160,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

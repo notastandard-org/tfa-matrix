@@ -93,12 +93,56 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Movement Interception</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If someone is intercepting your movements, vary your routes and times. Contact police.
+                                    </div>
+                                    <h1>Intercepting You While Travelling</h1>
+                                    <p class="public-summary">Someone uses technology to predict or track your travel routes and intercepts you — appearing on your commute, following your car, or confronting you during transit.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person appears on your commute or regular routes</strong>
+                                            <p>They show up along paths they shouldn't know about.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your travel patterns seem to be predicted</strong>
+                                            <p>They know when you leave and which route you take.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Vary your routes and times</strong>
+                                            <p>Don't follow the same pattern every day.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check your vehicle for GPS trackers</strong>
+                                            <p>Inspect thoroughly, including underneath.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>This constitutes stalking.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Movement Interception
                     </h1>
 
@@ -159,7 +203,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +323,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

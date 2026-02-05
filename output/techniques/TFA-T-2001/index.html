@@ -94,12 +94,62 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Credential Theft</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you suspect someone has your passwords, changing them may alert them. Plan which accounts to secure first and change them from a safe device.
+                                    </div>
+                                    <h1>Stealing Your Passwords</h1>
+                                    <p class="public-summary">Someone gets hold of your passwords — by watching you type them, guessing them, finding them written down, or using tools that capture what you type.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Account settings have changed without your input</strong>
+                                            <p>Profile information, recovery emails, or security questions have been altered.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive password reset notifications you didn't request</strong>
+                                            <p>Someone may be attempting to access or test your accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person logs into your accounts or references private account content</strong>
+                                            <p>They mention emails, messages, or information only accessible through your accounts.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Change passwords from a device the other person hasn't accessed</strong>
+                                            <p>Use a trusted friend's device or a library computer.</p>
+                                            <p class="safety-note">Don't change passwords on a device that might have monitoring software.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use unique, strong passwords for every account</strong>
+                                            <p>A password manager can help you create and remember complex passwords.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Enable two-factor authentication</strong>
+                                            <p>This adds a second step (like a code sent to your phone) when logging in.</p>
+                                            <p class="safety-note">Make sure the second factor goes to a device only you control.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Credential Theft
                     </h1>
 
@@ -160,7 +210,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +330,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

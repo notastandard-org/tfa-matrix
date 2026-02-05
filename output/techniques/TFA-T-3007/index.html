@@ -94,12 +94,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Platform Abuse Reporting</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Weaponizing Report Buttons</h1>
+                                    <p class="public-summary">Someone files false reports against your accounts — trying to get your social media, business pages, or content removed by abusing platform reporting systems.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your content or accounts are removed for violations you didn't commit</strong>
+                                            <p>Posts, pages, or accounts are taken down after false reports.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive repeated warnings from platforms</strong>
+                                            <p>Multiple reports trigger automated warnings or restrictions.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your business or professional presence is affected</strong>
+                                            <p>Reviews, listings, or professional profiles are disrupted.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Appeal every false takedown</strong>
+                                            <p>Platforms have appeal processes. Use them consistently and document each one.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Document the pattern of false reports</strong>
+                                            <p>Keep records of each takedown with dates and details.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact platform support directly</strong>
+                                            <p>Explain the pattern of abuse and request account protection.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Platform Abuse Reporting
                     </h1>
 
@@ -160,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

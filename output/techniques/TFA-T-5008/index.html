@@ -94,12 +94,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Support Resource Blocking</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If someone is blocking your access to support services, that is a serious form of coercive control. Find any way you can to reach help.
+                                    </div>
+                                    <h1>Blocking Your Access to Help Services</h1>
+                                    <p class="public-summary">Someone blocks your access to support services — helpline numbers, support websites, counselling services, or legal aid — so you can't get help.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Helpline numbers or support websites don't work from your devices</strong>
+                                            <p>Numbers may be blocked, or websites may be filtered.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person discourages you from seeking help</strong>
+                                            <p>They tell you services won't help, or that calling will make things worse.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact details for services have been deleted from your phone</strong>
+                                            <p>Saved numbers or bookmarks for support services disappear.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Memorise key numbers: 1800RESPECT (1800 737 732), 000 for emergencies</strong>
+                                            <p>Numbers you know by heart can't be deleted from your phone.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Access support from a different device or location</strong>
+                                            <p>A library, a friend's phone, or your workplace.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Ask someone you trust to make the call for you</strong>
+                                            <p>If you can't safely call, someone else can.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Support Resource Blocking
                     </h1>
 
@@ -160,7 +208,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +328,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

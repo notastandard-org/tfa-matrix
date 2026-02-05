@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Proxy Harassment via AI</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Using AI to Harass You</h1>
+                                    <p class="public-summary">Someone uses AI tools to generate harassing content — fake images, fake audio of your voice, mass-produced abusive messages, or AI-written defamatory content about you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Harassing content that seems AI-generated or mass-produced</strong>
+                                            <p>Messages, images, or posts that feel formulaic or are produced in large volumes.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Fake images or audio that look or sound like you</strong>
+                                            <p>AI-generated content using your likeness or voice.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Abusive content that's unusually varied or persistent</strong>
+                                            <p>The volume and variety suggests automated generation.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report AI-generated harassment to platforms</strong>
+                                            <p>Many platforms are developing specific policies for AI-generated abusive content.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Preserve the content as evidence</strong>
+                                            <p>AI-generated abuse is still abuse and can be reported to police.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to the eSafety Commissioner</strong>
+                                            <p>AI-generated intimate images or targeted harassment falls within eSafety's remit.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Proxy Harassment via AI
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

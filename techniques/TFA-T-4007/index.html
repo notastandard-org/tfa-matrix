@@ -93,12 +93,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Sextortion</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Don't pay or comply with demands. Payment doesn't stop the threats — it usually leads to more demands. Report to police immediately.
+                                    </div>
+                                    <h1>Sexual Blackmail</h1>
+                                    <p class="public-summary">Someone threatens to share intimate content unless you send money, more intimate content, or comply with other demands. This can happen with real images or fabricated content.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Someone threatens to share intimate content unless you comply</strong>
+                                            <p>Demands for money, more images, or other actions.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Escalating demands after initial compliance</strong>
+                                            <p>Giving in leads to more demands, not an end to the threats.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Don't pay or send more content</strong>
+                                            <p>Complying with demands almost never stops the threats.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police immediately</strong>
+                                            <p>Sextortion is a serious criminal offence.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to the eSafety Commissioner</strong>
+                                            <p>eSafety can help with removal if images are shared.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Block the person but save all evidence first</strong>
+                                            <p>Screenshot every threat, demand, and account detail before blocking.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Sextortion
                     </h1>
 
@@ -159,7 +207,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +327,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

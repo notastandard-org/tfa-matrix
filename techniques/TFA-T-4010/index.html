@@ -93,12 +93,53 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Historical Content Weaponization</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Digging Up Old Content to Use Against You</h1>
+                                    <p class="public-summary">Someone searches through your digital history — old social media posts, archived content, or past online activity — to find things that can be used to embarrass, discredit, or blackmail you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Old posts or content you'd forgotten about resurface</strong>
+                                            <p>Things from years ago are suddenly being shared or referenced.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person references content from deep in your history</strong>
+                                            <p>They've clearly spent time searching through your past.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review and clean up old social media posts</strong>
+                                            <p>Most platforms let you delete or hide old posts. Consider a privacy review of your history.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check what's visible on web archives</strong>
+                                            <p>Sites like the Wayback Machine may have cached old content.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Adjust privacy settings on past content</strong>
+                                            <p>Many platforms allow you to change the audience on old posts retroactively.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Historical Content Weaponization
                     </h1>
 
@@ -159,7 +200,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +320,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

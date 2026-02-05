@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Credit/Identity Theft</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Identity Theft &amp; Credit Fraud</h1>
+                                    <p class="public-summary">Someone uses your personal information to open accounts, take out loans, or incur debts in your name — damaging your credit history and creating financial obligations you didn't agree to.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Bills or statements arrive for accounts you didn't open</strong>
+                                            <p>Credit cards, loans, or services in your name that you didn't apply for.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your credit score has dropped unexpectedly</strong>
+                                            <p>Debts you didn't incur are affecting your credit.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Debt collectors contact you about debts you don't recognise</strong>
+                                            <p>Obligations in your name that aren't yours.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Check your credit report</strong>
+                                            <p>You can get a free credit report from Equifax, Experian, or illion.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report identity theft to IDCARE (1800 595 160)</strong>
+                                            <p>IDCARE is Australia's national identity and cyber support service.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Place a ban on your credit file</strong>
+                                            <p>This prevents new credit from being opened in your name.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Identity theft and fraud are criminal offences.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Credit/Identity Theft
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

@@ -93,12 +93,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">False Narrative Campaigns</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Spreading Lies About You Online</h1>
+                                    <p class="public-summary">Someone creates and spreads false stories about you across social media, forums, or other platforms — damaging your reputation with fabricated claims.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>People start treating you differently based on things they've read</strong>
+                                            <p>Friends, colleagues, or community members reference false claims.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You discover false posts or articles about you online</strong>
+                                            <p>Fabricated stories appear on social media, blogs, or forums.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The false narrative is consistent and coordinated</strong>
+                                            <p>The same lies appear across multiple platforms or from multiple accounts.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Document all instances of the false narrative</strong>
+                                            <p>Screenshot each post, note the platform, date, and URL.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report defamatory content to platforms</strong>
+                                            <p>Most platforms prohibit false and harmful content about individuals.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Consider legal advice about defamation</strong>
+                                            <p>Persistent false narratives may constitute defamation.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Don't engage in public arguments about the false claims</strong>
+                                            <p>Responding can amplify the narrative. Focus on removal and documentation.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         False Narrative Campaigns
                     </h1>
 
@@ -159,7 +208,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +328,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

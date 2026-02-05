@@ -93,12 +93,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Backup/Cloud Access</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Cloud backups can contain a complete copy of your digital life. Securing your cloud accounts is critical.
+                                    </div>
+                                    <h1>Accessing Your Cloud Backups</h1>
+                                    <p class="public-summary">Someone accesses your cloud storage or device backups — seeing your photos, documents, messages, and other data stored in services like iCloud, Google Drive, or Dropbox.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person has seen photos or documents you only stored in the cloud</strong>
+                                            <p>They reference files you haven't shared with anyone.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Storage notifications about activity you didn't do</strong>
+                                            <p>Files accessed, downloaded, or deleted without your knowledge.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Unfamiliar devices connected to your cloud account</strong>
+                                            <p>Check which devices are linked to your iCloud, Google, or Microsoft account.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review which devices are connected to your cloud accounts</strong>
+                                            <p>iCloud: Settings &gt; Apple ID &gt; Devices. Google: myaccount.google.com &gt; Security &gt; Your devices.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Change your cloud account password from a safe device</strong>
+                                            <p>This is often the single most important step.</p>
+                                            <p class="safety-note">A cloud account password often controls everything — email, photos, backups, location.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Remove unknown devices and revoke their access</strong>
+                                            <p>Sign out any device you don't recognise.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Backup/Cloud Access
                     </h1>
 
@@ -159,7 +208,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +328,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

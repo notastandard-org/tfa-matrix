@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Fitness/Health Tracker Surveillance</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Tracking Through Fitness &amp; Health Apps</h1>
+                                    <p class="public-summary">Someone uses fitness trackers, health apps, or wearable devices to monitor your location, activity patterns, sleep, and health data.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>The other person knows about your exercise routes or activity patterns</strong>
+                                            <p>They reference when and where you exercised, or your daily routine.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Health or fitness data is being shared with their account</strong>
+                                            <p>Shared fitness challenges, family health accounts, or linked apps may expose your data.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your wearable shows locations or activity you didn't do</strong>
+                                            <p>Someone else may be accessing and viewing your tracker data remotely.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Review sharing settings on fitness and health apps</strong>
+                                            <p>Check Fitbit, Apple Health, Strava, Garmin, and similar apps for shared access or linked accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Remove exercise routes from public or shared view</strong>
+                                            <p>Many fitness apps share routes by default. Switch to private or remove location from activities.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Check who has access to your health data</strong>
+                                            <p>Apple Health: Settings &gt; Health &gt; Data Access. Google Fit: account settings &gt; connected apps.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Fitness/Health Tracker Surveillance
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

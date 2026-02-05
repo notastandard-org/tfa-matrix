@@ -94,12 +94,61 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Administrative Access Abuse</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        Admin access can give someone total control over your digital environment. If you suspect this, seek specialist tech safety help.
+                                    </div>
+                                    <h1>Abusing Admin Access</h1>
+                                    <p class="public-summary">Someone who has administrative control over shared devices, networks, or accounts uses that access to monitor, restrict, or control you.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Your permissions keep getting changed</strong>
+                                            <p>You lose access to features, apps, or settings that used to work.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Content or downloads are being blocked</strong>
+                                            <p>Websites, apps, or content you try to access are restricted.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person can see or change things on your device remotely</strong>
+                                            <p>Settings, wallpapers, or configurations change without your input.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Identify who has admin access to your devices and accounts</strong>
+                                            <p>Check device management profiles, admin accounts on shared computers, and router access.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Get your own separate devices and accounts</strong>
+                                            <p>A device you set up yourself, on your own account, that the other person never touches.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Remove mobile device management (MDM) profiles</strong>
+                                            <p>On iPhone: Settings &gt; General &gt; VPN &amp; Device Management. Remove profiles you didn't install.</p>
+                                            <p class="safety-note">This may alert the admin.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Administrative Access Abuse
                     </h1>
 
@@ -160,7 +209,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +329,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

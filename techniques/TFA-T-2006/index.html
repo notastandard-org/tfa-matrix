@@ -93,12 +93,57 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Two-Factor Interception</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Intercepting Your Security Codes</h1>
+                                    <p class="public-summary">Someone intercepts the security codes sent to verify your identity — by accessing your text messages, SIM-swapping your phone number, or using a device you've already trusted.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>You stop receiving text messages or calls</strong>
+                                            <p>Your SIM may have been swapped — the other person has transferred your number to their device.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Login codes arrive on a device you don't control</strong>
+                                            <p>Security codes are going to a phone or email the other person has access to.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your mobile service suddenly stops working</strong>
+                                            <p>SIM swap attacks cause your phone to lose signal entirely.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Switch to an authenticator app instead of SMS codes</strong>
+                                            <p>Apps like Google Authenticator or Authy generate codes on your device, which is harder to intercept than text messages.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Set a PIN or password on your mobile account</strong>
+                                            <p>Contact your carrier and add a security PIN to prevent SIM swaps.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Use a phone number the other person doesn't know</strong>
+                                            <p>A separate prepaid number for two-factor authentication adds a layer of protection.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Two-Factor Interception
                     </h1>
 
@@ -159,7 +204,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +324,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

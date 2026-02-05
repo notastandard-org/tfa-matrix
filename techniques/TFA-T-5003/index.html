@@ -93,12 +93,58 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Social Media Control</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    
+                                    <h1>Controlling Your Social Media</h1>
+                                    <p class="public-summary">Someone controls who you can follow, what you can post, or who can contact you on social media — either by demanding you change settings, by accessing your accounts, or through constant monitoring that makes you self-censor.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>You feel you can't post freely because the other person will react</strong>
+                                            <p>Fear of the other person's response controls what you share online.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The other person dictates who you can follow or be friends with online</strong>
+                                            <p>They demand you remove connections or restrict your social media activity.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Your social media settings have been changed without your input</strong>
+                                            <p>Privacy settings, friend lists, or profile information has been altered.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Recognise that controlling your social media is controlling behaviour</strong>
+                                            <p>You have the right to use social media freely.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Create a private account the other person doesn't know about</strong>
+                                            <p>A separate space where you can communicate freely.</p>
+                                            <p class="safety-note">Use a different email and don't link it to your primary accounts.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Talk to someone you trust about what's happening</strong>
+                                            <p>Controlling behaviour escalates. Getting support early matters.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Social Media Control
                     </h1>
 
@@ -159,7 +205,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +325,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

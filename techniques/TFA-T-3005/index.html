@@ -93,12 +93,64 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Doxxing</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If your address has been published and you feel unsafe, contact police. Consider temporary accommodation if there's an immediate threat.
+                                    </div>
+                                    <h1>Publishing Your Private Information</h1>
+                                    <p class="public-summary">Someone publishes your private information online — your home address, phone number, workplace, children's school, or other personal details — to expose you or invite harassment.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Strangers reference your personal details</strong>
+                                            <p>People you don't know mention your address, workplace, or other private information.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You find your personal information posted on public websites or forums</strong>
+                                            <p>Your details have been shared without your consent.</p>
+                                        </li>
+                                        <li>
+                                            <strong>You receive unwanted contact at locations only known through doxxing</strong>
+                                            <p>People show up at your home or workplace.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Report to the platform where your information was published</strong>
+                                            <p>Request urgent removal of your personal details.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Contact the eSafety Commissioner</strong>
+                                            <p>In Australia, the eSafety Commissioner can help with the removal of doxxed information.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Alert your workplace, school, and building security</strong>
+                                            <p>Let relevant people know your information has been compromised.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Report to police</strong>
+                                            <p>Doxxing can constitute stalking or intimidation.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Doxxing
                     </h1>
 
@@ -159,7 +211,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -278,5 +331,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>

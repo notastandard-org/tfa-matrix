@@ -94,12 +94,60 @@
             <li class="breadcrumb-item"><a href="/techniques/">Techniques</a></li>
         <li class="breadcrumb-item">Fake Evidence Creation</li>
     </ol>
+    <div class="view-toggle-container" role="group" aria-label="Content view selection">
+                        <button class="view-toggle-btn" data-view="technical" aria-pressed="false">Technical View</button>
+                        <button class="view-toggle-btn active" data-view="public" aria-pressed="true">Public View</button>
+                    </div>
     <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
     <div class="row">
         <div class="col-xl-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <h1 id="">
+                    <div class="view-public">
+                                    <div class="helpline-banner">
+                                        <strong>Need support?</strong>
+                                        <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> |
+                                        Emergency: <a href="tel:000">000</a>
+                                    </div>
+                                    <div class="safety-warning">
+                                        <span class="safety-warning-icon">&#9888;</span>
+                                        If you suspect fake evidence is being used against you in legal proceedings, tell your lawyer immediately. Digital forensics can often prove fabrication.
+                                    </div>
+                                    <h1>Creating Fake Evidence</h1>
+                                    <p class="public-summary">Someone fabricates digital evidence — fake messages, edited screenshots, forged documents, or manipulated records — to use against you in legal proceedings, custody disputes, or to manipulate others.</p>
+                                    <h2>What You Might Notice</h2>
+                                    <ul class="notice-list">
+                                        <li>
+                                            <strong>Evidence presented against you doesn't match your records</strong>
+                                            <p>Screenshots, messages, or documents that don't match what actually happened.</p>
+                                        </li>
+                                        <li>
+                                            <strong>The timing, formatting, or details of 'evidence' seem off</strong>
+                                            <p>Metadata, fonts, or platform formatting don't look right.</p>
+                                        </li>
+                                    </ul>
+                                    <h2>What You Can Do</h2>
+                                    <ul class="action-list">
+                                        <li>
+                                            <strong>Keep your own independent records of all important interactions</strong>
+                                            <p>Your records are your protection against fabrication.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Tell your lawyer about suspected fake evidence immediately</strong>
+                                            <p>Legal professionals can engage digital forensics experts to examine evidence.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Don't accuse the other person of fabrication without evidence</strong>
+                                            <p>Let the forensic evidence speak for itself in legal settings.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Preserve originals of all communications</strong>
+                                            <p>Export full conversation logs rather than relying on screenshots.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="view-technical" style="display: none;">
+                            <h1 id="">
                         Fake Evidence Creation
                     </h1>
 
@@ -160,7 +208,8 @@
 
                     
 
-                </div>
+                
+                            </div><!-- end view-technical --></div>
             </div>
         </div>
     </div>
@@ -279,5 +328,6 @@
 <script src="/theme/scripts/settings.js"></script>
     <script src="/theme/scripts/tour/tour-techniques.js"></script>
 <script src="/theme/scripts/sidebar-load-all.js"></script>
+    <script src="/theme/scripts/view-toggle.js"></script>
 </body>
 </html>
