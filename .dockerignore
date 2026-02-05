@@ -1,0 +1,13 @@
+Dockerfile
+
+__pycache__/
+.vscode/
+
+content/
+output/
+reports/
+attack-releases/
+
+venv/
+.venv/
+.env

@@ -1,0 +1,96 @@
+{% extends "general/two-column.html" %}
+{% import 'macros/navigation.html' as navigation %}
+{% import 'macros/clean_output.html' as clean_output %}
+{% import 'macros/deprecated.html' as deprecated %}
+
+{% set parsed = page.data | from_json %}
+{% if parsed.domain == "tfa" %}
+    {% set title = "Tactics - TFA | SAFE TFA Matrix" -%}
+{% else %}
+    {% set title = "Tactics | SAFE TFA Matrix" -%}
+{% endif %}
+
+{% block head %}
+    {{ super () }}
+    {% if parsed.deprecated %}
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
+{%  endblock %}
+
+{% block innerleft %}
+<!--stop-indexing-for-search-->
+<div id="sidebars"></div>
+<!--start-indexing-for-search-->
+{% endblock %}
+
+{% block innerright %}
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/tactics/{{parsed.domain}}/">Tactics</a></li>
+        {% if parsed.domain == "tfa" %}
+            <li class="breadcrumb-item">TFA</li>
+        {% endif %}
+    </ol>
+    <div class="tab-pane fade show active" id="v-{{pages.title}}" role="tabpanel" aria-labelledby="v-{{pages.title}}-tab"></div>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                    {% if parsed.deprecated %}
+                        {{deprecated.deprecated("Tactics under this domain have been deprecated.")}}
+                    {% else %}
+                    <div class="overflow-x-auto">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h1>TFA Tactics</h1>
+                                <p>
+                                    Tactics represent the &quot;why&quot; of a TFA technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve surveillance and tracking of a victim.
+                                </p>
+                            </div>
+                            <div class="col-md-2 div-count">
+                                <h6 class="table-object-count">Tactics: {{ parsed.tactics_list_len }}</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="tables-mobile">
+                                <table class="table table-bordered table-alternate mt-2">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" style="min-width: 120px;">ID</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for tactic in parsed.tactics_table %}
+                                        <tr>
+                                        <td style="white-space: nowrap;">
+                                            <a href="/tactics/{{tactic.tid}}">{{tactic.tid}}</a>
+                                        </td>
+                                        <td>
+                                            <a href="/tactics/{{tactic.tid}}">{{tactic.name}}</a>
+                                        </td>
+                                        <td>
+                                            {{clean_output.stixToHTML(tactic.description, firstParagraphOnly=True)}}
+                                        </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <!--SCRIPTS-->
+    <script src="/theme/scripts/sidebar-load-all.js"></script>
+{% endblock %}
