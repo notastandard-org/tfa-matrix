@@ -27,16 +27,19 @@ EXT_ID = "extension-definition--acf2f380-0000-4000-8000-000000000001"
 
 # Disclaimer HTML
 PUBLIC_DISCLAIMER = '''<div class="public-disclaimer">
-                                        <p><strong>Important:</strong> This information is general in nature and does not constitute personal, legal, or clinical advice. Every situation is different. Actions that are safe for one person may not be safe for another — especially if the person causing harm may escalate when they notice changes. If you're unsure, speak with a specialist service before making changes to your devices or accounts.</p>
-                                        <p><a href="/about/limitations/">Read our full disclaimer</a></p>
+                                        <p><strong>Important:</strong> This resource provides general information, not personal advice. Every situation is different. The actions suggested here may not be safe in your specific circumstances — particularly if the person causing harm could notice changes to your devices or accounts. <strong>Always consider your physical safety first.</strong></p>
+                                        <p>If you need personalised support, contact <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> or your local specialist domestic violence service. If you are in immediate danger, call <a href="tel:000">000</a>.</p>
+                                        <p>This framework is under active development. <a href="/about/limitations/">View full limitations &amp; methodology</a>.</p>
                                     </div>'''
 
 TECHNICAL_DISCLAIMER = '''<div class="technical-disclaimer">
-                                <p><strong>Framework Limitations:</strong> This framework is provided for informational purposes. It is not forensic methodology, legal advice, or clinical guidance. Detection indicators identify possible signs, not evidence. Mitigation descriptions are not step-by-step instructions. <a href="/about/limitations/">Full limitations and methodology</a>.</p>
+                                <p>The TFA Matrix is a research framework under active development. Technique classifications, detection methods, and mitigations reflect current understanding and are subject to revision. This framework does not constitute forensic methodology, legal evidence standards, or clinical diagnostic criteria. Practitioners should apply professional judgement appropriate to their discipline and jurisdiction.</p>
+                                <p><a href="/about/limitations/">Full limitations, methodology &amp; responsible use statement</a>.</p>
                             </div>'''
 
 MATRIX_DISCLAIMER = '''<div class="matrix-disclaimer view-public">
-                            <p><strong>Important:</strong> This matrix shows patterns of technology-facilitated abuse. The information is general in nature and does not constitute personal advice. If you recognise something that's happening to you and want to take action, please contact a specialist service first — some responses may alert the person causing harm. <a href="/about/limitations/">Read our full disclaimer</a>. Need support? <a href="tel:1800737732">1800RESPECT (1800 737 732)</a></p>
+                            <p>This matrix shows known patterns of technology-facilitated abuse. It is not a complete list — new techniques emerge as technology changes. Click any technique for guidance on what to notice and what you can do.</p>
+                            <p>Need support? <a href="tel:1800737732">1800RESPECT (1800 737 732)</a> | Emergency: <a href="tel:000">000</a> | <a href="/about/limitations/">Limitations &amp; methodology</a></p>
                         </div>'''
 
 
