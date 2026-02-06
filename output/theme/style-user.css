@@ -2604,6 +2604,43 @@ body.technical-view .technique-cell[data-public-title] a .public-title {
   font-style: italic;
 }
 
+/* ============================================
+   MOBILE QUICK EXIT BAR
+   ============================================ */
+
+.quick-exit-bar {
+  display: none; /* Hidden on desktop */
+  background: #e65100;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.quick-exit-bar a {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.quick-exit-bar a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Show on mobile only (below lg breakpoint = 992px) */
+@media screen and (max-width: 991.98px) {
+  .quick-exit-bar {
+    display: block;
+  }
+  
+  /* Hide desktop quick exit in collapsed menu */
+  #quick-exit-btn {
+    display: none !important;
+  }
+}
+
 /* Browser Safety Banner */
 .safety-banner {
   display: none;

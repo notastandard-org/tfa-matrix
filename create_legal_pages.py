@@ -79,6 +79,9 @@ ONLINE_SAFETY_CONTENT = '''
                title="Press Escape to quickly leave this site">Quick Exit</a>
         </div>
     </nav>
+    <div class="quick-exit-bar">
+        <a href="https://doodles.google" id="quick-exit-mobile" title="Press Escape to quickly leave this site">⚡ Quick Exit</a>
+    </div>
 
             </header>
         </div>
@@ -345,6 +348,9 @@ PRIVACY_CONTENT = '''
                title="Press Escape to quickly leave this site">Quick Exit</a>
         </div>
     </nav>
+    <div class="quick-exit-bar">
+        <a href="https://doodles.google" id="quick-exit-mobile" title="Press Escape to quickly leave this site">⚡ Quick Exit</a>
+    </div>
 
             </header>
         </div>
@@ -613,6 +619,9 @@ TERMS_CONTENT = '''
                title="Press Escape to quickly leave this site">Quick Exit</a>
         </div>
     </nav>
+    <div class="quick-exit-bar">
+        <a href="https://doodles.google" id="quick-exit-mobile" title="Press Escape to quickly leave this site">⚡ Quick Exit</a>
+    </div>
 
             </header>
         </div>
@@ -905,6 +914,9 @@ LICENSING_CONTENT = '''
                title="Press Escape to quickly leave this site">Quick Exit</a>
         </div>
     </nav>
+    <div class="quick-exit-bar">
+        <a href="https://doodles.google" id="quick-exit-mobile" title="Press Escape to quickly leave this site">⚡ Quick Exit</a>
+    </div>
 
             </header>
         </div>
