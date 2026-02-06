@@ -401,56 +401,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Hidden Monitoring Apps",
-      "x_public_description": "Someone installs a hidden app on your phone or computer that secretly tracks your location, reads your messages, and monitors your calls — without anything visible on screen.",
-      "x_safety_warning": "If you think there's a monitoring app on your phone, don't remove it straight away. The person who installed it may be alerted and could become dangerous. Get advice from a specialist service first.",
-      "x_recognition_signals": [
-        {
-          "title": "Your phone battery is draining much faster than usual",
-          "explanation": "Monitoring apps run constantly in the background, which uses a lot of battery power."
-        },
-        {
-          "title": "You're using more mobile data than expected",
-          "explanation": "The app sends your information to the other person, which uses data — even when you're not actively using your phone."
-        },
-        {
-          "title": "Your phone feels warm even when you're not using it",
-          "explanation": "Background monitoring processes generate heat."
-        },
-        {
-          "title": "The other person seems to know things they shouldn't",
-          "explanation": "They mention details from your private messages, know where you've been, or reference conversations they weren't part of."
-        },
-        {
-          "title": "You notice unfamiliar apps or settings on your device",
-          "explanation": "Look for apps you don't recognise, or device administrator settings you didn't set up."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Use a stalkerware detection app to check your phone",
-          "explanation": "Apps like those recommended by the Coalition Against Stalkerware can scan for known monitoring software.",
-          "safety_note": "Running a scan is generally safe — the monitoring person typically can't see that you've installed a detection app."
-        },
-        {
-          "title": "Keep your phone locked with a PIN or biometric",
-          "explanation": "Use a strong passcode that the other person doesn't know. Avoid patterns that are easy to watch and copy."
-        },
-        {
-          "title": "Consider getting a separate safe phone",
-          "explanation": "A prepaid phone the other person doesn't know about can be used for sensitive calls and messages.",
-          "safety_note": "Keep it hidden and don't connect it to any accounts the other person knows about."
-        },
-        {
-          "title": "Keep your phone's software up to date",
-          "explanation": "Updates fix security holes that monitoring apps exploit."
-        },
-        {
-          "title": "Get a professional to examine your device",
-          "explanation": "A digital forensic specialist can find hidden monitoring software and preserve evidence.",
-          "safety_note": "Ask a support service for referrals — don't search for this on a monitored device."
-        }
       ]
     },
     {
@@ -503,46 +453,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Hidden Tracking Devices",
-      "x_public_description": "Someone places a small tracking device — like an AirTag, Tile, or GPS tracker — in your bag, car, or belongings to follow your movements.",
-      "x_safety_warning": "If you find a tracker, think carefully before removing it. Removing it tells the other person you found it. Document it first (photo with date) and get advice.",
-      "x_recognition_signals": [
-        {
-          "title": "Your phone alerts you about an unknown tracker travelling with you",
-          "explanation": "iPhones and some Android phones will warn you if an unknown AirTag or similar device is nearby for a long time."
-        },
-        {
-          "title": "The other person always seems to know where you are",
-          "explanation": "They reference specific places you've been, your routes, or when you arrived somewhere — without you telling them."
-        },
-        {
-          "title": "You find a small unfamiliar device in your things",
-          "explanation": "Trackers can be small — about the size of a coin. Check under seats, in wheel wells, inside bag pockets, or attached to keyrings."
-        },
-        {
-          "title": "You hear periodic beeping from your bag or car",
-          "explanation": "Some trackers beep to help owners find them. If you hear unexplained beeping, investigate."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Enable unknown tracker alerts on your phone",
-          "explanation": "On iPhone, this is on by default. Android users can download the Tracker Detect app or enable similar built-in features."
-        },
-        {
-          "title": "Check your car systematically",
-          "explanation": "Look under the chassis, in wheel wells, behind bumpers, in the boot, and under seats. A torch and mirror help."
-        },
-        {
-          "title": "Check your everyday bags and belongings",
-          "explanation": "Go through pockets, linings, and any compartments. Feel for small hard objects that shouldn't be there."
-        },
-        {
-          "title": "Document before removing",
-          "explanation": "If you find a tracker, photograph it in place with a timestamp. This preserves evidence.",
-          "safety_note": "Consider whether it's safer to leave it in place temporarily while you make a safety plan."
-        }
       ]
     },
     {
@@ -594,39 +504,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Monitoring Through Shared Accounts",
-      "x_public_description": "Someone uses accounts you share — like a family phone plan, streaming service, or cloud storage — to track your location, purchases, or activity.",
-      "x_safety_warning": "Changing shared account settings may alert the other person. Plan which accounts to separate first and do them in a safe order.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person knows about purchases, locations, or content you haven't shared",
-          "explanation": "Shared accounts like Google, Apple Family, or phone plans often show activity to all members."
-        },
-        {
-          "title": "You discover location sharing is turned on with their account",
-          "explanation": "Check your phone's location sharing settings — someone may have enabled sharing without you realising."
-        },
-        {
-          "title": "Unfamiliar devices appear in your account's trusted devices list",
-          "explanation": "Someone else's phone or computer may be logged into your shared accounts."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review all location sharing settings on your devices",
-          "explanation": "On iPhone: Settings > Privacy > Location Services > Share My Location. On Android: Google Maps > your profile > Location sharing."
-        },
-        {
-          "title": "Gradually move to your own individual accounts",
-          "explanation": "Create new accounts with a fresh email address the other person doesn't know about.",
-          "safety_note": "Do this from a device and network you're confident isn't monitored."
-        },
-        {
-          "title": "Check your phone plan",
-          "explanation": "Family plans often let the account holder see call logs, texts, and data usage for all lines.",
-          "safety_note": "Moving to your own plan is ideal, but timing matters — plan it."
-        }
       ]
     },
     {
@@ -680,40 +557,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Watching Your Social Media",
-      "x_public_description": "Someone closely monitors your social media accounts — tracking your posts, checking who you interact with, and using your activity to keep tabs on your life.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person comments on things you posted but didn't tell them about",
-          "explanation": "They reference photos, check-ins, or interactions they saw on your social media."
-        },
-        {
-          "title": "You notice unfamiliar accounts following you or viewing your stories",
-          "explanation": "They may have created fake accounts to watch you even after being blocked."
-        },
-        {
-          "title": "Friends mention the other person asking about your posts",
-          "explanation": "They may be monitoring through mutual contacts."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Tighten your privacy settings on every platform",
-          "explanation": "Set profiles to private. Review who can see your posts, stories, friends list, and tagged photos."
-        },
-        {
-          "title": "Review and clean up your followers and connections",
-          "explanation": "Remove accounts you don't recognise or that seem suspicious."
-        },
-        {
-          "title": "Stop posting real-time locations or future plans",
-          "explanation": "Share holiday photos after you're home. Don't tag your current location."
-        },
-        {
-          "title": "Turn off tagging or require approval for tags",
-          "explanation": "This prevents friends from accidentally revealing your location through their posts."
-        }
       ]
     },
     {
@@ -765,47 +608,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Reading Your Messages & Emails",
-      "x_public_description": "Someone intercepts and reads your private messages, emails, or calls — either by accessing your accounts directly or by using software that copies your communications.",
-      "x_safety_warning": "If your communications are being intercepted, the other person can see your safety planning. Use a different device or in-person conversations for sensitive discussions.",
-      "x_recognition_signals": [
-        {
-          "title": "Messages show as 'read' before you've opened them",
-          "explanation": "Someone else may be accessing your messaging accounts."
-        },
-        {
-          "title": "The other person responds to things said in private conversations",
-          "explanation": "They reference details from messages or calls you had with other people."
-        },
-        {
-          "title": "Email forwarding rules you didn't set up",
-          "explanation": "Check your email settings for auto-forwarding to unknown addresses."
-        },
-        {
-          "title": "Unfamiliar devices in your account's active sessions",
-          "explanation": "Most email and messaging services show which devices are currently logged in."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Check active sessions on all your accounts",
-          "explanation": "Gmail: Security > Your devices. Facebook: Settings > Security > Where you're logged in. Do this for all platforms."
-        },
-        {
-          "title": "Check for email forwarding rules",
-          "explanation": "In Gmail: Settings > Forwarding. In Outlook: Settings > Mail > Forwarding. Remove anything you didn't set up."
-        },
-        {
-          "title": "Use end-to-end encrypted messaging for sensitive conversations",
-          "explanation": "Apps like Signal encrypt messages so only you and the recipient can read them.",
-          "safety_note": "Only useful if your device itself isn't compromised."
-        },
-        {
-          "title": "Change passwords from a safe device",
-          "explanation": "Use a device the other person hasn't had access to.",
-          "safety_note": "A trusted friend's phone or a library computer can work."
-        }
       ]
     },
     {
@@ -858,47 +660,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Watching Through Smart Home Devices",
-      "x_public_description": "Someone uses smart home devices — cameras, doorbells, speakers, or home assistants — to watch, listen to, or record you in your own home.",
-      "x_safety_warning": "Smart home devices are often controlled by whoever set up the account. If you're in a shared home, the other person may have admin access to all devices.",
-      "x_recognition_signals": [
-        {
-          "title": "Smart home devices behave unexpectedly",
-          "explanation": "Cameras move on their own, speakers activate without prompts, or lights/locks change without your input."
-        },
-        {
-          "title": "The other person knows what's happening inside the home",
-          "explanation": "They reference private conversations or activities that happened when they weren't present."
-        },
-        {
-          "title": "You can't control devices or change settings",
-          "explanation": "You don't have admin access, or settings keep reverting after you change them."
-        },
-        {
-          "title": "Indicator lights on cameras or devices activate at odd times",
-          "explanation": "Small LED lights on cameras may blink when recording or being accessed remotely."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Check which accounts control your smart home devices",
-          "explanation": "Identify who has admin access to cameras, speakers, locks, and thermostats."
-        },
-        {
-          "title": "Physically disconnect devices you're concerned about",
-          "explanation": "Unplug cameras and smart speakers. Cover camera lenses with tape if you can't unplug.",
-          "safety_note": "The other person may notice if devices go offline."
-        },
-        {
-          "title": "Change Wi-Fi passwords",
-          "explanation": "This disconnects all devices. You can then selectively reconnect only the ones you control.",
-          "safety_note": "Only do this if you safely control the router."
-        },
-        {
-          "title": "Do a factory reset on devices you want to keep",
-          "explanation": "This removes previous account connections. Set them up fresh with your own account."
-        }
       ]
     },
     {
@@ -949,39 +710,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Monitoring Your Internet Activity",
-      "x_public_description": "Someone monitors your internet traffic through the home router or network — seeing which websites you visit, what you search for, and what services you use.",
-      "x_safety_warning": "If someone controls the home network, they may be able to see your browsing activity. Use mobile data instead of Wi-Fi for sensitive searches.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person knows what you've been searching or browsing",
-          "explanation": "They reference websites you visited or things you looked up."
-        },
-        {
-          "title": "Unfamiliar software on the router or network",
-          "explanation": "Network monitoring tools or DNS logging may have been enabled."
-        },
-        {
-          "title": "Your internet seems slower than expected",
-          "explanation": "Monitoring tools can slightly slow down network traffic."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Use your mobile data for sensitive browsing",
-          "explanation": "Switch off Wi-Fi and use 4G/5G when searching for support services, legal help, or safety planning."
-        },
-        {
-          "title": "Use a VPN on your devices",
-          "explanation": "A VPN encrypts your internet traffic so it can't be read by someone monitoring the network.",
-          "safety_note": "The other person may notice a VPN is installed on your device."
-        },
-        {
-          "title": "Check your router's settings",
-          "explanation": "Look for logging, monitoring, or DNS filtering features that may have been enabled.",
-          "safety_note": "Only access router settings if you're confident the other person won't notice."
-        }
       ]
     },
     {
@@ -1032,36 +760,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Tracking Your Calendar & Schedule",
-      "x_public_description": "Someone monitors your calendar, schedule, or booking apps to know where you'll be and when — including appointments, meetings, and social plans.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person shows up at events or appointments they shouldn't know about",
-          "explanation": "They appear at places you only noted in your calendar."
-        },
-        {
-          "title": "They reference your schedule without you telling them",
-          "explanation": "They mention meetings, appointments, or plans from your calendar."
-        },
-        {
-          "title": "Your calendar is shared with accounts you don't recognise",
-          "explanation": "Check calendar sharing settings for unexpected connections."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review calendar sharing settings",
-          "explanation": "In Google Calendar: Settings > each calendar > Share with specific people. Remove anyone unexpected."
-        },
-        {
-          "title": "Keep a separate private calendar",
-          "explanation": "Use a different app or account for sensitive appointments — support services, legal consultations, etc."
-        },
-        {
-          "title": "Check which apps have access to your calendar",
-          "explanation": "On your phone: Settings > Privacy > Calendar. Remove access for apps that don't need it."
-        }
       ]
     },
     {
@@ -1111,36 +809,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Getting Others to Watch You",
-      "x_public_description": "Someone convinces friends, family, neighbours, or mutual contacts to report back on your activities, either openly or without you knowing.",
-      "x_recognition_signals": [
-        {
-          "title": "Information you only shared with specific people gets back to the other person",
-          "explanation": "Things you told a friend in confidence are known to someone who shouldn't know."
-        },
-        {
-          "title": "Mutual contacts ask unusually detailed questions",
-          "explanation": "People start asking where you're going, who you're seeing, or what your plans are — more than feels natural."
-        },
-        {
-          "title": "You notice people watching or checking on you",
-          "explanation": "Neighbours, work colleagues, or acquaintances seem to be tracking your comings and goings."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Be thoughtful about what you share and with whom",
-          "explanation": "Consider which contacts might pass information to the other person, even without bad intent."
-        },
-        {
-          "title": "Create an inner circle of trusted people",
-          "explanation": "Identify a small number of people you trust completely and keep sensitive information within that circle."
-        },
-        {
-          "title": "Have a conversation with people you suspect are reporting back",
-          "explanation": "Sometimes people don't realise they're being used. A calm conversation may help."
-        }
       ]
     },
     {
@@ -1193,36 +861,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Tracking Through Fitness & Health Apps",
-      "x_public_description": "Someone uses fitness trackers, health apps, or wearable devices to monitor your location, activity patterns, sleep, and health data.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person knows about your exercise routes or activity patterns",
-          "explanation": "They reference when and where you exercised, or your daily routine."
-        },
-        {
-          "title": "Health or fitness data is being shared with their account",
-          "explanation": "Shared fitness challenges, family health accounts, or linked apps may expose your data."
-        },
-        {
-          "title": "Your wearable shows locations or activity you didn't do",
-          "explanation": "Someone else may be accessing and viewing your tracker data remotely."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review sharing settings on fitness and health apps",
-          "explanation": "Check Fitbit, Apple Health, Strava, Garmin, and similar apps for shared access or linked accounts."
-        },
-        {
-          "title": "Remove exercise routes from public or shared view",
-          "explanation": "Many fitness apps share routes by default. Switch to private or remove location from activities."
-        },
-        {
-          "title": "Check who has access to your health data",
-          "explanation": "Apple Health: Settings > Health > Data Access. Google Fit: account settings > connected apps."
-        }
       ]
     },
     {
@@ -1273,39 +911,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Stealing Your Passwords",
-      "x_public_description": "Someone gets hold of your passwords — by watching you type them, guessing them, finding them written down, or using tools that capture what you type.",
-      "x_safety_warning": "If you suspect someone has your passwords, changing them may alert them. Plan which accounts to secure first and change them from a safe device.",
-      "x_recognition_signals": [
-        {
-          "title": "Account settings have changed without your input",
-          "explanation": "Profile information, recovery emails, or security questions have been altered."
-        },
-        {
-          "title": "You receive password reset notifications you didn't request",
-          "explanation": "Someone may be attempting to access or test your accounts."
-        },
-        {
-          "title": "The other person logs into your accounts or references private account content",
-          "explanation": "They mention emails, messages, or information only accessible through your accounts."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Change passwords from a device the other person hasn't accessed",
-          "explanation": "Use a trusted friend's device or a library computer.",
-          "safety_note": "Don't change passwords on a device that might have monitoring software."
-        },
-        {
-          "title": "Use unique, strong passwords for every account",
-          "explanation": "A password manager can help you create and remember complex passwords."
-        },
-        {
-          "title": "Enable two-factor authentication",
-          "explanation": "This adds a second step (like a code sent to your phone) when logging in.",
-          "safety_note": "Make sure the second factor goes to a device only you control."
-        }
       ]
     },
     {
@@ -1358,41 +963,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Taking Over Your Accounts",
-      "x_public_description": "Someone gains full control of one or more of your accounts — changing the password and recovery options so you can no longer access them.",
-      "x_safety_warning": "Account takeover can be used to impersonate you. If you've lost access to an account, contact the platform's support immediately.",
-      "x_recognition_signals": [
-        {
-          "title": "You're suddenly locked out of an account",
-          "explanation": "Your password no longer works and recovery options have been changed."
-        },
-        {
-          "title": "Friends receive messages from your account that you didn't send",
-          "explanation": "The other person may be using your account to impersonate you."
-        },
-        {
-          "title": "Your account profile or information has been changed",
-          "explanation": "Name, photo, bio, or linked accounts have been altered."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact the platform's account recovery support immediately",
-          "explanation": "Most major platforms have processes for recovering hijacked accounts. Act quickly."
-        },
-        {
-          "title": "Notify your contacts",
-          "explanation": "Let people know your account has been compromised so they don't trust messages coming from it."
-        },
-        {
-          "title": "Document everything",
-          "explanation": "Screenshot any changes, messages sent from your account, and your attempts to recover it."
-        },
-        {
-          "title": "Report to the platform and to police",
-          "explanation": "Account takeover is a criminal offence. File reports with both."
-        }
       ]
     },
     {
@@ -1444,36 +1014,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Changing Your Recovery Options",
-      "x_public_description": "Someone changes the recovery email, phone number, or security questions on your accounts — so that if you try to reset your password, the reset goes to them instead of you.",
-      "x_recognition_signals": [
-        {
-          "title": "You can't recover your account using your usual method",
-          "explanation": "Your recovery email or phone number has been changed."
-        },
-        {
-          "title": "You receive notifications about recovery option changes you didn't make",
-          "explanation": "Platforms often send alerts when recovery details are updated."
-        },
-        {
-          "title": "Security questions or backup codes have been modified",
-          "explanation": "Answers to your security questions no longer work."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Set up recovery options the other person can't access",
-          "explanation": "Use a new email address or phone number they don't know about."
-        },
-        {
-          "title": "Enable login notifications",
-          "explanation": "Get alerted every time someone logs into your account from a new device."
-        },
-        {
-          "title": "Regularly check your account recovery settings",
-          "explanation": "Make it a habit to verify your recovery email and phone number haven't changed."
-        }
       ]
     },
     {
@@ -1524,36 +1064,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Accessing Your Active Sessions",
-      "x_public_description": "Someone accesses your accounts by using a session that's already logged in — such as a browser you forgot to sign out of on a shared device, or by copying your login session data.",
-      "x_recognition_signals": [
-        {
-          "title": "Your account shows active sessions on devices you don't recognise",
-          "explanation": "Check the 'active sessions' or 'logged-in devices' section of your accounts."
-        },
-        {
-          "title": "Someone is reading new messages in real-time",
-          "explanation": "Messages are marked as read before you open them, or the other person responds to things instantly."
-        },
-        {
-          "title": "Account activity at times when you weren't online",
-          "explanation": "Login timestamps or activity logs show use when you were asleep or away."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Sign out of all sessions on important accounts",
-          "explanation": "Most platforms have a 'Sign out everywhere' option in security settings."
-        },
-        {
-          "title": "Never save passwords on shared or public devices",
-          "explanation": "Always use private/incognito mode on shared computers and sign out when done."
-        },
-        {
-          "title": "Check your active sessions regularly",
-          "explanation": "Review logged-in devices weekly on your key accounts."
-        }
       ]
     },
     {
@@ -1605,37 +1115,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Locking You Out of Your Devices",
-      "x_public_description": "Someone locks you out of your own phone, tablet, or computer — by changing the passcode, using remote lock features, or triggering factory resets.",
-      "x_safety_warning": "Being locked out of your phone can be a safety risk in an emergency. Consider having a backup way to contact emergency services.",
-      "x_recognition_signals": [
-        {
-          "title": "Your device passcode suddenly stops working",
-          "explanation": "The password, PIN, or biometric you set has been changed."
-        },
-        {
-          "title": "Your device has been remotely wiped or reset",
-          "explanation": "All your data, photos, and apps are gone."
-        },
-        {
-          "title": "You receive a message saying your device is locked",
-          "explanation": "Features like 'Find My iPhone' or 'Find My Device' can be used to remotely lock a device."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact your device manufacturer's support",
-          "explanation": "Apple, Samsung, and Google all have processes for recovering locked devices."
-        },
-        {
-          "title": "Use a different device to secure your cloud accounts",
-          "explanation": "If your phone is locked, secure your iCloud, Google, or Microsoft accounts from another device immediately."
-        },
-        {
-          "title": "Keep your cloud account credentials separate and private",
-          "explanation": "The person who controls your iCloud or Google account can remotely control your device."
-        }
       ]
     },
     {
@@ -1687,36 +1166,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Intercepting Your Security Codes",
-      "x_public_description": "Someone intercepts the security codes sent to verify your identity — by accessing your text messages, SIM-swapping your phone number, or using a device you've already trusted.",
-      "x_recognition_signals": [
-        {
-          "title": "You stop receiving text messages or calls",
-          "explanation": "Your SIM may have been swapped — the other person has transferred your number to their device."
-        },
-        {
-          "title": "Login codes arrive on a device you don't control",
-          "explanation": "Security codes are going to a phone or email the other person has access to."
-        },
-        {
-          "title": "Your mobile service suddenly stops working",
-          "explanation": "SIM swap attacks cause your phone to lose signal entirely."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Switch to an authenticator app instead of SMS codes",
-          "explanation": "Apps like Google Authenticator or Authy generate codes on your device, which is harder to intercept than text messages."
-        },
-        {
-          "title": "Set a PIN or password on your mobile account",
-          "explanation": "Contact your carrier and add a security PIN to prevent SIM swaps."
-        },
-        {
-          "title": "Use a phone number the other person doesn't know",
-          "explanation": "A separate prepaid number for two-factor authentication adds a layer of protection."
-        }
       ]
     },
     {
@@ -1768,38 +1217,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Accessing Your Cloud Backups",
-      "x_public_description": "Someone accesses your cloud storage or device backups — seeing your photos, documents, messages, and other data stored in services like iCloud, Google Drive, or Dropbox.",
-      "x_safety_warning": "Cloud backups can contain a complete copy of your digital life. Securing your cloud accounts is critical.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person has seen photos or documents you only stored in the cloud",
-          "explanation": "They reference files you haven't shared with anyone."
-        },
-        {
-          "title": "Storage notifications about activity you didn't do",
-          "explanation": "Files accessed, downloaded, or deleted without your knowledge."
-        },
-        {
-          "title": "Unfamiliar devices connected to your cloud account",
-          "explanation": "Check which devices are linked to your iCloud, Google, or Microsoft account."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review which devices are connected to your cloud accounts",
-          "explanation": "iCloud: Settings > Apple ID > Devices. Google: myaccount.google.com > Security > Your devices."
-        },
-        {
-          "title": "Change your cloud account password from a safe device",
-          "explanation": "This is often the single most important step.",
-          "safety_note": "A cloud account password often controls everything — email, photos, backups, location."
-        },
-        {
-          "title": "Remove unknown devices and revoke their access",
-          "explanation": "Sign out any device you don't recognise."
-        }
       ]
     },
     {
@@ -1852,36 +1269,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Using Shared Accounts Against You",
-      "x_public_description": "Someone weaponizes accounts you set up together — deleting shared photos, changing subscription settings, removing your access, or using shared content against you.",
-      "x_recognition_signals": [
-        {
-          "title": "Shared content starts disappearing",
-          "explanation": "Photos, documents, or files from shared accounts are being deleted."
-        },
-        {
-          "title": "You lose access to subscriptions or services",
-          "explanation": "Shared streaming, utility, or service accounts are modified or cancelled."
-        },
-        {
-          "title": "Shared account content is used to embarrass or control you",
-          "explanation": "Private content from shared accounts is shared with others or used as leverage."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Back up any important shared content to your own account",
-          "explanation": "Copy photos, documents, and files you need before separating accounts."
-        },
-        {
-          "title": "Create your own individual accounts for essential services",
-          "explanation": "Set up fresh accounts for streaming, utilities, and other services."
-        },
-        {
-          "title": "Document what exists in shared accounts",
-          "explanation": "Screenshot or save records of shared content in case it's deleted."
-        }
       ]
     },
     {
@@ -1933,37 +1320,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sabotaging Your Devices",
-      "x_public_description": "Someone deliberately damages, misconfigures, or interferes with your phone, computer, or other devices to make them unreliable, slow, or unusable.",
-      "x_safety_warning": "Device sabotage can be a precursor to escalation. If your devices are being interfered with, tell someone you trust.",
-      "x_recognition_signals": [
-        {
-          "title": "Your devices keep malfunctioning in ways you can't explain",
-          "explanation": "Settings change, apps crash, or the device behaves erratically."
-        },
-        {
-          "title": "Problems only happen after the other person has had access",
-          "explanation": "The device works fine, then has issues after they've been near it."
-        },
-        {
-          "title": "Factory resets or data wipes you didn't authorise",
-          "explanation": "Your device has been wiped, losing your contacts, photos, and messages."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Keep your device physically secure",
-          "explanation": "Don't leave it unattended when the other person could access it."
-        },
-        {
-          "title": "Back up your data regularly to a secure location",
-          "explanation": "Use cloud backup with an account only you control."
-        },
-        {
-          "title": "Document the pattern",
-          "explanation": "Keep a log of device issues with dates and whether the other person had access."
-        }
       ]
     },
     {
@@ -2015,38 +1371,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Abusing Admin Access",
-      "x_public_description": "Someone who has administrative control over shared devices, networks, or accounts uses that access to monitor, restrict, or control you.",
-      "x_safety_warning": "Admin access can give someone total control over your digital environment. If you suspect this, seek specialist tech safety help.",
-      "x_recognition_signals": [
-        {
-          "title": "Your permissions keep getting changed",
-          "explanation": "You lose access to features, apps, or settings that used to work."
-        },
-        {
-          "title": "Content or downloads are being blocked",
-          "explanation": "Websites, apps, or content you try to access are restricted."
-        },
-        {
-          "title": "The other person can see or change things on your device remotely",
-          "explanation": "Settings, wallpapers, or configurations change without your input."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Identify who has admin access to your devices and accounts",
-          "explanation": "Check device management profiles, admin accounts on shared computers, and router access."
-        },
-        {
-          "title": "Get your own separate devices and accounts",
-          "explanation": "A device you set up yourself, on your own account, that the other person never touches."
-        },
-        {
-          "title": "Remove mobile device management (MDM) profiles",
-          "explanation": "On iPhone: Settings > General > VPN & Device Management. Remove profiles you didn't install.",
-          "safety_note": "This may alert the admin."
-        }
       ]
     },
     {
@@ -2101,41 +1425,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Threatening Messages",
-      "x_public_description": "Someone sends you threatening messages through any digital platform — texts, emails, social media, or messaging apps. Threats may be explicit or veiled.",
-      "x_safety_warning": "If you feel you're in immediate danger, contact 000. Save all threatening messages as evidence.",
-      "x_recognition_signals": [
-        {
-          "title": "You receive messages that threaten violence or harm",
-          "explanation": "Direct or implied threats to you, your children, your pets, or your property."
-        },
-        {
-          "title": "Threatening images or media are sent to you",
-          "explanation": "Photos of weapons, your home, or other intimidating content."
-        },
-        {
-          "title": "Threats are disguised as concern or 'warnings'",
-          "explanation": "Messages framed as 'I'm worried what might happen if...' or 'It would be a shame if...'"
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Screenshot and save every threatening message",
-          "explanation": "Include the sender's details, timestamps, and the platform. Save to a secure location."
-        },
-        {
-          "title": "Don't respond to threats",
-          "explanation": "Responding can escalate the situation and encourage further contact."
-        },
-        {
-          "title": "Report to both the platform and police",
-          "explanation": "Most platforms have specific reporting for threats. File a police report as well."
-        },
-        {
-          "title": "Consider an Apprehended Violence Order (AVO)",
-          "explanation": "Courts can order the person to stop contacting you. A lawyer or support service can help."
-        }
       ]
     },
     {
@@ -2189,40 +1478,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Relentless Messaging",
-      "x_public_description": "Someone bombards you with constant messages, calls, voicemails, or contact attempts — dozens or hundreds a day — to overwhelm, exhaust, or frighten you.",
-      "x_recognition_signals": [
-        {
-          "title": "Overwhelming volume of messages, calls, or notifications",
-          "explanation": "Dozens or hundreds of messages across multiple platforms."
-        },
-        {
-          "title": "Contact continues despite you asking them to stop",
-          "explanation": "Clear requests to stop are ignored."
-        },
-        {
-          "title": "The content cycles between hostile, loving, and desperate",
-          "explanation": "The tone swings wildly — threats, then apologies, then anger again."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Block across all platforms but save evidence first",
-          "explanation": "Screenshot the volume of messages before blocking. You may need this for legal proceedings."
-        },
-        {
-          "title": "Enable 'Do Not Disturb' or silence unknown callers",
-          "explanation": "Reduce the immediate impact while preserving evidence in the background."
-        },
-        {
-          "title": "Document the pattern",
-          "explanation": "Keep a log of dates, times, number of contacts, and platforms used."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Persistent unwanted contact can constitute stalking. File a report."
-        }
       ]
     },
     {
@@ -2274,36 +1529,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Getting Around Blocks",
-      "x_public_description": "After being blocked, someone finds ways to keep contacting you — using new accounts, new phone numbers, other people's devices, or different platforms.",
-      "x_recognition_signals": [
-        {
-          "title": "New unknown accounts contact you with familiar language",
-          "explanation": "The writing style, pet names, or references make it clear who it is."
-        },
-        {
-          "title": "Messages arrive from unknown numbers saying things only the person would know",
-          "explanation": "They create new accounts or get new numbers specifically to reach you."
-        },
-        {
-          "title": "Contact comes through unexpected platforms",
-          "explanation": "They find you on platforms you thought they didn't know about."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Keep blocking new accounts but document each one",
-          "explanation": "Each new attempt to circumvent blocking is evidence of a pattern."
-        },
-        {
-          "title": "Adjust privacy settings so only approved contacts can message you",
-          "explanation": "Many platforms allow you to restrict messages to friends/followers only."
-        },
-        {
-          "title": "Report the pattern to police",
-          "explanation": "Circumventing blocking to maintain unwanted contact strengthens a stalking case."
-        }
       ]
     },
     {
@@ -2358,41 +1583,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Organised Pile-On",
-      "x_public_description": "Someone coordinates others to harass you — directing friends, followers, or online communities to send you abusive messages, leave negative reviews, or attack you online.",
-      "x_safety_warning": "Coordinated harassment can feel overwhelming. You don't have to deal with it alone — support services can help.",
-      "x_recognition_signals": [
-        {
-          "title": "Sudden wave of hostile messages from people you don't know",
-          "explanation": "Multiple strangers contact you with similar themes or language."
-        },
-        {
-          "title": "Abusive reviews or comments appear across your online presence",
-          "explanation": "Your business, social media, or public profiles are targeted simultaneously."
-        },
-        {
-          "title": "The abuse follows a recognisable pattern or narrative",
-          "explanation": "The attackers seem to be working from the same story about you."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Don't engage with individual attackers",
-          "explanation": "Responding fuels the campaign. Focus on documentation and reporting."
-        },
-        {
-          "title": "Report the coordination to platforms",
-          "explanation": "Most platforms prohibit coordinated harassment. Report the pattern, not just individual messages."
-        },
-        {
-          "title": "Lock down your online presence temporarily",
-          "explanation": "Set accounts to private, disable comments, and restrict who can message you."
-        },
-        {
-          "title": "Preserve evidence of coordination",
-          "explanation": "Screenshot posts directing others to attack you."
-        }
       ]
     },
     {
@@ -2445,41 +1635,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Publishing Your Private Information",
-      "x_public_description": "Someone publishes your private information online — your home address, phone number, workplace, children's school, or other personal details — to expose you or invite harassment.",
-      "x_safety_warning": "If your address has been published and you feel unsafe, contact police. Consider temporary accommodation if there's an immediate threat.",
-      "x_recognition_signals": [
-        {
-          "title": "Strangers reference your personal details",
-          "explanation": "People you don't know mention your address, workplace, or other private information."
-        },
-        {
-          "title": "You find your personal information posted on public websites or forums",
-          "explanation": "Your details have been shared without your consent."
-        },
-        {
-          "title": "You receive unwanted contact at locations only known through doxxing",
-          "explanation": "People show up at your home or workplace."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report to the platform where your information was published",
-          "explanation": "Request urgent removal of your personal details."
-        },
-        {
-          "title": "Contact the eSafety Commissioner",
-          "explanation": "In Australia, the eSafety Commissioner can help with the removal of doxxed information."
-        },
-        {
-          "title": "Alert your workplace, school, and building security",
-          "explanation": "Let relevant people know your information has been compromised."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Doxxing can constitute stalking or intimidation."
-        }
       ]
     },
     {
@@ -2530,33 +1685,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "False Emergency Calls to Your Address",
-      "x_public_description": "Someone makes false emergency calls to send police, ambulances, or fire services to your address — creating a frightening and potentially dangerous situation.",
-      "x_safety_warning": "Swatting can be life-threatening. If you believe you're at risk of swatting, inform your local police station proactively.",
-      "x_recognition_signals": [
-        {
-          "title": "Emergency services arrive at your home without you calling them",
-          "explanation": "Police, paramedics, or fire services respond to calls you didn't make."
-        },
-        {
-          "title": "You learn that false reports have been filed about you",
-          "explanation": "Reports to police, child protection, or other services that are fabricated."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Proactively brief your local police station",
-          "explanation": "Explain the risk and ask for your address to be flagged."
-        },
-        {
-          "title": "Report false calls as a criminal offence",
-          "explanation": "Making false emergency calls is illegal. Gather evidence the calls are fabricated."
-        },
-        {
-          "title": "Keep documentation of all false reports",
-          "explanation": "Create a chronological record with dates and responding agencies."
-        }
       ]
     },
     {
@@ -2609,36 +1737,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Weaponizing Report Buttons",
-      "x_public_description": "Someone files false reports against your accounts — trying to get your social media, business pages, or content removed by abusing platform reporting systems.",
-      "x_recognition_signals": [
-        {
-          "title": "Your content or accounts are removed for violations you didn't commit",
-          "explanation": "Posts, pages, or accounts are taken down after false reports."
-        },
-        {
-          "title": "You receive repeated warnings from platforms",
-          "explanation": "Multiple reports trigger automated warnings or restrictions."
-        },
-        {
-          "title": "Your business or professional presence is affected",
-          "explanation": "Reviews, listings, or professional profiles are disrupted."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Appeal every false takedown",
-          "explanation": "Platforms have appeal processes. Use them consistently and document each one."
-        },
-        {
-          "title": "Document the pattern of false reports",
-          "explanation": "Keep records of each takedown with dates and details."
-        },
-        {
-          "title": "Contact platform support directly",
-          "explanation": "Explain the pattern of abuse and request account protection."
-        }
       ]
     },
     {
@@ -2693,40 +1791,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Public Shaming Online",
-      "x_public_description": "Someone posts content designed to publicly humiliate, embarrass, or shame you — sharing private information, embarrassing images, or fabricated stories about you.",
-      "x_recognition_signals": [
-        {
-          "title": "People you know reference embarrassing content about you online",
-          "explanation": "Friends, colleagues, or acquaintances have seen posts about you."
-        },
-        {
-          "title": "Humiliating content appears on the other person's or their friends' social media",
-          "explanation": "Posts that mock, shame, or expose private matters."
-        },
-        {
-          "title": "Your private information or images are shared in group chats or forums",
-          "explanation": "Content circulates beyond the original post."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report content to the platform for removal",
-          "explanation": "Most platforms remove content designed to harass or bully."
-        },
-        {
-          "title": "Contact the eSafety Commissioner if content includes intimate images",
-          "explanation": "In Australia, non-consensual intimate image sharing can be actioned through eSafety."
-        },
-        {
-          "title": "Avoid responding publicly",
-          "explanation": "Public responses can fuel further sharing. Focus on removal and reporting."
-        },
-        {
-          "title": "Save evidence before it's deleted",
-          "explanation": "The poster may delete content later — screenshot everything first."
-        }
       ]
     },
     {
@@ -2780,40 +1844,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Pretending to Be You Online",
-      "x_public_description": "Someone creates fake accounts impersonating you — using your name, photos, and personal details to damage your reputation, harass others in your name, or create confusion.",
-      "x_recognition_signals": [
-        {
-          "title": "People tell you about accounts or messages 'from you' that you didn't create or send",
-          "explanation": "Friends receive messages from someone pretending to be you."
-        },
-        {
-          "title": "Fake profiles using your photos and name appear on social media or dating sites",
-          "explanation": "Your identity is being used without your consent."
-        },
-        {
-          "title": "You're blamed for things the impersonator said or did",
-          "explanation": "People are angry at you for things you didn't do."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report impersonation accounts to the platform immediately",
-          "explanation": "All major platforms have dedicated impersonation reporting tools."
-        },
-        {
-          "title": "Notify your contacts",
-          "explanation": "Let people know about the fake accounts so they're not deceived."
-        },
-        {
-          "title": "Document the fake accounts",
-          "explanation": "Screenshot profiles, messages, and any damage caused."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Impersonation for the purpose of harassment is a criminal offence."
-        }
       ]
     },
     {
@@ -2868,36 +1898,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Fake Negative Reviews",
-      "x_public_description": "Someone posts fake negative reviews about your business, professional services, or public presence — using fabricated or exaggerated claims to damage your livelihood.",
-      "x_recognition_signals": [
-        {
-          "title": "A sudden cluster of negative reviews from accounts with no history",
-          "explanation": "Reviews appear from profiles that were recently created or have no other activity."
-        },
-        {
-          "title": "Reviews contain personal attacks rather than genuine customer feedback",
-          "explanation": "The content is about you personally, not about a product or service."
-        },
-        {
-          "title": "The timing correlates with conflict with the other person",
-          "explanation": "Bad reviews appear after arguments, separation, or legal action."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report fake reviews to the platform",
-          "explanation": "Google, Facebook, and other review platforms have processes for flagging fake reviews."
-        },
-        {
-          "title": "Respond professionally to reviews you can't get removed",
-          "explanation": "A calm, factual response shows other readers the reviews aren't genuine."
-        },
-        {
-          "title": "Document the connection between reviews and the other person",
-          "explanation": "Pattern evidence strengthens any legal or platform complaint."
-        }
       ]
     },
     {
@@ -2950,32 +1950,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Signing You Up for Unwanted Services",
-      "x_public_description": "Someone signs your phone number or email up for hundreds of services, newsletters, or verification codes — flooding you with constant notifications and messages.",
-      "x_recognition_signals": [
-        {
-          "title": "Sudden flood of verification codes, newsletters, or spam",
-          "explanation": "Your phone or email is overwhelmed with messages you didn't sign up for."
-        },
-        {
-          "title": "The volume makes it hard to find real, important messages",
-          "explanation": "Legitimate messages from friends, work, or services are buried."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Use email filtering rules to manage the flood",
-          "explanation": "Set up filters to automatically sort or delete the spam."
-        },
-        {
-          "title": "Report the pattern to your phone carrier",
-          "explanation": "They may be able to help with SMS flooding."
-        },
-        {
-          "title": "Consider a new phone number or email for important contacts",
-          "explanation": "Share the new details only with trusted people."
-        }
       ]
     },
     {
@@ -3028,36 +2002,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Using AI to Harass You",
-      "x_public_description": "Someone uses AI tools to generate harassing content — fake images, fake audio of your voice, mass-produced abusive messages, or AI-written defamatory content about you.",
-      "x_recognition_signals": [
-        {
-          "title": "Harassing content that seems AI-generated or mass-produced",
-          "explanation": "Messages, images, or posts that feel formulaic or are produced in large volumes."
-        },
-        {
-          "title": "Fake images or audio that look or sound like you",
-          "explanation": "AI-generated content using your likeness or voice."
-        },
-        {
-          "title": "Abusive content that's unusually varied or persistent",
-          "explanation": "The volume and variety suggests automated generation."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report AI-generated harassment to platforms",
-          "explanation": "Many platforms are developing specific policies for AI-generated abusive content."
-        },
-        {
-          "title": "Preserve the content as evidence",
-          "explanation": "AI-generated abuse is still abuse and can be reported to police."
-        },
-        {
-          "title": "Report to the eSafety Commissioner",
-          "explanation": "AI-generated intimate images or targeted harassment falls within eSafety's remit."
-        }
       ]
     },
     {
@@ -3110,37 +2054,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Altering Messages & Evidence",
-      "x_public_description": "Someone edits, deletes, or fabricates digital messages and evidence — changing what was said in text conversations, deleting messages to change the narrative, or creating fake screenshots.",
-      "x_safety_warning": "If you suspect evidence is being tampered with, start keeping your own independent records immediately.",
-      "x_recognition_signals": [
-        {
-          "title": "Conversations look different from how you remember them",
-          "explanation": "Messages appear edited, missing, or rearranged."
-        },
-        {
-          "title": "The other person shows 'evidence' of things you didn't say",
-          "explanation": "Screenshots or messages that don't match your memory or records."
-        },
-        {
-          "title": "Messages in shared conversations have been selectively deleted",
-          "explanation": "Key context is missing from threads."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Keep your own copies of important conversations",
-          "explanation": "Screenshot, export, or back up conversations regularly to a location only you control."
-        },
-        {
-          "title": "Use platforms with edit history or deletion tracking",
-          "explanation": "Some apps show when messages have been edited or deleted."
-        },
-        {
-          "title": "Don't rely solely on digital records the other person can access",
-          "explanation": "Keep physical notes or voice memos as backup records."
-        }
       ]
     },
     {
@@ -3193,37 +2106,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Making You Doubt Yourself Online",
-      "x_public_description": "Someone uses technology to make you question your own memory and perception — deleting messages then denying they existed, changing settings then blaming you, or rewriting digital history.",
-      "x_safety_warning": "If someone consistently makes you doubt your memory of digital interactions, that itself is a form of abuse. Trust your experience.",
-      "x_recognition_signals": [
-        {
-          "title": "Things you remember seeing or reading online seem to have disappeared",
-          "explanation": "Messages, posts, or settings you clearly remember are gone."
-        },
-        {
-          "title": "The other person insists events didn't happen the way you remember",
-          "explanation": "They have a different version of a digital interaction you were part of."
-        },
-        {
-          "title": "Your device settings keep changing and you're told you must have done it yourself",
-          "explanation": "Changes you didn't make are attributed to your own confusion."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Start keeping a private journal of digital interactions",
-          "explanation": "Write down what happened, when, in your own words. A handwritten journal can't be remotely altered."
-        },
-        {
-          "title": "Screenshot important conversations immediately",
-          "explanation": "Don't wait — capture the evidence before it can be changed or deleted."
-        },
-        {
-          "title": "Trust your own experience",
-          "explanation": "If your memory consistently differs from what the other person tells you, take that seriously."
-        }
       ]
     },
     {
@@ -3277,41 +2159,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sharing Intimate Images Without Consent",
-      "x_public_description": "Someone shares or threatens to share intimate, sexual, or nude images of you without your consent — sometimes called 'revenge porn'. This includes images that were taken consensually in a relationship but shared without permission.",
-      "x_safety_warning": "This is a criminal offence in Australia. You can get help from the eSafety Commissioner and police. You are not to blame.",
-      "x_recognition_signals": [
-        {
-          "title": "Someone tells you they've seen intimate images of you online",
-          "explanation": "Images you thought were private have been shared."
-        },
-        {
-          "title": "The other person threatens to share images unless you comply with demands",
-          "explanation": "Threats to distribute images are used as leverage."
-        },
-        {
-          "title": "Intimate images appear on websites, social media, or in group chats",
-          "explanation": "Your images have been posted publicly or semi-publicly."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report to the eSafety Commissioner immediately",
-          "explanation": "eSafety has legal powers to compel platforms to remove intimate images quickly."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Non-consensual sharing of intimate images is a criminal offence in all Australian states."
-        },
-        {
-          "title": "Don't try to get the images removed yourself by contacting each site",
-          "explanation": "The eSafety Commissioner has more effective tools for this."
-        },
-        {
-          "title": "Seek support",
-          "explanation": "This can be deeply distressing. Services like 1800RESPECT (1800 737 732) provide specialist support."
-        }
       ]
     },
     {
@@ -3364,33 +2211,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Creating Fake Images or Videos of You",
-      "x_public_description": "Someone uses AI or editing tools to create realistic fake images or videos of you — often sexual content — using your face or likeness placed onto other bodies or in fabricated scenarios.",
-      "x_safety_warning": "AI-generated intimate images are treated the same as real intimate images under Australian law.",
-      "x_recognition_signals": [
-        {
-          "title": "Realistic images or videos of you that you know are fake surface online",
-          "explanation": "Content showing you in situations that never happened."
-        },
-        {
-          "title": "The other person threatens to create or share deepfake content",
-          "explanation": "They reference AI tools or tell you they can 'make' images of you."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report to the eSafety Commissioner",
-          "explanation": "Deepfake intimate images are within eSafety's remit for removal."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Creating and distributing deepfake intimate images is a criminal offence."
-        },
-        {
-          "title": "Preserve evidence of the fake content and any threats",
-          "explanation": "Screenshot everything including the source and any messages about it."
-        }
       ]
     },
     {
@@ -3444,40 +2264,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Spreading Lies About You Online",
-      "x_public_description": "Someone creates and spreads false stories about you across social media, forums, or other platforms — damaging your reputation with fabricated claims.",
-      "x_recognition_signals": [
-        {
-          "title": "People start treating you differently based on things they've read",
-          "explanation": "Friends, colleagues, or community members reference false claims."
-        },
-        {
-          "title": "You discover false posts or articles about you online",
-          "explanation": "Fabricated stories appear on social media, blogs, or forums."
-        },
-        {
-          "title": "The false narrative is consistent and coordinated",
-          "explanation": "The same lies appear across multiple platforms or from multiple accounts."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Document all instances of the false narrative",
-          "explanation": "Screenshot each post, note the platform, date, and URL."
-        },
-        {
-          "title": "Report defamatory content to platforms",
-          "explanation": "Most platforms prohibit false and harmful content about individuals."
-        },
-        {
-          "title": "Consider legal advice about defamation",
-          "explanation": "Persistent false narratives may constitute defamation."
-        },
-        {
-          "title": "Don't engage in public arguments about the false claims",
-          "explanation": "Responding can amplify the narrative. Focus on removal and documentation."
-        }
       ]
     },
     {
@@ -3488,7 +2274,7 @@
       "created": "2026-02-04T00:00:00.000Z",
       "modified": "2026-02-04T00:00:00.000Z",
       "name": "Context Manipulation",
-      "description": "Sharing genuine content — real messages, photos, videos, or statements — stripped of essential context to create a misleading impression of victim's character, actions, or intentions. Includes selective quoting, cropping images, sharing old content as if current, or presenting content without the circumstances that explain it.",
+      "description": "Sharing genuine content \u2014 real messages, photos, videos, or statements \u2014 stripped of essential context to create a misleading impression of victim's character, actions, or intentions. Includes selective quoting, cropping images, sharing old content as if current, or presenting content without the circumstances that explain it.",
       "kill_chain_phases": [
         {
           "kill_chain_name": "tfa-matrix",
@@ -3529,32 +2315,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Taking Things Out of Context",
-      "x_public_description": "Someone takes your messages, posts, or content out of context — selectively sharing parts of conversations to make you look bad, or reframing your words to change their meaning.",
-      "x_recognition_signals": [
-        {
-          "title": "People confront you about things you 'said' that feel wrong",
-          "explanation": "Your words are being shared but the context that gave them meaning is missing."
-        },
-        {
-          "title": "Screenshots of your messages are circulating without the surrounding conversation",
-          "explanation": "Selective quotes that change the meaning of what you wrote."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Keep complete records of important conversations",
-          "explanation": "Full conversation exports are harder to take out of context than isolated screenshots."
-        },
-        {
-          "title": "Calmly provide the full context when confronted",
-          "explanation": "Share the complete conversation if someone approaches you about a misleading excerpt."
-        },
-        {
-          "title": "Be aware of what you put in writing",
-          "explanation": "Not because you're doing anything wrong, but because anything can be stripped of context."
-        }
       ]
     },
     {
@@ -3607,37 +2367,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sexual Blackmail",
-      "x_public_description": "Someone threatens to share intimate content unless you send money, more intimate content, or comply with other demands. This can happen with real images or fabricated content.",
-      "x_safety_warning": "Don't pay or comply with demands. Payment doesn't stop the threats — it usually leads to more demands. Report to police immediately.",
-      "x_recognition_signals": [
-        {
-          "title": "Someone threatens to share intimate content unless you comply",
-          "explanation": "Demands for money, more images, or other actions."
-        },
-        {
-          "title": "Escalating demands after initial compliance",
-          "explanation": "Giving in leads to more demands, not an end to the threats."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Don't pay or send more content",
-          "explanation": "Complying with demands almost never stops the threats."
-        },
-        {
-          "title": "Report to police immediately",
-          "explanation": "Sextortion is a serious criminal offence."
-        },
-        {
-          "title": "Report to the eSafety Commissioner",
-          "explanation": "eSafety can help with removal if images are shared."
-        },
-        {
-          "title": "Block the person but save all evidence first",
-          "explanation": "Screenshot every threat, demand, and account detail before blocking."
-        }
       ]
     },
     {
@@ -3690,41 +2419,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Fake Identity Romance Scams",
-      "x_public_description": "Someone creates a fake online identity to form a romantic connection with you — using stolen photos and fabricated stories to build trust before exploiting it for money, information, or control.",
-      "x_safety_warning": "If you've sent money, contact your bank immediately. There's no shame in being deceived — these operations are sophisticated and target everyone.",
-      "x_recognition_signals": [
-        {
-          "title": "The person always has excuses for not meeting in person or video calling",
-          "explanation": "They avoid any form of verification that would reveal their real identity."
-        },
-        {
-          "title": "The relationship moves unusually fast emotionally",
-          "explanation": "Declarations of love, plans for the future, and emotional intensity develop very quickly."
-        },
-        {
-          "title": "Requests for money, gift cards, or financial help",
-          "explanation": "A 'crisis' emerges that requires your financial help."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Reverse image search their photos",
-          "explanation": "Use Google Images or TinEye to check if their photos appear elsewhere online under different names."
-        },
-        {
-          "title": "Never send money to someone you haven't met in person",
-          "explanation": "Legitimate romantic interests don't need emergency funds from people they've never met."
-        },
-        {
-          "title": "Report to the platform and to Scamwatch",
-          "explanation": "Report at scamwatch.gov.au."
-        },
-        {
-          "title": "Contact your bank if you've sent money",
-          "explanation": "They may be able to recover or stop transfers."
-        }
       ]
     },
     {
@@ -3778,36 +2472,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Destroying Your Reputation in Search Results",
-      "x_public_description": "Someone creates websites, posts, or content specifically designed to appear in search results for your name — filling the first page of Google with damaging, false, or embarrassing content about you.",
-      "x_recognition_signals": [
-        {
-          "title": "Searching your name returns harmful content you didn't create",
-          "explanation": "Negative posts, fake profiles, or defamatory content ranks in search results."
-        },
-        {
-          "title": "New websites or pages about you appear that you didn't make",
-          "explanation": "Deliberately created content designed to damage your reputation."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Document all harmful search results",
-          "explanation": "Screenshot and save URLs of content that appears in search results for your name."
-        },
-        {
-          "title": "Request removal from Google",
-          "explanation": "Google has a process for removing certain types of harmful personal information from search results."
-        },
-        {
-          "title": "Consider professional reputation management",
-          "explanation": "SEO specialists can help push harmful content lower in search results."
-        },
-        {
-          "title": "Report defamatory content to hosting platforms",
-          "explanation": "Request removal of false and harmful content."
-        }
       ]
     },
     {
@@ -3859,32 +2523,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Digging Up Old Content to Use Against You",
-      "x_public_description": "Someone searches through your digital history — old social media posts, archived content, or past online activity — to find things that can be used to embarrass, discredit, or blackmail you.",
-      "x_recognition_signals": [
-        {
-          "title": "Old posts or content you'd forgotten about resurface",
-          "explanation": "Things from years ago are suddenly being shared or referenced."
-        },
-        {
-          "title": "The other person references content from deep in your history",
-          "explanation": "They've clearly spent time searching through your past."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review and clean up old social media posts",
-          "explanation": "Most platforms let you delete or hide old posts. Consider a privacy review of your history."
-        },
-        {
-          "title": "Check what's visible on web archives",
-          "explanation": "Sites like the Wayback Machine may have cached old content."
-        },
-        {
-          "title": "Adjust privacy settings on past content",
-          "explanation": "Many platforms allow you to change the audience on old posts retroactively."
-        }
       ]
     },
     {
@@ -3937,37 +2575,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Creating Fake Evidence",
-      "x_public_description": "Someone fabricates digital evidence — fake messages, edited screenshots, forged documents, or manipulated records — to use against you in legal proceedings, custody disputes, or to manipulate others.",
-      "x_safety_warning": "If you suspect fake evidence is being used against you in legal proceedings, tell your lawyer immediately. Digital forensics can often prove fabrication.",
-      "x_recognition_signals": [
-        {
-          "title": "Evidence presented against you doesn't match your records",
-          "explanation": "Screenshots, messages, or documents that don't match what actually happened."
-        },
-        {
-          "title": "The timing, formatting, or details of 'evidence' seem off",
-          "explanation": "Metadata, fonts, or platform formatting don't look right."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Keep your own independent records of all important interactions",
-          "explanation": "Your records are your protection against fabrication."
-        },
-        {
-          "title": "Tell your lawyer about suspected fake evidence immediately",
-          "explanation": "Legal professionals can engage digital forensics experts to examine evidence."
-        },
-        {
-          "title": "Don't accuse the other person of fabrication without evidence",
-          "explanation": "Let the forensic evidence speak for itself in legal settings."
-        },
-        {
-          "title": "Preserve originals of all communications",
-          "explanation": "Export full conversation logs rather than relying on screenshots."
-        }
       ]
     },
     {
@@ -4019,37 +2626,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Reading & Replying to Your Messages as You",
-      "x_public_description": "Someone reads your messages from friends, family, or support services — and responds pretending to be you, without your knowledge. This isolates you by undermining your relationships and cutting off support.",
-      "x_safety_warning": "If someone is intercepting your messages, people trying to help you may be receiving false responses. Consider reaching out through a completely different channel.",
-      "x_recognition_signals": [
-        {
-          "title": "Friends or family mention conversations you don't remember having",
-          "explanation": "People reference messages 'you' sent that you didn't write."
-        },
-        {
-          "title": "Support services or lawyers say you declined help or cancelled appointments",
-          "explanation": "Someone responded on your behalf to turn away support."
-        },
-        {
-          "title": "Relationships deteriorate for reasons you can't understand",
-          "explanation": "People seem hurt or confused by interactions that didn't happen from your side."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Tell trusted people about the interception",
-          "explanation": "Explain that messages from your accounts may not be from you. Establish a verification method."
-        },
-        {
-          "title": "Use a separate, secure communication channel",
-          "explanation": "A new phone, a new email, or an in-person visit to re-establish contact with key people."
-        },
-        {
-          "title": "Check your accounts for unauthorised access",
-          "explanation": "Review active sessions and change passwords from a safe device."
-        }
       ]
     },
     {
@@ -4100,36 +2676,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Blocking Your Contacts Without Your Knowledge",
-      "x_public_description": "Someone blocks phone numbers, email addresses, or social media connections on your devices — so messages from friends, family, or services never reach you, and you don't know they tried.",
-      "x_recognition_signals": [
-        {
-          "title": "People say they tried to contact you but you never received the messages",
-          "explanation": "Friends, family, or services report messages and calls going unanswered."
-        },
-        {
-          "title": "You feel increasingly isolated without understanding why",
-          "explanation": "People seem to have stopped reaching out, but they actually haven't."
-        },
-        {
-          "title": "Blocked contact lists on your phone contain numbers you didn't block",
-          "explanation": "Check your device's blocked contacts list for unexpected entries."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Regularly check your blocked contacts and email filters",
-          "explanation": "On iPhone: Settings > Phone > Blocked Contacts. Check email spam/filter rules too."
-        },
-        {
-          "title": "Ask trusted people to test whether their messages reach you",
-          "explanation": "A simple 'did you get my text?' check can reveal blocking."
-        },
-        {
-          "title": "Use a secondary contact method for critical relationships",
-          "explanation": "Give key people an alternate way to reach you if your primary phone seems unreliable."
-        }
       ]
     },
     {
@@ -4182,37 +2728,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Controlling Your Social Media",
-      "x_public_description": "Someone controls who you can follow, what you can post, or who can contact you on social media — either by demanding you change settings, by accessing your accounts, or through constant monitoring that makes you self-censor.",
-      "x_recognition_signals": [
-        {
-          "title": "You feel you can't post freely because the other person will react",
-          "explanation": "Fear of the other person's response controls what you share online."
-        },
-        {
-          "title": "The other person dictates who you can follow or be friends with online",
-          "explanation": "They demand you remove connections or restrict your social media activity."
-        },
-        {
-          "title": "Your social media settings have been changed without your input",
-          "explanation": "Privacy settings, friend lists, or profile information has been altered."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Recognise that controlling your social media is controlling behaviour",
-          "explanation": "You have the right to use social media freely."
-        },
-        {
-          "title": "Create a private account the other person doesn't know about",
-          "explanation": "A separate space where you can communicate freely.",
-          "safety_note": "Use a different email and don't link it to your primary accounts."
-        },
-        {
-          "title": "Talk to someone you trust about what's happening",
-          "explanation": "Controlling behaviour escalates. Getting support early matters."
-        }
       ]
     },
     {
@@ -4264,38 +2779,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Restricting Your Access to Devices",
-      "x_public_description": "Someone controls when and how you can use your phone, computer, or internet — imposing time limits, taking your devices, or restricting your access to technology.",
-      "x_safety_warning": "Controlling someone's access to communication technology is a form of coercive control. In Australia, this can be a criminal offence.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person takes your phone or controls when you can use it",
-          "explanation": "Your access to devices is rationed or conditional."
-        },
-        {
-          "title": "Parental control software is installed on your devices (when you're an adult)",
-          "explanation": "Screen time limits or content restrictions are applied to your devices without your consent."
-        },
-        {
-          "title": "Internet access is turned off as punishment or control",
-          "explanation": "Wi-Fi passwords are changed, routers are unplugged, or data is restricted."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Identify a safe communication method the other person can't control",
-          "explanation": "A device at work, a trusted friend's phone, or a library computer."
-        },
-        {
-          "title": "Remove parental control profiles from your devices",
-          "explanation": "These should not be on an adult's device without their consent.",
-          "safety_note": "The other person may be notified."
-        },
-        {
-          "title": "Talk to a support service",
-          "explanation": "Call 1800RESPECT (1800 737 732) from a safe phone. Controlling access to technology is recognised as abuse."
-        }
       ]
     },
     {
@@ -4347,36 +2830,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sabotaging Your Network & Connections",
-      "x_public_description": "Someone contacts your friends, family, colleagues, or community to spread lies about you — turning your support network against you so you have nowhere to turn.",
-      "x_recognition_signals": [
-        {
-          "title": "People in your life are distancing themselves based on false information",
-          "explanation": "Relationships change because of things the other person has told them."
-        },
-        {
-          "title": "The other person contacts your friends, family, or workplace",
-          "explanation": "They reach out to people in your life under various pretexts."
-        },
-        {
-          "title": "Your reputation within your community shifts without explanation",
-          "explanation": "People treat you differently based on a narrative you didn't create."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Talk directly to the people who matter",
-          "explanation": "Have honest conversations with close friends and family about what's happening."
-        },
-        {
-          "title": "Keep records of what the other person tells people",
-          "explanation": "If you learn about specific lies, document them."
-        },
-        {
-          "title": "Don't try to counter every lie",
-          "explanation": "Focus on your closest relationships. You can't control everyone's perception."
-        }
       ]
     },
     {
@@ -4429,32 +2882,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Getting You Banned from Platforms",
-      "x_public_description": "Someone coordinates false reports to get your accounts suspended or banned from platforms you rely on — for work, social connection, or accessing services.",
-      "x_recognition_signals": [
-        {
-          "title": "Your accounts are suspended for violations you didn't commit",
-          "explanation": "Bans or restrictions appear after waves of false reports."
-        },
-        {
-          "title": "Multiple platform bans happen in a short period",
-          "explanation": "Coordinated reporting across platforms."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Appeal every suspension",
-          "explanation": "Platforms have appeal processes. Use them and explain the pattern of false reporting."
-        },
-        {
-          "title": "Document the pattern across platforms",
-          "explanation": "Evidence of coordinated false reporting strengthens your case."
-        },
-        {
-          "title": "Contact platform trust and safety teams directly",
-          "explanation": "Explain the situation and request protection for your accounts."
-        }
       ]
     },
     {
@@ -4502,37 +2929,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Making You Afraid to Communicate",
-      "x_public_description": "Someone tells you they're monitoring everything you say and do online — creating a chilling effect where you're afraid to reach out for help, talk to friends, or communicate freely.",
-      "x_safety_warning": "Even if the monitoring claims are exaggerated or false, the fear they create is real. Reach out for help through a channel you believe is safe.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person explicitly tells you they can see everything",
-          "explanation": "Statements like 'I know everything you do' or 'I can read all your messages'."
-        },
-        {
-          "title": "You self-censor everything because you assume you're watched",
-          "explanation": "Fear of surveillance prevents you from seeking help."
-        },
-        {
-          "title": "The other person demonstrates knowledge that seems to prove monitoring",
-          "explanation": "They may have some access, but use it to imply total surveillance."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Understand that total monitoring is very difficult",
-          "explanation": "Most people can't actually see everything. The claim is often bigger than the reality."
-        },
-        {
-          "title": "Find one safe way to communicate",
-          "explanation": "Even one unmonitored channel — a friend's phone, an in-person conversation — is enough to start getting help."
-        },
-        {
-          "title": "Contact 1800RESPECT from a safe phone",
-          "explanation": "They can help you assess how much monitoring is actually happening and make a safety plan."
-        }
       ]
     },
     {
@@ -4583,37 +2979,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Blocking Your Access to Help Services",
-      "x_public_description": "Someone blocks your access to support services — helpline numbers, support websites, counselling services, or legal aid — so you can't get help.",
-      "x_safety_warning": "If someone is blocking your access to support services, that is a serious form of coercive control. Find any way you can to reach help.",
-      "x_recognition_signals": [
-        {
-          "title": "Helpline numbers or support websites don't work from your devices",
-          "explanation": "Numbers may be blocked, or websites may be filtered."
-        },
-        {
-          "title": "The other person discourages you from seeking help",
-          "explanation": "They tell you services won't help, or that calling will make things worse."
-        },
-        {
-          "title": "Contact details for services have been deleted from your phone",
-          "explanation": "Saved numbers or bookmarks for support services disappear."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Memorise key numbers: 1800RESPECT (1800 737 732), 000 for emergencies",
-          "explanation": "Numbers you know by heart can't be deleted from your phone."
-        },
-        {
-          "title": "Access support from a different device or location",
-          "explanation": "A library, a friend's phone, or your workplace."
-        },
-        {
-          "title": "Ask someone you trust to make the call for you",
-          "explanation": "If you can't safely call, someone else can."
-        }
       ]
     },
     {
@@ -4665,37 +3030,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Controlling Your Identity Documents",
-      "x_public_description": "Someone takes control of your digital identity documents — passwords, Medicare, tax accounts, licences — making it difficult to access services, travel, or prove your identity.",
-      "x_safety_warning": "Loss of identity documents can make it very difficult to access services or leave an unsafe situation. Government agencies can help you recover access.",
-      "x_recognition_signals": [
-        {
-          "title": "You can't access your myGov, tax, Medicare, or other government accounts",
-          "explanation": "Passwords have been changed or your accounts have been linked to the other person's."
-        },
-        {
-          "title": "The other person holds all the important account credentials",
-          "explanation": "You don't know the passwords to your own identity-related accounts."
-        },
-        {
-          "title": "Your mail is being redirected or intercepted",
-          "explanation": "Important documents and correspondence aren't reaching you."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact Services Australia to regain access to myGov",
-          "explanation": "They can verify your identity and help you recover your account."
-        },
-        {
-          "title": "Visit a government service centre in person with photo ID",
-          "explanation": "In-person identity verification can bypass compromised online accounts."
-        },
-        {
-          "title": "Set up a PO Box or redirect mail to a safe address",
-          "explanation": "Ensure important documents reach you."
-        }
       ]
     },
     {
@@ -4746,36 +3080,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Redirecting Your Communications",
-      "x_public_description": "Someone sets up forwarding rules on your email or messaging accounts so copies of everything you receive are also sent to them — or so that certain messages are redirected and never reach you.",
-      "x_recognition_signals": [
-        {
-          "title": "You're not receiving messages or emails you're expecting",
-          "explanation": "People tell you they sent things you never received."
-        },
-        {
-          "title": "Email forwarding or filtering rules you didn't create",
-          "explanation": "Check your email settings for unexpected forwarding addresses or filter rules."
-        },
-        {
-          "title": "The other person knows about emails or messages you received",
-          "explanation": "They reference content from messages sent to you."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Check email forwarding and filter rules immediately",
-          "explanation": "Gmail: Settings > Forwarding. Also check Filters and Blocked Addresses."
-        },
-        {
-          "title": "Check app-specific forwarding",
-          "explanation": "WhatsApp Web, Telegram sessions, and other apps may have active sessions forwarding your messages."
-        },
-        {
-          "title": "Change email passwords and review all connected apps",
-          "explanation": "Remove any third-party app access you don't recognise."
-        }
       ]
     },
     {
@@ -4827,37 +3131,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Locking You Out of Your Money",
-      "x_public_description": "Someone locks you out of bank accounts, credit cards, or financial services — changing passwords, removing your access, or freezing accounts you depend on.",
-      "x_safety_warning": "If you've been locked out of your bank accounts, contact your bank directly. Financial abuse is taken seriously by financial institutions.",
-      "x_recognition_signals": [
-        {
-          "title": "You can't access online banking or financial accounts",
-          "explanation": "Passwords have been changed or your access has been revoked."
-        },
-        {
-          "title": "Cards are cancelled or frozen without your knowledge",
-          "explanation": "Your cards stop working unexpectedly."
-        },
-        {
-          "title": "The other person controls all financial account access",
-          "explanation": "You have no independent access to money."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact your bank directly, in person or by phone",
-          "explanation": "Explain the situation. Banks have processes for domestic and family violence situations."
-        },
-        {
-          "title": "Open an account in your name only",
-          "explanation": "A separate account the other person doesn't know about provides financial safety."
-        },
-        {
-          "title": "Ask about the bank's DFV support services",
-          "explanation": "Most Australian banks have dedicated domestic and family violence teams."
-        }
       ]
     },
     {
@@ -4909,36 +3182,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Watching Your Spending",
-      "x_public_description": "Someone monitors every transaction you make — tracking where you shop, what you buy, and how you spend money through shared bank accounts, linked cards, or transaction notifications.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person questions purchases they shouldn't know about",
-          "explanation": "They reference specific transactions from your account."
-        },
-        {
-          "title": "You feel unable to make any purchase without scrutiny",
-          "explanation": "Every dollar is monitored and questioned."
-        },
-        {
-          "title": "Transaction notifications are going to the other person's device",
-          "explanation": "Alerts for your spending are being received by them."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Open a separate account for independent spending",
-          "explanation": "Even small amounts of independent money provide freedom."
-        },
-        {
-          "title": "Check notification settings on banking apps",
-          "explanation": "Remove the other person's device from transaction alerts."
-        },
-        {
-          "title": "Use cash for sensitive purchases when safe to do so",
-          "explanation": "Cash transactions don't create digital records."
-        }
       ]
     },
     {
@@ -4990,36 +3233,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Controlling What You Can Spend",
-      "x_public_description": "Someone uses technology to restrict your spending — setting limits on cards, requiring approval for purchases, or controlling access to money through banking apps.",
-      "x_recognition_signals": [
-        {
-          "title": "Your card is declined for purchases you should be able to make",
-          "explanation": "Spending limits have been set without your agreement."
-        },
-        {
-          "title": "You need to request or justify every purchase",
-          "explanation": "The other person requires approval before you can spend."
-        },
-        {
-          "title": "Restrictions change based on the other person's mood or as punishment",
-          "explanation": "Your access to money is used as a tool of control."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact your bank about your rights to your own accounts",
-          "explanation": "You have legal rights to accounts in your name."
-        },
-        {
-          "title": "Build independent financial access gradually",
-          "explanation": "A separate account, even with small amounts, creates options."
-        },
-        {
-          "title": "Seek financial counselling",
-          "explanation": "Free financial counselling services can help you plan for financial independence."
-        }
       ]
     },
     {
@@ -5071,36 +3284,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Spending Your Money Without Permission",
-      "x_public_description": "Someone makes purchases, transfers, or financial transactions using your accounts or cards without your knowledge or consent.",
-      "x_recognition_signals": [
-        {
-          "title": "Unexplained transactions on your accounts",
-          "explanation": "Purchases, transfers, or withdrawals you didn't make."
-        },
-        {
-          "title": "Your account balance is lower than expected",
-          "explanation": "Money is leaving your account without your knowledge."
-        },
-        {
-          "title": "Subscriptions or payments set up without your consent",
-          "explanation": "Recurring charges you didn't authorise."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Report unauthorised transactions to your bank immediately",
-          "explanation": "Banks can reverse fraudulent transactions and secure your account."
-        },
-        {
-          "title": "Change your banking passwords and PINs",
-          "explanation": "Do this from a safe device."
-        },
-        {
-          "title": "Request new cards with new numbers",
-          "explanation": "This stops any saved card details from being reused."
-        }
       ]
     },
     {
@@ -5152,33 +3335,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Forcing You to Make Financial Decisions",
-      "x_public_description": "Someone uses threats, pressure, or manipulation to force you to sign contracts, take out loans, transfer money, or make financial decisions that benefit them and harm you.",
-      "x_safety_warning": "Coerced financial transactions may be voidable under law. Talk to a lawyer — many legal aid services offer free advice.",
-      "x_recognition_signals": [
-        {
-          "title": "You've been pressured into signing documents or making transfers",
-          "explanation": "Financial decisions made under duress or threat."
-        },
-        {
-          "title": "Debts or loans in your name that primarily benefit the other person",
-          "explanation": "You're legally responsible for obligations that serve them."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Seek legal advice about coerced transactions",
-          "explanation": "Legal aid services can advise on whether transactions can be reversed."
-        },
-        {
-          "title": "Contact your bank and explain the coercion",
-          "explanation": "Banks have processes for domestic and family violence situations."
-        },
-        {
-          "title": "Keep evidence of the pressure or threats",
-          "explanation": "Messages, recordings, or witness statements documenting the coercion."
-        }
       ]
     },
     {
@@ -5231,37 +3387,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Cryptocurrency & Investment Scams",
-      "x_public_description": "Someone manipulates you into investing money in fake cryptocurrency schemes, fraudulent investments, or scam platforms — often through a romantic relationship or trusted connection.",
-      "x_safety_warning": "If you've invested money in a scheme you now suspect is fraudulent, contact your bank and report to Scamwatch immediately.",
-      "x_recognition_signals": [
-        {
-          "title": "Investment 'returns' exist only on screen, not as withdrawable money",
-          "explanation": "You can see profits on a platform but can't actually withdraw them."
-        },
-        {
-          "title": "Pressure to invest more, especially after initial 'gains'",
-          "explanation": "The scheme requires increasing investment."
-        },
-        {
-          "title": "The other person is unusually knowledgeable about your investment decisions",
-          "explanation": "They guide you to specific platforms or trades."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Stop investing immediately if you suspect fraud",
-          "explanation": "Don't send more money to recover losses."
-        },
-        {
-          "title": "Report to Scamwatch at scamwatch.gov.au",
-          "explanation": "Report the scheme to help protect others."
-        },
-        {
-          "title": "Contact your bank about recovering funds",
-          "explanation": "Quick action may help recover some money."
-        }
       ]
     },
     {
@@ -5314,33 +3439,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Intercepting Your Centrelink or Benefits",
-      "x_public_description": "Someone intercepts, redirects, or controls your government payments — including Centrelink, child support, or other benefits — by changing account details or controlling your myGov access.",
-      "x_safety_warning": "If your government payments are being intercepted, contact Services Australia directly.",
-      "x_recognition_signals": [
-        {
-          "title": "Centrelink or other payments aren't arriving in your account",
-          "explanation": "Payments have been redirected to a different bank account."
-        },
-        {
-          "title": "The other person controls your myGov or Centrelink access",
-          "explanation": "You can't log in to manage your own payments."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact Services Australia directly",
-          "explanation": "Visit in person or call. They can verify your identity and restore your access."
-        },
-        {
-          "title": "Request payments go to an account only you control",
-          "explanation": "Open a new bank account if needed."
-        },
-        {
-          "title": "Ask about a social worker at Centrelink",
-          "explanation": "They can provide additional support for domestic violence situations."
-        }
       ]
     },
     {
@@ -5393,40 +3491,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Identity Theft & Credit Fraud",
-      "x_public_description": "Someone uses your personal information to open accounts, take out loans, or incur debts in your name — damaging your credit history and creating financial obligations you didn't agree to.",
-      "x_recognition_signals": [
-        {
-          "title": "Bills or statements arrive for accounts you didn't open",
-          "explanation": "Credit cards, loans, or services in your name that you didn't apply for."
-        },
-        {
-          "title": "Your credit score has dropped unexpectedly",
-          "explanation": "Debts you didn't incur are affecting your credit."
-        },
-        {
-          "title": "Debt collectors contact you about debts you don't recognise",
-          "explanation": "Obligations in your name that aren't yours."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Check your credit report",
-          "explanation": "You can get a free credit report from Equifax, Experian, or illion."
-        },
-        {
-          "title": "Report identity theft to IDCARE (1800 595 160)",
-          "explanation": "IDCARE is Australia's national identity and cyber support service."
-        },
-        {
-          "title": "Place a ban on your credit file",
-          "explanation": "This prevents new credit from being opened in your name."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Identity theft and fraud are criminal offences."
-        }
       ]
     },
     {
@@ -5480,38 +3544,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Controlling Your Home Through Smart Devices",
-      "x_public_description": "Someone uses smart home technology to control your living environment — changing heating/cooling, locking/unlocking doors, turning utilities on and off, or creating an uncomfortable or unsafe home.",
-      "x_safety_warning": "If smart home devices are being used to create unsafe conditions (extreme temperatures, locked doors), contact police.",
-      "x_recognition_signals": [
-        {
-          "title": "Temperature, lighting, or appliances change without your input",
-          "explanation": "The heating turns off in winter, or lights turn on and off at night."
-        },
-        {
-          "title": "Smart locks change codes or lock you in/out",
-          "explanation": "You can't get in or out of your home, or the codes keep changing."
-        },
-        {
-          "title": "The other person controls these devices remotely after separation",
-          "explanation": "They retain admin access to home systems after moving out."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Identify who controls the smart home accounts",
-          "explanation": "Determine which devices are connected and who has admin access."
-        },
-        {
-          "title": "Factory reset smart home devices",
-          "explanation": "This removes all previous connections. Set them up fresh.",
-          "safety_note": "The other person may notice devices going offline."
-        },
-        {
-          "title": "Contact your utility providers to separate accounts",
-          "explanation": "Ensure you have independent control of electricity, gas, and internet."
-        }
       ]
     },
     {
@@ -5564,36 +3596,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sabotaging Your Job",
-      "x_public_description": "Someone uses technology to undermine your employment — sending messages to your employer, interfering with your work accounts, making you miss meetings, or damaging your professional reputation.",
-      "x_recognition_signals": [
-        {
-          "title": "Your employer receives messages or information about you from the other person",
-          "explanation": "They contact your workplace to cause problems."
-        },
-        {
-          "title": "Work accounts are interfered with",
-          "explanation": "You miss meetings, deadlines, or communications due to sabotage."
-        },
-        {
-          "title": "Your professional reputation is being damaged online",
-          "explanation": "LinkedIn, professional directories, or industry forums are targeted."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Tell your employer what's happening",
-          "explanation": "Many workplaces have policies for supporting employees experiencing domestic violence."
-        },
-        {
-          "title": "Secure your work accounts independently",
-          "explanation": "Change passwords and enable 2FA on all work-related accounts."
-        },
-        {
-          "title": "Document the sabotage",
-          "explanation": "Keep records of every interference for HR and potentially for legal action."
-        }
       ]
     },
     {
@@ -5645,36 +3647,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Cancelling Your Services",
-      "x_public_description": "Someone cancels your subscriptions, services, or utilities — phone plan, internet, streaming, insurance, or other services you depend on — to disrupt your life and assert control.",
-      "x_recognition_signals": [
-        {
-          "title": "Services stop working unexpectedly",
-          "explanation": "Your phone, internet, or other services are disconnected."
-        },
-        {
-          "title": "You receive cancellation confirmations you didn't request",
-          "explanation": "Services you rely on have been cancelled."
-        },
-        {
-          "title": "The other person has account access to services in your name",
-          "explanation": "They can make changes because they know the login details."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact service providers to secure your accounts",
-          "explanation": "Add passwords or PINs that only you know."
-        },
-        {
-          "title": "Set up essential services in your own name with your own credentials",
-          "explanation": "Independent accounts can't be cancelled by someone else."
-        },
-        {
-          "title": "Document cancelled services and the impact",
-          "explanation": "This evidence may be relevant for legal proceedings."
-        }
       ]
     },
     {
@@ -5727,33 +3699,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Using Your Location to Find and Harm You",
-      "x_public_description": "Someone uses tracking technology to locate you and then physically approaches, confronts, or assaults you. Technology enables the physical harm by revealing where you are.",
-      "x_safety_warning": "If you are in immediate danger, call 000. If you suspect someone is tracking your location to find you, contact police and a support service for safety planning.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person shows up at places you haven't told them about",
-          "explanation": "They appear at locations that should be unknown to them."
-        },
-        {
-          "title": "Confrontations happen at locations you only visited once",
-          "explanation": "They're tracking your movements in real time."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Review all tracking and location sharing immediately",
-          "explanation": "Check your phone, car, and belongings for trackers. Review all app permissions."
-        },
-        {
-          "title": "Create a safety plan with a support service",
-          "explanation": "1800RESPECT and local DV services can help you plan for physical safety."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Location-based stalking and assault are serious crimes."
-        }
       ]
     },
     {
@@ -5805,33 +3750,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Revealing Your Safe Location",
-      "x_public_description": "Someone discovers and reveals the address of your refuge, shelter, safe house, or new home — putting you and potentially others at risk.",
-      "x_safety_warning": "If your safe location has been compromised, contact the service managing your safety immediately. You may need to relocate.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person references or appears near your safe location",
-          "explanation": "They know where you're staying despite it being confidential."
-        },
-        {
-          "title": "You receive communications indicating your address is known",
-          "explanation": "Messages referencing your current location."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact your support service or refuge immediately",
-          "explanation": "They can help assess the risk and arrange relocation if needed."
-        },
-        {
-          "title": "Contact police if there's an immediate safety threat",
-          "explanation": "Call 000 if you're in danger."
-        },
-        {
-          "title": "Review how the location may have been discovered",
-          "explanation": "Check devices for tracking, review social media for location clues, and consider whether anyone might have shared the information."
-        }
       ]
     },
     {
@@ -5883,33 +3801,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Intercepting You While Travelling",
-      "x_public_description": "Someone uses technology to predict or track your travel routes and intercepts you — appearing on your commute, following your car, or confronting you during transit.",
-      "x_safety_warning": "If someone is intercepting your movements, vary your routes and times. Contact police.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person appears on your commute or regular routes",
-          "explanation": "They show up along paths they shouldn't know about."
-        },
-        {
-          "title": "Your travel patterns seem to be predicted",
-          "explanation": "They know when you leave and which route you take."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Vary your routes and times",
-          "explanation": "Don't follow the same pattern every day."
-        },
-        {
-          "title": "Check your vehicle for GPS trackers",
-          "explanation": "Inspect thoroughly, including underneath."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "This constitutes stalking."
-        }
       ]
     },
     {
@@ -5962,37 +3853,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Controlling Your Locks Remotely",
-      "x_public_description": "Someone uses smart lock access to lock you in or out of your home, change access codes, or create an unsafe environment — especially after separation when they retain admin access.",
-      "x_safety_warning": "If you are locked in your home and feel unsafe, call 000.",
-      "x_recognition_signals": [
-        {
-          "title": "Smart lock codes stop working or change without your input",
-          "explanation": "You can't get in or out of your home."
-        },
-        {
-          "title": "The other person lets themselves in after you've changed physical locks",
-          "explanation": "They still have smart lock access."
-        },
-        {
-          "title": "Lock activity logs show access at times the other person shouldn't be entering",
-          "explanation": "The smart lock records show unauthorised entries."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Factory reset smart locks and set up new codes",
-          "explanation": "Remove all previous users and start fresh."
-        },
-        {
-          "title": "Consider replacing smart locks with traditional deadbolts",
-          "explanation": "Physical locks can't be controlled remotely."
-        },
-        {
-          "title": "Contact a locksmith who understands smart home security",
-          "explanation": "They can ensure your home is properly secured."
-        }
       ]
     },
     {
@@ -6045,33 +3905,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Interfering with Your Vehicle",
-      "x_public_description": "Someone uses technology to interfere with your vehicle — disabling features through connected car apps, tracking via built-in GPS, or sabotaging vehicle systems.",
-      "x_safety_warning": "Vehicle sabotage is dangerous. If you suspect interference with your car, have it inspected by a mechanic before driving.",
-      "x_recognition_signals": [
-        {
-          "title": "Vehicle features stop working or behave strangely",
-          "explanation": "Remote start, locking, or other connected features malfunction."
-        },
-        {
-          "title": "The other person uses a connected car app to track or control your vehicle",
-          "explanation": "They can see your location or disable features through the manufacturer's app."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact the vehicle manufacturer about removing the other person's app access",
-          "explanation": "Explain the situation and request sole account control."
-        },
-        {
-          "title": "Have the vehicle inspected by a mechanic",
-          "explanation": "Check for trackers and tampering."
-        },
-        {
-          "title": "Change the connected car account passwords",
-          "explanation": "Remove the other person's access to vehicle apps."
-        }
       ]
     },
     {
@@ -6125,37 +3958,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Using Smart Devices as Weapons",
-      "x_public_description": "Someone uses internet-connected devices to create fear, discomfort, or danger — playing sounds at night, extreme temperature changes, turning off security systems, or other disruptive actions.",
-      "x_safety_warning": "If IoT devices are creating unsafe conditions, disconnect them. Your safety is more important than smart home convenience.",
-      "x_recognition_signals": [
-        {
-          "title": "Devices activate at disturbing times",
-          "explanation": "Speakers play sounds at night, lights flash, or alarms trigger."
-        },
-        {
-          "title": "Heating or cooling goes to extremes",
-          "explanation": "Temperature is set dangerously high or low."
-        },
-        {
-          "title": "Security cameras or systems are disabled",
-          "explanation": "Your security devices stop working."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Unplug or disconnect concerning devices",
-          "explanation": "Remove the immediate threat."
-        },
-        {
-          "title": "Change your Wi-Fi password",
-          "explanation": "This disconnects all smart devices."
-        },
-        {
-          "title": "Factory reset and reconfigure only essential devices",
-          "explanation": "Set them up on accounts only you control."
-        }
       ]
     },
     {
@@ -6208,33 +4010,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Interfering with Medical Devices",
-      "x_public_description": "Someone interferes with technology-connected medical devices or health management systems — insulin pumps, medication reminders, CPAP machines, or other health-critical technology.",
-      "x_safety_warning": "Interference with medical devices can be life-threatening. Contact your healthcare provider and police immediately.",
-      "x_recognition_signals": [
-        {
-          "title": "Medical device settings have been changed",
-          "explanation": "Dosages, schedules, or configurations are different from what was prescribed."
-        },
-        {
-          "title": "Medication reminders or health apps have been altered",
-          "explanation": "Alarms are turned off, medications are removed from tracking apps, or prescriptions are cancelled."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact your healthcare provider immediately",
-          "explanation": "Report the interference and get your medical devices checked."
-        },
-        {
-          "title": "Secure access to medical device apps and accounts",
-          "explanation": "Change passwords and remove the other person's access."
-        },
-        {
-          "title": "Report to police",
-          "explanation": "Interfering with medical devices is a serious criminal offence."
-        }
       ]
     },
     {
@@ -6287,37 +4062,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Coordinated Physical Stalking",
-      "x_public_description": "Someone uses multiple technology methods together to stalk you — combining phone tracking, social media monitoring, third-party informants, and physical surveillance into a persistent pattern.",
-      "x_safety_warning": "Coordinated stalking is dangerous and often escalates. Contact police and a specialist stalking support service.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person knows your movements with impossible precision",
-          "explanation": "They know where you are at all times, suggesting multiple tracking methods."
-        },
-        {
-          "title": "You feel watched from multiple directions",
-          "explanation": "The surveillance feels comprehensive and persistent."
-        },
-        {
-          "title": "Others seem to be involved in tracking you",
-          "explanation": "Third parties appear to be reporting your movements."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Contact police and report the full pattern",
-          "explanation": "Present the complete picture, not just individual incidents."
-        },
-        {
-          "title": "Work with a specialist service to do a full technology safety audit",
-          "explanation": "Check all devices, accounts, vehicles, and belongings."
-        },
-        {
-          "title": "Create a comprehensive safety plan",
-          "explanation": "A specialist service can help plan for your physical and digital safety together."
-        }
       ]
     },
     {
@@ -6370,33 +4114,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Sending Authorities to Your Door",
-      "x_public_description": "Someone makes false reports to police, child protection, or other authorities about you — sending emergency services to your home, triggering investigations, or creating a record of false complaints.",
-      "x_safety_warning": "If authorities arrive based on false reports, stay calm and cooperate. Document the false report for your own records and tell your lawyer.",
-      "x_recognition_signals": [
-        {
-          "title": "Authorities arrive based on reports you didn't make",
-          "explanation": "Police, child protection, or other services respond to calls that didn't come from you."
-        },
-        {
-          "title": "A pattern of false reports emerges",
-          "explanation": "Repeated false complaints to authorities."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Proactively brief local police about the false reporting risk",
-          "explanation": "Ask for your address to be flagged."
-        },
-        {
-          "title": "Report false emergency calls as criminal offences",
-          "explanation": "Gather evidence that reports are fabricated."
-        },
-        {
-          "title": "Keep a chronological record of all false reports",
-          "explanation": "Dates, responding agencies, and outcomes."
-        }
       ]
     },
     {
@@ -6450,37 +4167,6 @@
       },
       "object_marking_refs": [
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-      ],
-      "x_public_title": "Technology Abuse Through Custody Arrangements",
-      "x_public_description": "Someone uses custody arrangements as a channel for technology-facilitated abuse — monitoring through children's devices, using co-parenting apps for harassment, or leveraging custody exchanges for surveillance.",
-      "x_safety_warning": "Children's safety is paramount. Document all technology misuse through custody arrangements for family court.",
-      "x_recognition_signals": [
-        {
-          "title": "The other person tracks children's locations excessively",
-          "explanation": "Constant location checking beyond what's needed for custody."
-        },
-        {
-          "title": "Co-parenting apps are used for hostile messages instead of co-parenting",
-          "explanation": "The communication platform becomes a harassment tool."
-        },
-        {
-          "title": "Children's devices have monitoring software that enables household surveillance",
-          "explanation": "Apps on children's phones that track your location or record your home."
-        }
-      ],
-      "x_safety_actions": [
-        {
-          "title": "Use court-approved co-parenting apps",
-          "explanation": "Apps like OurFamilyWizard create documented, structured communication."
-        },
-        {
-          "title": "Check children's devices for monitoring software",
-          "explanation": "Audit apps and permissions on devices the children bring between homes."
-        },
-        {
-          "title": "Document all technology misuse for family court",
-          "explanation": "Courts take technology-facilitated abuse seriously in custody decisions."
-        }
       ]
     },
     {
@@ -17629,7 +15315,7 @@
       "created": "2026-02-04T00:00:00.000Z",
       "modified": "2026-02-05T19:56:46.000Z",
       "name": "Remote Vehicle Control",
-      "description": "Vehicle functions activating without user action — horn, lights, locks, engine.",
+      "description": "Vehicle functions activating without user action \u2014 horn, lights, locks, engine.",
       "indicator_types": [
         "anomalous-activity"
       ],
@@ -17697,7 +15383,7 @@
       "created": "2026-02-04T00:00:00.000Z",
       "modified": "2026-02-05T19:56:46.000Z",
       "name": "Unexplained Device Activation",
-      "description": "Smart home devices activating without user command — alarms, lights, speakers, TV.",
+      "description": "Smart home devices activating without user command \u2014 alarms, lights, speakers, TV.",
       "indicator_types": [
         "anomalous-activity"
       ],
