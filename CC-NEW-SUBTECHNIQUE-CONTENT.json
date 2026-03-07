@@ -1,0 +1,289 @@
+{
+  "_meta": {
+    "purpose": "Sub-techniques to add under existing parent techniques. These are platform-specific or variant-specific breakdowns.",
+    "extension_key": "extension-definition--acf2f380-0000-4000-8000-000000000002"
+  },
+  "sub_techniques": [
+    {
+      "safe_id": "SAFE-T-0072.001",
+      "parent": "SAFE-T-0072",
+      "name": "Commercial Stalkerware (mSpy, FlexiSpy, etc.)",
+      "description": "Installation of commercially available stalkerware products specifically marketed for monitoring. Products like mSpy, FlexiSpy, Cocospy, and Spyic offer subscription-based phone monitoring with features including message reading, call recording, location tracking, and keylogging.",
+      "x_safe_public_title": "Commercial spy apps installed on your phone",
+      "x_safe_public_summary": "Products like mSpy or FlexiSpy are sold online as monitoring tools. Someone may have installed one on your phone — these apps hide themselves and send everything you do to another person.",
+      "x_safe_public_notices": [
+        {
+          "signal": "You find an unfamiliar app with a generic name like 'System Service' or 'Update Service'",
+          "detail": "Stalkerware apps disguise themselves with boring names so you won't notice them."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Use a stalkerware detection tool",
+          "detail": "The Coalition Against Stalkerware recommends specific detection apps. Visit stopstalkerware.org for guidance.",
+          "safety_note": "Get safety advice before removing — the person may be alerted."
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0072.002",
+      "parent": "SAFE-T-0072",
+      "name": "Dual-Use Parental Control Abuse",
+      "description": "Repurposing legitimate parental control apps (Qustodio, Bark, Google Family Link, Apple Screen Time) for adult partner surveillance. These apps are designed for child safety but provide comprehensive monitoring when applied to an adult's device.",
+      "x_safe_public_title": "Parental control apps used to monitor an adult",
+      "x_safe_public_summary": "Apps designed to keep children safe — like Google Family Link or Screen Time — can also be used to monitor and control an adult partner's phone usage, location, and communications.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Your phone has restrictions you didn't set",
+          "detail": "App limits, content filters, or screen time restrictions that you didn't configure — someone with admin access set these up."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Check for device administrator or Family accounts",
+          "detail": "On Android: Settings > Security > Device Admin. On iPhone: Settings > Screen Time. If someone else's account controls yours, that's not normal.",
+          "safety_note": null
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0072.003",
+      "parent": "SAFE-T-0072",
+      "name": "Enterprise MDM Stalkerware",
+      "description": "Using enterprise mobile device management (MDM) tools for intimate partner monitoring. MDM profiles can be installed that provide comprehensive device control including location tracking, app management, message access, and remote wipe capability.",
+      "x_safe_public_title": "Work-style device management used to control your phone",
+      "x_safe_public_summary": "Your phone may have a management profile installed — the kind normally used by employers — that gives another person control over your device, access to your location, and the ability to read your data.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Your phone shows 'This device is managed' or similar",
+          "detail": "On iPhone: Settings > General > VPN & Device Management. On Android: Settings > Security > Device Admin."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Check for MDM profiles",
+          "detail": "If you find a management profile you didn't install, get advice before removing it — the administrator will be notified.",
+          "safety_note": "Seek specialist tech safety advice from eSafety Commissioner."
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0072.004",
+      "parent": "SAFE-T-0072",
+      "name": "Accessibility Service Abuse",
+      "description": "Android stalkerware that uses the Accessibility Service API to read screen content from any app, including encrypted messengers like Signal and WhatsApp. This technique defeats end-to-end encryption because it reads the screen after decryption. The stalkerware reads what's displayed, not the network traffic.",
+      "x_safe_public_title": "Spy software that reads your screen — even encrypted messages",
+      "x_safe_public_summary": "Some monitoring apps use a special Android feature called 'Accessibility Services' to read everything displayed on your screen — including messages in Signal, WhatsApp, and other encrypted apps. Encryption doesn't help because the app reads what's on screen, not what's sent over the network.",
+      "x_safe_public_notices": [
+        {
+          "signal": "They know the content of your Signal or WhatsApp messages",
+          "detail": "If someone knows what you wrote in an encrypted app, screen-reading software is a likely explanation."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Check Accessibility Services on Android",
+          "detail": "Settings > Accessibility. If an unfamiliar app has accessibility access, it may be reading your screen.",
+          "safety_note": "Get specialist advice before disabling — the monitoring person may be alerted."
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0073.001",
+      "parent": "SAFE-T-0073",
+      "name": "AirTag / SmartTag Planting",
+      "description": "Hiding Apple AirTags, Samsung SmartTags, or Tile trackers in bags, vehicles, clothing pockets, or children's belongings to track location. Consumer Bluetooth trackers are cheap, small, and easy to hide.",
+      "x_safe_public_title": "A small tracking device hidden in your belongings",
+      "x_safe_public_summary": "Apple AirTags, Samsung SmartTags, and Tile trackers are small enough to hide in a bag, car, or coat pocket. Someone may have placed one in your belongings to track your location.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Your iPhone alerts you to an 'AirTag Found Moving With You'",
+          "detail": "Apple sends alerts when an unknown AirTag is travelling with you. Take this seriously."
+        },
+        {
+          "signal": "You find a small disc-shaped device you don't recognise",
+          "detail": "AirTags are coin-sized white discs. SmartTags are similar. Check bags, car compartments, and jacket pockets."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "If you find an unknown tracker, don't destroy it",
+          "detail": "It may contain evidence. Keep it and report to police. You can disable an AirTag by removing the battery.",
+          "safety_note": "Consider that removing the tracker may alert the person tracking you."
+        },
+        {
+          "action": "Android users: install Apple's Tracker Detect app or use Bluetooth scanner",
+          "detail": "Android doesn't automatically alert for AirTags. Install a detection app.",
+          "safety_note": null
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0073.002",
+      "parent": "SAFE-T-0073",
+      "name": "Vehicle GPS Tracker Installation",
+      "description": "Installing dedicated GPS tracking devices in a vehicle's OBD-II port, under the chassis (magnetic mount), in wheel wells, or hardwired into vehicle electronics. Dedicated vehicle trackers can be harder to detect than consumer Bluetooth trackers and don't trigger phone alerts.",
+      "x_safe_public_title": "A GPS tracker hidden in your car",
+      "x_safe_public_summary": "A GPS tracking device may be hidden in your car — under the chassis, in the diagnostic port, or wired into the electronics. These are harder to find than AirTags and your phone won't alert you.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Someone always seems to know where you've driven",
+          "detail": "If they reference specific locations, routes, or stops without explanation, a vehicle tracker is possible."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Have a mechanic check your vehicle",
+          "detail": "Ask them to check the OBD-II port (under the dashboard), wheel wells, and undercarriage for attached devices.",
+          "safety_note": "Use a trusted mechanic the other person doesn't know about."
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0073.003",
+      "parent": "SAFE-T-0073",
+      "name": "Find My / Google Find My Device Misuse",
+      "description": "Exploiting Apple Find My or Google Find My Device through shared family accounts, left-behind devices, or compromised credentials to track location in real time. Uses legitimate platform features — harder to classify as 'stalkerware' because it's built into the operating system.",
+      "x_safe_public_title": "Being tracked through Find My iPhone or Google",
+      "x_safe_public_summary": "If someone has access to your Apple ID or Google account, they can see your real-time location through Find My iPhone or Google Find My Device — without installing anything on your phone.",
+      "x_safe_public_notices": [
+        {
+          "signal": "You're still on a shared Apple Family or Google Family plan with the other person",
+          "detail": "Family sharing often includes location sharing by default."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Leave shared family plans and change account passwords",
+          "detail": "Remove yourself from Family Sharing (Apple) or Family Link (Google) and change your password.",
+          "safety_note": "Plan your digital safety steps with a specialist first — sudden changes may be noticed."
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0082.001",
+      "parent": "SAFE-T-0082",
+      "name": "Coerced Biometric Access",
+      "description": "Forcing or tricking the victim into unlocking devices with fingerprint or face recognition while asleep, intoxicated, or under duress. May include physically placing the victim's finger on the sensor while they sleep. Bypasses all password security and leaves no digital trace — the unlock looks legitimate to the device.",
+      "x_safe_public_title": "Someone unlocking your phone with your face or fingerprint while you're asleep",
+      "x_safe_public_summary": "If someone holds your phone to your face or places your finger on the sensor while you're asleep or incapacitated, they can access everything on your device. It leaves no trace — the phone just sees a normal unlock.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Your phone shows it was used at times you were asleep",
+          "detail": "Check screen time or battery usage for activity during hours you were definitely asleep."
+        },
+        {
+          "signal": "Someone knows content from your phone they shouldn't",
+          "detail": "Messages read, photos seen, apps checked — while you were sleeping."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Switch from biometric to PIN/password",
+          "detail": "A PIN can't be used while you're asleep. A face or fingerprint can. For at-risk situations, PIN is more secure.",
+          "safety_note": null
+        },
+        {
+          "action": "Enable lockdown mode before sleeping",
+          "detail": "Both iOS and Android have lockdown/power-off options that disable biometric unlock. Use this overnight.",
+          "safety_note": null
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0092.001",
+      "parent": "SAFE-T-0092",
+      "name": "Coded Threat Language",
+      "description": "Threats disguised as benign messages that only the victim understands the meaning of. 'I drove past your favourite park today.' 'Saw someone who looked like you at the shops.' Looks innocent to police, courts, and anyone else — but the victim knows exactly what it means. The shared history between perpetrator and victim is the cipher.",
+      "x_safe_public_title": "Messages that sound innocent but you know are threats",
+      "x_safe_public_summary": "They send messages that would look harmless to anyone else — but you know what they really mean. 'I was in your area today.' 'I thought about you when I saw [something specific].' The threat is real but invisible to everyone except you.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Messages that reference places, people, or events with hidden meaning",
+          "detail": "They mention your workplace, your child's school, or a specific location — and you know it's a threat, not a casual comment."
+        },
+        {
+          "signal": "You feel afraid but can't explain why to anyone reading the message",
+          "detail": "The words look innocent on paper. The fear you feel is based on context only you have."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Keep a log that explains the context",
+          "detail": "Write down what each message means to you and why. 'When they say X, they mean Y because of Z incident.' This context is evidence.",
+          "safety_note": null
+        },
+        {
+          "action": "Tell a DV specialist about the pattern",
+          "detail": "Family violence services understand coded threats. They can help you document and explain the pattern to police and courts.",
+          "safety_note": null
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0106.002",
+      "parent": "SAFE-T-0106",
+      "name": "AI-Enhanced NCII",
+      "description": "Taking non-intimate photos (social media photos, selfies, professional headshots) and using AI to generate nude or intimate versions. The victim never took or consented to an intimate image — the intimate image was fabricated from a clothed photo. Growing legal gap as some jurisdictions' laws require an 'original intimate image.'",
+      "x_safe_public_title": "Someone has created fake intimate images of you using AI",
+      "x_safe_public_summary": "Using artificial intelligence, someone has taken your ordinary photos — from social media, work, or everyday life — and generated fake nude or intimate images of you. You never took these photos. They were created without your knowledge or consent.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Intimate images of you appear that you never took",
+          "detail": "If intimate images exist that you didn't create and weren't taken of you, they may be AI-generated from your public photos."
+        },
+        {
+          "signal": "The images look almost real but something is slightly off",
+          "detail": "AI-generated images may have subtle artefacts — unusual skin texture, inconsistent lighting, odd backgrounds."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Report to the eSafety Commissioner immediately",
+          "detail": "The eSafety Commissioner can issue removal notices to platforms hosting the images. esafety.gov.au",
+          "safety_note": null
+        },
+        {
+          "action": "Report to police",
+          "detail": "Creating and distributing intimate images without consent is a criminal offence in Australia, regardless of whether the images are 'real.'",
+          "safety_note": null
+        },
+        {
+          "action": "Don't try to find or view the images yourself",
+          "detail": "Searching for them can be traumatising and may increase their visibility in search results.",
+          "safety_note": null
+        }
+      ]
+    },
+    {
+      "safe_id": "SAFE-T-0140.001",
+      "parent": "SAFE-T-0140",
+      "name": "Connected Vehicle Remote Control",
+      "description": "Using manufacturer apps (Tesla, BMW Connected, MySubaru, FordPass) to remotely lock/unlock, start/stop engine, honk horn, flash lights, adjust climate, or disable a connected vehicle. Modern connected cars provide extensive remote control capabilities through smartphone apps, and the person who set up the app retains control even after separation.",
+      "x_safe_public_title": "Someone is remotely controlling your car through an app",
+      "x_safe_public_summary": "Modern cars can be controlled through smartphone apps — locking doors, starting the engine, honking the horn, or even disabling the vehicle. If your ex-partner set up the car's app account, they may still have control.",
+      "x_safe_public_notices": [
+        {
+          "signal": "Your car does things by itself — horn honking, lights flashing, doors locking",
+          "detail": "These can all be triggered remotely through the manufacturer's app."
+        },
+        {
+          "signal": "Your car won't start or suddenly shuts off",
+          "detail": "Some connected car apps allow remote engine disable."
+        }
+      ],
+      "x_safe_public_actions": [
+        {
+          "action": "Contact the car manufacturer to transfer the connected account",
+          "detail": "The dealership or manufacturer can remove the previous owner's access and set up a new account for you.",
+          "safety_note": null
+        },
+        {
+          "action": "Change the car's PIN/password if applicable",
+          "detail": "Some vehicles have their own PIN codes independent of the app.",
+          "safety_note": null
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,7 @@ def extract_public(html_content):
     result = {}
     
     # Technique ID
-    id_m = re.search(r'<span class="h5 card-title">ID:&nbsp;</span>(TFA-T-\d+)', html_content)
+    id_m = re.search(r'<span class="h5 card-title">ID:&nbsp;</span>(SAFE-T-\d+)', html_content)
     if not id_m: return None, None
     tid = id_m.group(1)
     
@@ -88,7 +88,7 @@ extractions = {}
 errors = []
 
 for dirname in sorted(os.listdir(TECHNIQUES_DIR)):
-    if not dirname.startswith('TFA-T-'):
+    if not dirname.startswith('SAFE-T-'):
         continue
     filepath = os.path.join(TECHNIQUES_DIR, dirname, 'index.html')
     if not os.path.exists(filepath):
@@ -145,7 +145,7 @@ for obj in bundle.get('objects', []):
     # Find technique ID
     ext_id = None
     for ref in obj.get('external_references', []):
-        if ref.get('source_name') == 'not-a-standard-tfa' and ref.get('external_id', '').startswith('TFA-T-'):
+        if ref.get('source_name') == 'not-a-standard-tfa' and ref.get('external_id', '').startswith('SAFE-T-'):
             ext_id = ref['external_id']
             break
     
@@ -188,7 +188,7 @@ for obj in verify.get('objects', []):
         has_public += 1
     else:
         for ref in obj.get('external_references', []):
-            if ref.get('external_id', '').startswith('TFA-T-'):
+            if ref.get('external_id', '').startswith('SAFE-T-'):
                 missing_public.append(ref['external_id'])
 
 print(f"  Techniques with public content: {has_public}/74")
@@ -205,7 +205,7 @@ for obj in verify.get('objects', []):
 if sample:
     ext_id = None
     for ref in sample.get('external_references', []):
-        if ref.get('external_id', '').startswith('TFA-T-'):
+        if ref.get('external_id', '').startswith('SAFE-T-'):
             ext_id = ref['external_id']
     print(f"\n  Sample ({ext_id}):")
     print(f"    Title:    {sample.get('x_public_title')}")

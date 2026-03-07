@@ -83,7 +83,7 @@ def update_technique_page(html_path, technique_id):
         html = f.read()
 
     # Check if already has table (already updated)
-    if 'table-bordered' in html and 'TFA-M-' in html:
+    if 'table-bordered' in html and 'SAFE-M-' in html:
         print(f"  Skipping {technique_id} (already has mitigations)")
         return False
 
@@ -125,7 +125,7 @@ def main():
             continue
         print(f"\nProcessing {tech_dir}...")
         for subdir in sorted(tech_dir.iterdir()):
-            if subdir.is_dir() and subdir.name.startswith('TFA-T-'):
+            if subdir.is_dir() and subdir.name.startswith('SAFE-T-'):
                 html_path = subdir / 'index.html'
                 if html_path.exists():
                     if update_technique_page(html_path, subdir.name):

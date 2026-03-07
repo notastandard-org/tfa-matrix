@@ -4,9 +4,9 @@ TFA Matrix STIX Integration: Mitigations & Detections
 
 Reads the existing tfa-attack.json STIX bundle and adds:
   - course-of-action objects for each mitigation
-  - x-tfa-detection objects for each detection indicator
+  - x-safe-detection objects for each detection indicator
   - 'mitigates' relationships (course-of-action -> technique)
-  - 'detects' relationships (x-tfa-detection -> technique)
+  - 'detects' relationships (x-safe-detection -> technique)
 
 Also generates master_mitigations_detections.csv.
 
@@ -37,7 +37,7 @@ CREATED_DATE = "2026-02-04T00:00:00.000Z"
 MODIFIED_DATE = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.000Z")
 IDENTITY_REF = "identity--f1b2c3d4-e5f6-7890-abcd-ef1234567890"
 MARKING_REF = "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678"
-EXTENSION_ID = "extension-definition--acf2f380-0000-4000-8000-000000000001"
+EXTENSION_ID = "extension-definition--acf2f380-0000-4000-8000-000000000002"
 SPEC_VERSION = "2.1"
 
 # Source name for external references
@@ -51,14 +51,14 @@ def deterministic_uuid(seed: str) -> str:
 
 
 def build_technique_stix_map(bundle: dict) -> dict:
-    """Map technique external IDs (TFA-T-XXXX) to their STIX IDs."""
+    """Map technique external IDs (SAFE-T-XXXX) to their STIX IDs."""
     mapping = {}
     for obj in bundle["objects"]:
         if obj["type"] == "attack-pattern":
             ext_refs = obj.get("external_references", [])
             if ext_refs:
                 ext_id = ext_refs[0].get("external_id", "")
-                if ext_id.startswith("TFA-T-"):
+                if ext_id.startswith("SAFE-T-"):
                     mapping[ext_id] = obj["id"]
     return mapping
 
@@ -85,8 +85,8 @@ def create_course_of_action(mit_id: str, name: str, description: str) -> dict:
         "extensions": {
             EXTENSION_ID: {
                 "extension_type": "property-extension",
-                "x_tfa_mitigation_id": mit_id,
-                "x_tfa_version": "1.0"
+                "x_safe_mitigation_id": mit_id,
+                "x_safe_version": "1.0"
             }
         }
     }
@@ -108,7 +108,7 @@ def create_detection(det_id: str, name: str, description: str) -> dict:
         "name": name,
         "description": description,
         "indicator_types": ["anomalous-activity"],
-        "pattern": f"[x-tfa-behavioral:description = '{det_id}']",
+        "pattern": f"[x-safe-behavioral:description = '{det_id}']",
         "pattern_type": "stix",
         "valid_from": CREATED_DATE,
         "external_references": [
@@ -122,9 +122,9 @@ def create_detection(det_id: str, name: str, description: str) -> dict:
         "extensions": {
             EXTENSION_ID: {
                 "extension_type": "property-extension",
-                "x_tfa_detection_id": det_id,
-                "x_tfa_signal_type": "behavioral",
-                "x_tfa_version": "1.0"
+                "x_safe_detection_id": det_id,
+                "x_safe_signal_type": "behavioral",
+                "x_safe_version": "1.0"
             }
         }
     }

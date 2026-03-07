@@ -187,7 +187,7 @@ def main():
     print("Processing technique pages in output/...")
     if OUTPUT_TECHNIQUES_DIR.exists():
         for tech_dir in sorted(OUTPUT_TECHNIQUES_DIR.iterdir()):
-            if tech_dir.is_dir() and tech_dir.name.startswith('TFA-T-'):
+            if tech_dir.is_dir() and tech_dir.name.startswith('SAFE-T-'):
                 html_path = tech_dir / 'index.html'
                 if html_path.exists():
                     if process_technique_page(html_path):
@@ -196,7 +196,7 @@ def main():
     print("\nProcessing technique pages in techniques/...")
     if TECHNIQUES_DIR.exists():
         for tech_dir in sorted(TECHNIQUES_DIR.iterdir()):
-            if tech_dir.is_dir() and tech_dir.name.startswith('TFA-T-'):
+            if tech_dir.is_dir() and tech_dir.name.startswith('SAFE-T-'):
                 html_path = tech_dir / 'index.html'
                 if html_path.exists():
                     if process_technique_page(html_path):
@@ -207,7 +207,7 @@ def main():
     for tactics_dir in [OUTPUT_TACTICS_DIR, TACTICS_DIR]:
         if tactics_dir.exists():
             for tactic_dir in sorted(tactics_dir.iterdir()):
-                if tactic_dir.is_dir() and tactic_dir.name.startswith('TFA-TA-'):
+                if tactic_dir.is_dir() and tactic_dir.name.startswith('SAFE-TA-'):
                     html_path = tactic_dir / 'index.html'
                     if html_path.exists():
                         if process_tactic_page(html_path):

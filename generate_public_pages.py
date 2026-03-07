@@ -23,7 +23,7 @@ TACTICS_DIR = BASE_DIR / "tactics"
 MATRIX_PATH = BASE_DIR / "matrices" / "tfa" / "index.html"
 
 # Extension ID for TFA properties
-EXT_ID = "extension-definition--acf2f380-0000-4000-8000-000000000001"
+EXT_ID = "extension-definition--acf2f380-0000-4000-8000-000000000002"
 
 # Disclaimer HTML
 PUBLIC_DISCLAIMER = '''<div class="public-disclaimer">
@@ -55,16 +55,16 @@ def get_techniques(stix_data):
     for obj in stix_data.get('objects', []):
         if obj.get('type') == 'attack-pattern':
             ext = obj.get('extensions', {}).get(EXT_ID, {})
-            tfa_id = ext.get('x_tfa_technique_id')
+            tfa_id = ext.get('x_safe_technique_id')
             if tfa_id:
                 techniques[tfa_id] = {
                     'name': obj.get('name', ''),
                     'description': obj.get('description', ''),
-                    'public_title': ext.get('x_tfa_public_title', ''),
-                    'public_summary': ext.get('x_tfa_public_summary', ''),
-                    'safety_warning': ext.get('x_tfa_public_safety_warning'),
-                    'notices': ext.get('x_tfa_public_notices', []),
-                    'actions': ext.get('x_tfa_public_actions', []),
+                    'public_title': ext.get('x_safe_public_title', ''),
+                    'public_summary': ext.get('x_safe_public_summary', ''),
+                    'safety_warning': ext.get('x_safe_public_safety_warning'),
+                    'notices': ext.get('x_safe_public_notices', []),
+                    'actions': ext.get('x_safe_public_actions', []),
                 }
     return techniques
 
@@ -75,14 +75,14 @@ def get_tactics(stix_data):
     for obj in stix_data.get('objects', []):
         if obj.get('type') == 'x-mitre-tactic':
             ext = obj.get('extensions', {}).get(EXT_ID, {})
-            tfa_id = ext.get('x_tfa_tactic_id')
+            tfa_id = ext.get('x_safe_tactic_id')
             if tfa_id:
                 tactics[tfa_id] = {
                     'name': obj.get('name', ''),
                     'description': obj.get('description', ''),
-                    'public_name': ext.get('x_tfa_public_name', ''),
-                    'public_intro': ext.get('x_tfa_public_intro', ''),
-                    'public_safety': ext.get('x_tfa_public_safety', ''),
+                    'public_name': ext.get('x_safe_public_name', ''),
+                    'public_intro': ext.get('x_safe_public_intro', ''),
+                    'public_safety': ext.get('x_safe_public_safety', ''),
                 }
     return tactics
 
@@ -367,7 +367,7 @@ def process_matrix_page(matrix_path, techniques):
         html = html[:insert_pos] + '    ' + toggle_html + '\n' + MATRIX_DISCLAIMER + '\n' + html[insert_pos:]
 
     # Find technique cells and add data attributes
-    # Pattern: <a href="/techniques/TFA-T-XXXX" ...>Title</a> inside technique-cell div
+    # Pattern: <a href="/techniques/SAFE-T-XXXX" ...>Title</a> inside technique-cell div
     def replace_cell(match):
         full_div = match.group(1)
         href = match.group(2)
@@ -375,7 +375,7 @@ def process_matrix_page(matrix_path, techniques):
         title = match.group(4)
 
         # Extract technique ID
-        id_match = re.search(r'TFA-T-\d+', href)
+        id_match = re.search(r'SAFE-T-\d+', href)
         if not id_match:
             return match.group(0)
 
@@ -396,8 +396,8 @@ def process_matrix_page(matrix_path, techniques):
         # Return with public title (shown by default)
         return f'{new_div}\n    <a href="{href}"{attrs}>{public_title}</a>'
 
-    # Match: <div class="technique-cell ...">...<a href="/techniques/TFA-T-XXXX" ...>Title</a>
-    cell_pattern = r'(<div class="technique-cell[^"]*"[^>]*>)\s*<a href="(/techniques/TFA-T-\d+)"([^>]*)>([^<]+)</a>'
+    # Match: <div class="technique-cell ...">...<a href="/techniques/SAFE-T-XXXX" ...>Title</a>
+    cell_pattern = r'(<div class="technique-cell[^"]*"[^>]*>)\s*<a href="(/techniques/SAFE-T-\d+)"([^>]*)>([^<]+)</a>'
     html = re.sub(cell_pattern, replace_cell, html, flags=re.DOTALL)
 
     # Add script tag
@@ -425,7 +425,7 @@ def main():
     print("\nProcessing technique pages in output/...")
     if OUTPUT_TECHNIQUES_DIR.exists():
         for tech_dir in sorted(OUTPUT_TECHNIQUES_DIR.iterdir()):
-            if tech_dir.is_dir() and tech_dir.name.startswith('TFA-T-'):
+            if tech_dir.is_dir() and tech_dir.name.startswith('SAFE-T-'):
                 html_path = tech_dir / 'index.html'
                 if html_path.exists():
                     tfa_id = tech_dir.name
@@ -440,7 +440,7 @@ def main():
     print("\nProcessing technique pages in techniques/...")
     if TECHNIQUES_DIR.exists():
         for tech_dir in sorted(TECHNIQUES_DIR.iterdir()):
-            if tech_dir.is_dir() and tech_dir.name.startswith('TFA-T-'):
+            if tech_dir.is_dir() and tech_dir.name.startswith('SAFE-T-'):
                 html_path = tech_dir / 'index.html'
                 if html_path.exists():
                     tfa_id = tech_dir.name
@@ -454,7 +454,7 @@ def main():
     for tactics_dir in [OUTPUT_TACTICS_DIR, TACTICS_DIR]:
         if tactics_dir.exists():
             for tactic_dir in sorted(tactics_dir.iterdir()):
-                if tactic_dir.is_dir() and tactic_dir.name.startswith('TFA-TA-'):
+                if tactic_dir.is_dir() and tactic_dir.name.startswith('SAFE-TA-'):
                     html_path = tactic_dir / 'index.html'
                     if html_path.exists():
                         tfa_id = tactic_dir.name

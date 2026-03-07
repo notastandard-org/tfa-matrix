@@ -14,7 +14,7 @@ def clean(text):
 
 def extract(html_content):
     result = {}
-    id_m = re.search(r'<span class="h5 card-title">ID:&nbsp;</span>(TFA-T-\d+)', html_content)
+    id_m = re.search(r'<span class="h5 card-title">ID:&nbsp;</span>(SAFE-T-\d+)', html_content)
     if not id_m: return None, None
     tid = id_m.group(1)
     
@@ -59,7 +59,7 @@ def extract(html_content):
 results = {}
 errors = []
 for d in sorted(os.listdir(TECHNIQUES_DIR)):
-    if not d.startswith('TFA-T-'): continue
+    if not d.startswith('SAFE-T-'): continue
     fp = os.path.join(TECHNIQUES_DIR, d, 'index.html')
     if not os.path.exists(fp):
         errors.append(d)

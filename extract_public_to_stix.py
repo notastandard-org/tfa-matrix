@@ -2,7 +2,7 @@
 """
 Extract public-layer content from TFA Matrix HTML pages and inject into STIX bundle.
 
-Reads: techniques/TFA-T-XXXX/index.html (74 pages)
+Reads: techniques/SAFE-T-XXXX/index.html (74 pages)
 Updates: tfa-attack.json (STIX 2.1 bundle)
 
 Adds these fields to each attack-pattern object:
@@ -229,7 +229,7 @@ class PublicContentExtractor(HTMLParser):
 
 def extract_technique_id(html_content):
     """Extract technique ID from the page HTML."""
-    match = re.search(r'ID:&nbsp;</span>(TFA-T-\d+)', html_content)
+    match = re.search(r'ID:&nbsp;</span>(SAFE-T-\d+)', html_content)
     return match.group(1) if match else None
 
 
@@ -259,7 +259,7 @@ def main():
     errors = []
     
     for tech_dir in sorted(os.listdir(techniques_dir)):
-        if not tech_dir.startswith('TFA-T-'):
+        if not tech_dir.startswith('SAFE-T-'):
             continue
         
         html_path = os.path.join(techniques_dir, tech_dir, 'index.html')
