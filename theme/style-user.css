@@ -2470,6 +2470,65 @@ body.technical-view .technique-cell[data-public-title] a .public-title {
 }
 
 /* ============================================
+   SUB-TECHNIQUE INDICATORS (MATRIX)
+   ============================================ */
+
+.subtechniques-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  margin-left: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(106.5, 114, 120.75);
+  background-color: rgb(238, 238, 238);
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 9px;
+  cursor: pointer;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.subtechniques-count:hover {
+  background-color: rgb(223, 223, 223);
+  color: rgb(60, 65, 70);
+}
+
+.matrix .technique-cell.has-subtechniques {
+  flex-wrap: nowrap;
+}
+
+.matrix .technique-cell.has-subtechniques a {
+  flex: 1;
+  min-width: 0;
+}
+
+.matrix .sub-techniques-table {
+  width: 100%;
+}
+
+.matrix .technique-cell.subtechnique {
+  font-size: 12px;
+  background-color: rgb(248, 248, 248);
+}
+
+.matrix .technique-cell.subtechnique a {
+  padding: 5px 3px;
+  color: rgb(80, 80, 80);
+}
+
+/* Technical-only notice */
+.technical-only-notice {
+  font-style: italic;
+  color: rgb(100, 100, 100);
+  margin-bottom: 1rem;
+}
+
+/* ============================================
    DISCLAIMER STYLES
    ============================================ */
 

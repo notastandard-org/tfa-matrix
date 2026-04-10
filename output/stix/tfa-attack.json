@@ -149,7 +149,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-MATRIX",
-          "url": "https://notastandard.ai/tfa-matrix"
+          "url": "https://notastandard.org/tfa-matrix"
         }
       ],
       "object_marking_refs": [
@@ -170,7 +170,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0001",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0001"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0001"
         }
       ],
       "extensions": {
@@ -198,7 +198,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0002",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0002"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0002"
         }
       ],
       "extensions": {
@@ -226,7 +226,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0003",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0003"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0003"
         }
       ],
       "extensions": {
@@ -254,7 +254,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0004",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0004"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0004"
         }
       ],
       "extensions": {
@@ -282,7 +282,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0005",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0005"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0005"
         }
       ],
       "extensions": {
@@ -310,7 +310,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0006",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0006"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0006"
         }
       ],
       "extensions": {
@@ -338,7 +338,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0007",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0007"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0007"
         }
       ],
       "extensions": {
@@ -371,7 +371,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1001"
         }
       ],
       "extensions": {
@@ -422,7 +422,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1002"
         }
       ],
       "extensions": {
@@ -474,7 +474,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1003"
         }
       ],
       "extensions": {
@@ -525,7 +525,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1004"
         }
       ],
       "extensions": {
@@ -578,7 +578,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1005"
         }
       ],
       "extensions": {
@@ -629,7 +629,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1006"
         }
       ],
       "extensions": {
@@ -681,7 +681,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1007"
         }
       ],
       "extensions": {
@@ -731,7 +731,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1008"
         }
       ],
       "extensions": {
@@ -781,7 +781,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1009"
         }
       ],
       "extensions": {
@@ -830,7 +830,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1010"
         }
       ],
       "extensions": {
@@ -882,7 +882,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2001"
         }
       ],
       "extensions": {
@@ -932,7 +932,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2002"
         }
       ],
       "extensions": {
@@ -984,7 +984,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2003"
         }
       ],
       "extensions": {
@@ -1035,7 +1035,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2004"
         }
       ],
       "extensions": {
@@ -1085,7 +1085,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2005"
         }
       ],
       "extensions": {
@@ -1136,7 +1136,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2006"
         }
       ],
       "extensions": {
@@ -1187,7 +1187,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2007"
         }
       ],
       "extensions": {
@@ -1238,7 +1238,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2008"
         }
       ],
       "extensions": {
@@ -1290,7 +1290,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2009"
         }
       ],
       "extensions": {
@@ -1341,7 +1341,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2010"
         }
       ],
       "extensions": {
@@ -1392,7 +1392,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3001"
         }
       ],
       "extensions": {
@@ -1446,7 +1446,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3002"
         }
       ],
       "extensions": {
@@ -1499,7 +1499,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3003"
         }
       ],
       "extensions": {
@@ -1550,7 +1550,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3004"
         }
       ],
       "extensions": {
@@ -1604,7 +1604,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3005"
         }
       ],
       "extensions": {
@@ -1656,7 +1656,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3006"
         }
       ],
       "extensions": {
@@ -1706,7 +1706,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3007"
         }
       ],
       "extensions": {
@@ -1758,7 +1758,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3008"
         }
       ],
       "extensions": {
@@ -1812,7 +1812,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3009"
         }
       ],
       "extensions": {
@@ -1865,7 +1865,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3010"
         }
       ],
       "extensions": {
@@ -1919,7 +1919,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3011"
         }
       ],
       "extensions": {
@@ -1971,7 +1971,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3012",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3012"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3012"
         }
       ],
       "extensions": {
@@ -2023,7 +2023,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4001"
         }
       ],
       "extensions": {
@@ -2075,7 +2075,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4002"
         }
       ],
       "extensions": {
@@ -2127,7 +2127,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4003"
         }
       ],
       "extensions": {
@@ -2180,7 +2180,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4004"
         }
       ],
       "extensions": {
@@ -2232,7 +2232,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4005"
         }
       ],
       "extensions": {
@@ -2285,7 +2285,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4006"
         }
       ],
       "extensions": {
@@ -2336,7 +2336,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4007"
         }
       ],
       "extensions": {
@@ -2388,7 +2388,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4008"
         }
       ],
       "extensions": {
@@ -2440,7 +2440,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4009"
         }
       ],
       "extensions": {
@@ -2493,7 +2493,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4010"
         }
       ],
       "extensions": {
@@ -2544,7 +2544,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4011"
         }
       ],
       "extensions": {
@@ -2596,7 +2596,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5001"
         }
       ],
       "extensions": {
@@ -2647,7 +2647,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5002"
         }
       ],
       "extensions": {
@@ -2697,7 +2697,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5003"
         }
       ],
       "extensions": {
@@ -2749,7 +2749,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5004"
         }
       ],
       "extensions": {
@@ -2800,7 +2800,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5005"
         }
       ],
       "extensions": {
@@ -2851,7 +2851,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5006"
         }
       ],
       "extensions": {
@@ -2903,7 +2903,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5007"
         }
       ],
       "extensions": {
@@ -2950,7 +2950,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5008"
         }
       ],
       "extensions": {
@@ -3000,7 +3000,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5009"
         }
       ],
       "extensions": {
@@ -3051,7 +3051,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5010"
         }
       ],
       "extensions": {
@@ -3101,7 +3101,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6001"
         }
       ],
       "extensions": {
@@ -3152,7 +3152,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6002"
         }
       ],
       "extensions": {
@@ -3203,7 +3203,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6003"
         }
       ],
       "extensions": {
@@ -3254,7 +3254,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6004"
         }
       ],
       "extensions": {
@@ -3305,7 +3305,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6005"
         }
       ],
       "extensions": {
@@ -3356,7 +3356,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6006"
         }
       ],
       "extensions": {
@@ -3408,7 +3408,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6007"
         }
       ],
       "extensions": {
@@ -3460,7 +3460,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6008"
         }
       ],
       "extensions": {
@@ -3512,7 +3512,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6009"
         }
       ],
       "extensions": {
@@ -3565,7 +3565,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6010"
         }
       ],
       "extensions": {
@@ -3617,7 +3617,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6011"
         }
       ],
       "extensions": {
@@ -3668,7 +3668,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7001"
         }
       ],
       "extensions": {
@@ -3720,7 +3720,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7002"
         }
       ],
       "extensions": {
@@ -3771,7 +3771,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7003"
         }
       ],
       "extensions": {
@@ -3822,7 +3822,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7004"
         }
       ],
       "extensions": {
@@ -3874,7 +3874,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7005"
         }
       ],
       "extensions": {
@@ -3926,7 +3926,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7006"
         }
       ],
       "extensions": {
@@ -3979,7 +3979,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7007"
         }
       ],
       "extensions": {
@@ -4031,7 +4031,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7008"
         }
       ],
       "extensions": {
@@ -4083,7 +4083,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7009"
         }
       ],
       "extensions": {
@@ -4135,7 +4135,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7010"
         }
       ],
       "extensions": {

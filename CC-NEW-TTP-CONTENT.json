@@ -21,7 +21,7 @@
       "name": "Discovery & Preparation",
       "description": "How perpetrators learn, discover, and acquire the tools and techniques for technology-facilitated abuse. The pre-attack phase — understanding where someone learns to install stalkerware, discovers AirTag tracking, or is recruited into scam operations. Prevention-focused tactic for NFPs, law enforcement, and educators.",
       "x_mitre_shortname": "discovery-preparation",
-      "x_safe_public_name": "How People Learn to Do This",
+      "x_safe_public_name": "How People Learn to Do This", 
       "x_safe_public_intro": "Understanding where and how people learn abusive techniques helps us prevent harm before it starts. These patterns show how surveillance tools are normalised, how controlling behaviours are taught, and where intervention is most effective.",
       "x_safe_public_safety": "If you recognise these patterns in someone you know — or in yourself — support is available. Reaching out is a sign of strength, not weakness. Contact 1800RESPECT (1800 737 732)."
     }

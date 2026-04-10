@@ -149,7 +149,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-MATRIX",
-          "url": "https://notastandard.ai/tfa-matrix"
+          "url": "https://notastandard.org/tfa-matrix"
         }
       ],
       "object_marking_refs": [
@@ -170,7 +170,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0001",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0001"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0001"
         }
       ],
       "extensions": {
@@ -198,7 +198,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0002",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0002"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0002"
         }
       ],
       "extensions": {
@@ -226,7 +226,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0003",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0003"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0003"
         }
       ],
       "extensions": {
@@ -254,7 +254,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0004",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0004"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0004"
         }
       ],
       "extensions": {
@@ -282,7 +282,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0005",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0005"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0005"
         }
       ],
       "extensions": {
@@ -310,7 +310,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0006",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0006"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0006"
         }
       ],
       "extensions": {
@@ -338,7 +338,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-TA-0007",
-          "url": "https://notastandard.ai/tfa-matrix/tactics/TFA-TA-0007"
+          "url": "https://notastandard.org/tfa-matrix/tactics/TFA-TA-0007"
         }
       ],
       "extensions": {
@@ -371,7 +371,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1001"
         }
       ],
       "extensions": {
@@ -422,7 +422,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1002"
         }
       ],
       "extensions": {
@@ -474,7 +474,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1003"
         }
       ],
       "extensions": {
@@ -525,7 +525,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1004"
         }
       ],
       "extensions": {
@@ -578,7 +578,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1005"
         }
       ],
       "extensions": {
@@ -629,7 +629,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1006"
         }
       ],
       "extensions": {
@@ -681,7 +681,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1007"
         }
       ],
       "extensions": {
@@ -731,7 +731,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1008"
         }
       ],
       "extensions": {
@@ -781,7 +781,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1009"
         }
       ],
       "extensions": {
@@ -830,7 +830,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-1010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-1010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-1010"
         }
       ],
       "extensions": {
@@ -882,7 +882,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2001"
         }
       ],
       "extensions": {
@@ -932,7 +932,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2002"
         }
       ],
       "extensions": {
@@ -984,7 +984,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2003"
         }
       ],
       "extensions": {
@@ -1035,7 +1035,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2004"
         }
       ],
       "extensions": {
@@ -1085,7 +1085,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2005"
         }
       ],
       "extensions": {
@@ -1136,7 +1136,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2006"
         }
       ],
       "extensions": {
@@ -1187,7 +1187,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2007"
         }
       ],
       "extensions": {
@@ -1238,7 +1238,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2008"
         }
       ],
       "extensions": {
@@ -1290,7 +1290,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2009"
         }
       ],
       "extensions": {
@@ -1341,7 +1341,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-2010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-2010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-2010"
         }
       ],
       "extensions": {
@@ -1392,7 +1392,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3001"
         }
       ],
       "extensions": {
@@ -1446,7 +1446,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3002"
         }
       ],
       "extensions": {
@@ -1499,7 +1499,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3003"
         }
       ],
       "extensions": {
@@ -1550,7 +1550,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3004"
         }
       ],
       "extensions": {
@@ -1604,7 +1604,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3005"
         }
       ],
       "extensions": {
@@ -1656,7 +1656,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3006"
         }
       ],
       "extensions": {
@@ -1706,7 +1706,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3007"
         }
       ],
       "extensions": {
@@ -1758,7 +1758,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3008"
         }
       ],
       "extensions": {
@@ -1812,7 +1812,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3009"
         }
       ],
       "extensions": {
@@ -1865,7 +1865,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3010"
         }
       ],
       "extensions": {
@@ -1919,7 +1919,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3011"
         }
       ],
       "extensions": {
@@ -1971,7 +1971,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-3012",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-3012"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-3012"
         }
       ],
       "extensions": {
@@ -2023,7 +2023,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4001"
         }
       ],
       "extensions": {
@@ -2075,7 +2075,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4002"
         }
       ],
       "extensions": {
@@ -2127,7 +2127,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4003"
         }
       ],
       "extensions": {
@@ -2180,7 +2180,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4004"
         }
       ],
       "extensions": {
@@ -2232,7 +2232,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4005"
         }
       ],
       "extensions": {
@@ -2285,7 +2285,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4006"
         }
       ],
       "extensions": {
@@ -2336,7 +2336,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4007"
         }
       ],
       "extensions": {
@@ -2388,7 +2388,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4008"
         }
       ],
       "extensions": {
@@ -2440,7 +2440,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4009"
         }
       ],
       "extensions": {
@@ -2493,7 +2493,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4010"
         }
       ],
       "extensions": {
@@ -2544,7 +2544,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-4011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-4011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-4011"
         }
       ],
       "extensions": {
@@ -2596,7 +2596,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5001"
         }
       ],
       "extensions": {
@@ -2647,7 +2647,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5002"
         }
       ],
       "extensions": {
@@ -2697,7 +2697,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5003"
         }
       ],
       "extensions": {
@@ -2749,7 +2749,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5004"
         }
       ],
       "extensions": {
@@ -2800,7 +2800,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5005"
         }
       ],
       "extensions": {
@@ -2851,7 +2851,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5006"
         }
       ],
       "extensions": {
@@ -2903,7 +2903,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5007"
         }
       ],
       "extensions": {
@@ -2950,7 +2950,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5008"
         }
       ],
       "extensions": {
@@ -3000,7 +3000,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5009"
         }
       ],
       "extensions": {
@@ -3051,7 +3051,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-5010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-5010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-5010"
         }
       ],
       "extensions": {
@@ -3101,7 +3101,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6001"
         }
       ],
       "extensions": {
@@ -3152,7 +3152,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6002"
         }
       ],
       "extensions": {
@@ -3203,7 +3203,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6003"
         }
       ],
       "extensions": {
@@ -3254,7 +3254,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6004"
         }
       ],
       "extensions": {
@@ -3305,7 +3305,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6005"
         }
       ],
       "extensions": {
@@ -3356,7 +3356,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6006"
         }
       ],
       "extensions": {
@@ -3408,7 +3408,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6007"
         }
       ],
       "extensions": {
@@ -3460,7 +3460,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6008"
         }
       ],
       "extensions": {
@@ -3512,7 +3512,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6009"
         }
       ],
       "extensions": {
@@ -3565,7 +3565,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6010"
         }
       ],
       "extensions": {
@@ -3617,7 +3617,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-6011",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-6011"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-6011"
         }
       ],
       "extensions": {
@@ -3668,7 +3668,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7001",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7001"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7001"
         }
       ],
       "extensions": {
@@ -3720,7 +3720,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7002",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7002"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7002"
         }
       ],
       "extensions": {
@@ -3771,7 +3771,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7003",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7003"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7003"
         }
       ],
       "extensions": {
@@ -3822,7 +3822,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7004",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7004"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7004"
         }
       ],
       "extensions": {
@@ -3874,7 +3874,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7005",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7005"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7005"
         }
       ],
       "extensions": {
@@ -3926,7 +3926,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7006",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7006"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7006"
         }
       ],
       "extensions": {
@@ -3979,7 +3979,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7007",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7007"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7007"
         }
       ],
       "extensions": {
@@ -4031,7 +4031,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7008",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7008"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7008"
         }
       ],
       "extensions": {
@@ -4083,7 +4083,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7009",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7009"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7009"
         }
       ],
       "extensions": {
@@ -4135,7 +4135,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-T-7010",
-          "url": "https://notastandard.ai/tfa-matrix/techniques/TFA-T-7010"
+          "url": "https://notastandard.org/tfa-matrix/techniques/TFA-T-7010"
         }
       ],
       "extensions": {
@@ -5292,7 +5292,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1001"
         }
       ],
       "object_marking_refs": [
@@ -5319,7 +5319,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1002"
         }
       ],
       "object_marking_refs": [
@@ -5346,7 +5346,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1003"
         }
       ],
       "object_marking_refs": [
@@ -5373,7 +5373,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1004"
         }
       ],
       "object_marking_refs": [
@@ -5400,7 +5400,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1005"
         }
       ],
       "object_marking_refs": [
@@ -5427,7 +5427,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1006"
         }
       ],
       "object_marking_refs": [
@@ -5454,7 +5454,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1007"
         }
       ],
       "object_marking_refs": [
@@ -5481,7 +5481,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1008"
         }
       ],
       "object_marking_refs": [
@@ -5508,7 +5508,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1009"
         }
       ],
       "object_marking_refs": [
@@ -5535,7 +5535,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1010"
         }
       ],
       "object_marking_refs": [
@@ -5562,7 +5562,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1011"
         }
       ],
       "object_marking_refs": [
@@ -5589,7 +5589,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1012"
         }
       ],
       "object_marking_refs": [
@@ -5616,7 +5616,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1013"
         }
       ],
       "object_marking_refs": [
@@ -5643,7 +5643,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1014"
         }
       ],
       "object_marking_refs": [
@@ -5670,7 +5670,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1015"
         }
       ],
       "object_marking_refs": [
@@ -5697,7 +5697,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1016"
         }
       ],
       "object_marking_refs": [
@@ -5724,7 +5724,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1017"
         }
       ],
       "object_marking_refs": [
@@ -5751,7 +5751,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1018"
         }
       ],
       "object_marking_refs": [
@@ -5778,7 +5778,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1019"
         }
       ],
       "object_marking_refs": [
@@ -5805,7 +5805,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1020"
         }
       ],
       "object_marking_refs": [
@@ -5832,7 +5832,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1021"
         }
       ],
       "object_marking_refs": [
@@ -5859,7 +5859,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1022"
         }
       ],
       "object_marking_refs": [
@@ -5886,7 +5886,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1023",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1023"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1023"
         }
       ],
       "object_marking_refs": [
@@ -5913,7 +5913,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1024",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1024"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1024"
         }
       ],
       "object_marking_refs": [
@@ -5940,7 +5940,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1025",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1025"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1025"
         }
       ],
       "object_marking_refs": [
@@ -5967,7 +5967,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1026",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1026"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1026"
         }
       ],
       "object_marking_refs": [
@@ -5994,7 +5994,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1027",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1027"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1027"
         }
       ],
       "object_marking_refs": [
@@ -6021,7 +6021,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1028",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1028"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1028"
         }
       ],
       "object_marking_refs": [
@@ -6048,7 +6048,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1029",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1029"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1029"
         }
       ],
       "object_marking_refs": [
@@ -6075,7 +6075,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1030",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1030"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1030"
         }
       ],
       "object_marking_refs": [
@@ -6102,7 +6102,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1031",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1031"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1031"
         }
       ],
       "object_marking_refs": [
@@ -6129,7 +6129,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1032",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1032"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1032"
         }
       ],
       "object_marking_refs": [
@@ -6156,7 +6156,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1033",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1033"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1033"
         }
       ],
       "object_marking_refs": [
@@ -6183,7 +6183,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1034",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1034"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1034"
         }
       ],
       "object_marking_refs": [
@@ -6210,7 +6210,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-1035",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-1035"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-1035"
         }
       ],
       "object_marking_refs": [
@@ -6237,7 +6237,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2001"
         }
       ],
       "object_marking_refs": [
@@ -6264,7 +6264,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2002"
         }
       ],
       "object_marking_refs": [
@@ -6291,7 +6291,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2003"
         }
       ],
       "object_marking_refs": [
@@ -6318,7 +6318,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2004"
         }
       ],
       "object_marking_refs": [
@@ -6345,7 +6345,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2005"
         }
       ],
       "object_marking_refs": [
@@ -6372,7 +6372,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2006"
         }
       ],
       "object_marking_refs": [
@@ -6399,7 +6399,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2007"
         }
       ],
       "object_marking_refs": [
@@ -6426,7 +6426,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2008"
         }
       ],
       "object_marking_refs": [
@@ -6453,7 +6453,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2009"
         }
       ],
       "object_marking_refs": [
@@ -6480,7 +6480,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2010"
         }
       ],
       "object_marking_refs": [
@@ -6507,7 +6507,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2011"
         }
       ],
       "object_marking_refs": [
@@ -6534,7 +6534,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2012"
         }
       ],
       "object_marking_refs": [
@@ -6561,7 +6561,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2013"
         }
       ],
       "object_marking_refs": [
@@ -6588,7 +6588,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2014"
         }
       ],
       "object_marking_refs": [
@@ -6615,7 +6615,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2015"
         }
       ],
       "object_marking_refs": [
@@ -6642,7 +6642,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2016"
         }
       ],
       "object_marking_refs": [
@@ -6669,7 +6669,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2017"
         }
       ],
       "object_marking_refs": [
@@ -6696,7 +6696,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2018"
         }
       ],
       "object_marking_refs": [
@@ -6723,7 +6723,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2019"
         }
       ],
       "object_marking_refs": [
@@ -6750,7 +6750,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2020"
         }
       ],
       "object_marking_refs": [
@@ -6777,7 +6777,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2021"
         }
       ],
       "object_marking_refs": [
@@ -6804,7 +6804,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2022"
         }
       ],
       "object_marking_refs": [
@@ -6831,7 +6831,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2023",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2023"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2023"
         }
       ],
       "object_marking_refs": [
@@ -6858,7 +6858,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2024",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2024"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2024"
         }
       ],
       "object_marking_refs": [
@@ -6885,7 +6885,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-2025",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-2025"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-2025"
         }
       ],
       "object_marking_refs": [
@@ -6912,7 +6912,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3001"
         }
       ],
       "object_marking_refs": [
@@ -6939,7 +6939,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3002"
         }
       ],
       "object_marking_refs": [
@@ -6966,7 +6966,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3003"
         }
       ],
       "object_marking_refs": [
@@ -6993,7 +6993,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3004"
         }
       ],
       "object_marking_refs": [
@@ -7020,7 +7020,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3005"
         }
       ],
       "object_marking_refs": [
@@ -7047,7 +7047,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3006"
         }
       ],
       "object_marking_refs": [
@@ -7074,7 +7074,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3007"
         }
       ],
       "object_marking_refs": [
@@ -7101,7 +7101,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3008"
         }
       ],
       "object_marking_refs": [
@@ -7128,7 +7128,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3009"
         }
       ],
       "object_marking_refs": [
@@ -7155,7 +7155,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3010"
         }
       ],
       "object_marking_refs": [
@@ -7182,7 +7182,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3011"
         }
       ],
       "object_marking_refs": [
@@ -7209,7 +7209,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3012"
         }
       ],
       "object_marking_refs": [
@@ -7236,7 +7236,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3013"
         }
       ],
       "object_marking_refs": [
@@ -7263,7 +7263,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3014"
         }
       ],
       "object_marking_refs": [
@@ -7290,7 +7290,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3015"
         }
       ],
       "object_marking_refs": [
@@ -7317,7 +7317,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3016"
         }
       ],
       "object_marking_refs": [
@@ -7344,7 +7344,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3017"
         }
       ],
       "object_marking_refs": [
@@ -7371,7 +7371,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3018"
         }
       ],
       "object_marking_refs": [
@@ -7398,7 +7398,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3019"
         }
       ],
       "object_marking_refs": [
@@ -7425,7 +7425,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3020"
         }
       ],
       "object_marking_refs": [
@@ -7452,7 +7452,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3021"
         }
       ],
       "object_marking_refs": [
@@ -7479,7 +7479,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3022"
         }
       ],
       "object_marking_refs": [
@@ -7506,7 +7506,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3023",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3023"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3023"
         }
       ],
       "object_marking_refs": [
@@ -7533,7 +7533,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3024",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3024"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3024"
         }
       ],
       "object_marking_refs": [
@@ -7560,7 +7560,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3025",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3025"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3025"
         }
       ],
       "object_marking_refs": [
@@ -7587,7 +7587,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3026",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3026"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3026"
         }
       ],
       "object_marking_refs": [
@@ -7614,7 +7614,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3027",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3027"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3027"
         }
       ],
       "object_marking_refs": [
@@ -7641,7 +7641,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-3028",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-3028"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-3028"
         }
       ],
       "object_marking_refs": [
@@ -7668,7 +7668,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4001"
         }
       ],
       "object_marking_refs": [
@@ -7695,7 +7695,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4002"
         }
       ],
       "object_marking_refs": [
@@ -7722,7 +7722,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4003"
         }
       ],
       "object_marking_refs": [
@@ -7749,7 +7749,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4004"
         }
       ],
       "object_marking_refs": [
@@ -7776,7 +7776,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4005"
         }
       ],
       "object_marking_refs": [
@@ -7803,7 +7803,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4006"
         }
       ],
       "object_marking_refs": [
@@ -7830,7 +7830,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4007"
         }
       ],
       "object_marking_refs": [
@@ -7857,7 +7857,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4008"
         }
       ],
       "object_marking_refs": [
@@ -7884,7 +7884,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4009"
         }
       ],
       "object_marking_refs": [
@@ -7911,7 +7911,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4010"
         }
       ],
       "object_marking_refs": [
@@ -7938,7 +7938,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4011"
         }
       ],
       "object_marking_refs": [
@@ -7965,7 +7965,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4012"
         }
       ],
       "object_marking_refs": [
@@ -7992,7 +7992,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4013"
         }
       ],
       "object_marking_refs": [
@@ -8019,7 +8019,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4014"
         }
       ],
       "object_marking_refs": [
@@ -8046,7 +8046,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4015"
         }
       ],
       "object_marking_refs": [
@@ -8073,7 +8073,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4016"
         }
       ],
       "object_marking_refs": [
@@ -8100,7 +8100,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4017"
         }
       ],
       "object_marking_refs": [
@@ -8127,7 +8127,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4018"
         }
       ],
       "object_marking_refs": [
@@ -8154,7 +8154,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4019"
         }
       ],
       "object_marking_refs": [
@@ -8181,7 +8181,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4020"
         }
       ],
       "object_marking_refs": [
@@ -8208,7 +8208,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4021"
         }
       ],
       "object_marking_refs": [
@@ -8235,7 +8235,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4022"
         }
       ],
       "object_marking_refs": [
@@ -8262,7 +8262,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4023",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4023"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4023"
         }
       ],
       "object_marking_refs": [
@@ -8289,7 +8289,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4024",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4024"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4024"
         }
       ],
       "object_marking_refs": [
@@ -8316,7 +8316,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4025",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4025"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4025"
         }
       ],
       "object_marking_refs": [
@@ -8343,7 +8343,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-4026",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-4026"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-4026"
         }
       ],
       "object_marking_refs": [
@@ -8370,7 +8370,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5001"
         }
       ],
       "object_marking_refs": [
@@ -8397,7 +8397,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5002"
         }
       ],
       "object_marking_refs": [
@@ -8424,7 +8424,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5003"
         }
       ],
       "object_marking_refs": [
@@ -8451,7 +8451,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5004"
         }
       ],
       "object_marking_refs": [
@@ -8478,7 +8478,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5005"
         }
       ],
       "object_marking_refs": [
@@ -8505,7 +8505,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5006"
         }
       ],
       "object_marking_refs": [
@@ -8532,7 +8532,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5007"
         }
       ],
       "object_marking_refs": [
@@ -8559,7 +8559,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5008"
         }
       ],
       "object_marking_refs": [
@@ -8586,7 +8586,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5009"
         }
       ],
       "object_marking_refs": [
@@ -8613,7 +8613,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5010"
         }
       ],
       "object_marking_refs": [
@@ -8640,7 +8640,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5011"
         }
       ],
       "object_marking_refs": [
@@ -8667,7 +8667,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5012"
         }
       ],
       "object_marking_refs": [
@@ -8694,7 +8694,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5013"
         }
       ],
       "object_marking_refs": [
@@ -8721,7 +8721,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5014"
         }
       ],
       "object_marking_refs": [
@@ -8748,7 +8748,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5015"
         }
       ],
       "object_marking_refs": [
@@ -8775,7 +8775,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5016"
         }
       ],
       "object_marking_refs": [
@@ -8802,7 +8802,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5017"
         }
       ],
       "object_marking_refs": [
@@ -8829,7 +8829,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5018"
         }
       ],
       "object_marking_refs": [
@@ -8856,7 +8856,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5019"
         }
       ],
       "object_marking_refs": [
@@ -8883,7 +8883,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-5020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-5020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-5020"
         }
       ],
       "object_marking_refs": [
@@ -8910,7 +8910,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6001"
         }
       ],
       "object_marking_refs": [
@@ -8937,7 +8937,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6002"
         }
       ],
       "object_marking_refs": [
@@ -8964,7 +8964,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6003"
         }
       ],
       "object_marking_refs": [
@@ -8991,7 +8991,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6004"
         }
       ],
       "object_marking_refs": [
@@ -9018,7 +9018,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6005"
         }
       ],
       "object_marking_refs": [
@@ -9045,7 +9045,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6006"
         }
       ],
       "object_marking_refs": [
@@ -9072,7 +9072,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6007"
         }
       ],
       "object_marking_refs": [
@@ -9099,7 +9099,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6008"
         }
       ],
       "object_marking_refs": [
@@ -9126,7 +9126,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6009"
         }
       ],
       "object_marking_refs": [
@@ -9153,7 +9153,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6010"
         }
       ],
       "object_marking_refs": [
@@ -9180,7 +9180,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6011"
         }
       ],
       "object_marking_refs": [
@@ -9207,7 +9207,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6012"
         }
       ],
       "object_marking_refs": [
@@ -9234,7 +9234,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6013"
         }
       ],
       "object_marking_refs": [
@@ -9261,7 +9261,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6014"
         }
       ],
       "object_marking_refs": [
@@ -9288,7 +9288,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6015"
         }
       ],
       "object_marking_refs": [
@@ -9315,7 +9315,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6016"
         }
       ],
       "object_marking_refs": [
@@ -9342,7 +9342,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6017"
         }
       ],
       "object_marking_refs": [
@@ -9369,7 +9369,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6018"
         }
       ],
       "object_marking_refs": [
@@ -9396,7 +9396,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6019"
         }
       ],
       "object_marking_refs": [
@@ -9423,7 +9423,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6020"
         }
       ],
       "object_marking_refs": [
@@ -9450,7 +9450,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6021"
         }
       ],
       "object_marking_refs": [
@@ -9477,7 +9477,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6022"
         }
       ],
       "object_marking_refs": [
@@ -9504,7 +9504,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6023",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6023"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6023"
         }
       ],
       "object_marking_refs": [
@@ -9531,7 +9531,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-6024",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-6024"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-6024"
         }
       ],
       "object_marking_refs": [
@@ -9558,7 +9558,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7001",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7001"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7001"
         }
       ],
       "object_marking_refs": [
@@ -9585,7 +9585,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7002",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7002"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7002"
         }
       ],
       "object_marking_refs": [
@@ -9612,7 +9612,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7003",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7003"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7003"
         }
       ],
       "object_marking_refs": [
@@ -9639,7 +9639,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7004",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7004"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7004"
         }
       ],
       "object_marking_refs": [
@@ -9666,7 +9666,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7005",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7005"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7005"
         }
       ],
       "object_marking_refs": [
@@ -9693,7 +9693,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7006",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7006"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7006"
         }
       ],
       "object_marking_refs": [
@@ -9720,7 +9720,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7007",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7007"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7007"
         }
       ],
       "object_marking_refs": [
@@ -9747,7 +9747,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7008",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7008"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7008"
         }
       ],
       "object_marking_refs": [
@@ -9774,7 +9774,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7009",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7009"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7009"
         }
       ],
       "object_marking_refs": [
@@ -9801,7 +9801,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7010",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7010"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7010"
         }
       ],
       "object_marking_refs": [
@@ -9828,7 +9828,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7011",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7011"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7011"
         }
       ],
       "object_marking_refs": [
@@ -9855,7 +9855,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7012",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7012"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7012"
         }
       ],
       "object_marking_refs": [
@@ -9882,7 +9882,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7013",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7013"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7013"
         }
       ],
       "object_marking_refs": [
@@ -9909,7 +9909,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7014",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7014"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7014"
         }
       ],
       "object_marking_refs": [
@@ -9936,7 +9936,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7015",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7015"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7015"
         }
       ],
       "object_marking_refs": [
@@ -9963,7 +9963,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7016",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7016"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7016"
         }
       ],
       "object_marking_refs": [
@@ -9990,7 +9990,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7017",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7017"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7017"
         }
       ],
       "object_marking_refs": [
@@ -10017,7 +10017,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7018",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7018"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7018"
         }
       ],
       "object_marking_refs": [
@@ -10044,7 +10044,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7019",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7019"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7019"
         }
       ],
       "object_marking_refs": [
@@ -10071,7 +10071,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7020",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7020"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7020"
         }
       ],
       "object_marking_refs": [
@@ -10098,7 +10098,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7021",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7021"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7021"
         }
       ],
       "object_marking_refs": [
@@ -10125,7 +10125,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-M-7022",
-          "url": "https://notastandard.ai/tfa-matrix/mitigations/TFA-M-7022"
+          "url": "https://notastandard.org/tfa-matrix/mitigations/TFA-M-7022"
         }
       ],
       "object_marking_refs": [
@@ -10158,7 +10158,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1001"
         }
       ],
       "object_marking_refs": [
@@ -10192,7 +10192,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1002"
         }
       ],
       "object_marking_refs": [
@@ -10226,7 +10226,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1003"
         }
       ],
       "object_marking_refs": [
@@ -10260,7 +10260,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1004"
         }
       ],
       "object_marking_refs": [
@@ -10294,7 +10294,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1005"
         }
       ],
       "object_marking_refs": [
@@ -10328,7 +10328,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1006"
         }
       ],
       "object_marking_refs": [
@@ -10362,7 +10362,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1007"
         }
       ],
       "object_marking_refs": [
@@ -10396,7 +10396,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1008"
         }
       ],
       "object_marking_refs": [
@@ -10430,7 +10430,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1009"
         }
       ],
       "object_marking_refs": [
@@ -10464,7 +10464,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1010"
         }
       ],
       "object_marking_refs": [
@@ -10498,7 +10498,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1011"
         }
       ],
       "object_marking_refs": [
@@ -10532,7 +10532,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1012"
         }
       ],
       "object_marking_refs": [
@@ -10566,7 +10566,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1013"
         }
       ],
       "object_marking_refs": [
@@ -10600,7 +10600,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1014"
         }
       ],
       "object_marking_refs": [
@@ -10634,7 +10634,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1015"
         }
       ],
       "object_marking_refs": [
@@ -10668,7 +10668,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1016"
         }
       ],
       "object_marking_refs": [
@@ -10702,7 +10702,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1017"
         }
       ],
       "object_marking_refs": [
@@ -10736,7 +10736,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1018"
         }
       ],
       "object_marking_refs": [
@@ -10770,7 +10770,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1019"
         }
       ],
       "object_marking_refs": [
@@ -10804,7 +10804,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1020"
         }
       ],
       "object_marking_refs": [
@@ -10838,7 +10838,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1021"
         }
       ],
       "object_marking_refs": [
@@ -10872,7 +10872,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1022",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1022"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1022"
         }
       ],
       "object_marking_refs": [
@@ -10906,7 +10906,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1023",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1023"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1023"
         }
       ],
       "object_marking_refs": [
@@ -10940,7 +10940,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1024",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1024"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1024"
         }
       ],
       "object_marking_refs": [
@@ -10974,7 +10974,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1025",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1025"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1025"
         }
       ],
       "object_marking_refs": [
@@ -11008,7 +11008,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1026",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1026"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1026"
         }
       ],
       "object_marking_refs": [
@@ -11042,7 +11042,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1027",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1027"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1027"
         }
       ],
       "object_marking_refs": [
@@ -11076,7 +11076,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1028",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1028"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1028"
         }
       ],
       "object_marking_refs": [
@@ -11110,7 +11110,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1029",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1029"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1029"
         }
       ],
       "object_marking_refs": [
@@ -11144,7 +11144,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1030",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1030"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1030"
         }
       ],
       "object_marking_refs": [
@@ -11178,7 +11178,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1031",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1031"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1031"
         }
       ],
       "object_marking_refs": [
@@ -11212,7 +11212,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1032",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1032"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1032"
         }
       ],
       "object_marking_refs": [
@@ -11246,7 +11246,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1033",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1033"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1033"
         }
       ],
       "object_marking_refs": [
@@ -11280,7 +11280,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-1034",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-1034"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-1034"
         }
       ],
       "object_marking_refs": [
@@ -11314,7 +11314,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2001"
         }
       ],
       "object_marking_refs": [
@@ -11348,7 +11348,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2002"
         }
       ],
       "object_marking_refs": [
@@ -11382,7 +11382,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2003"
         }
       ],
       "object_marking_refs": [
@@ -11416,7 +11416,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2004"
         }
       ],
       "object_marking_refs": [
@@ -11450,7 +11450,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2005"
         }
       ],
       "object_marking_refs": [
@@ -11484,7 +11484,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2006"
         }
       ],
       "object_marking_refs": [
@@ -11518,7 +11518,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2007"
         }
       ],
       "object_marking_refs": [
@@ -11552,7 +11552,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2008"
         }
       ],
       "object_marking_refs": [
@@ -11586,7 +11586,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2009"
         }
       ],
       "object_marking_refs": [
@@ -11620,7 +11620,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2010"
         }
       ],
       "object_marking_refs": [
@@ -11654,7 +11654,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2011"
         }
       ],
       "object_marking_refs": [
@@ -11688,7 +11688,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2012"
         }
       ],
       "object_marking_refs": [
@@ -11722,7 +11722,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2013"
         }
       ],
       "object_marking_refs": [
@@ -11756,7 +11756,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2014"
         }
       ],
       "object_marking_refs": [
@@ -11790,7 +11790,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2015"
         }
       ],
       "object_marking_refs": [
@@ -11824,7 +11824,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2016"
         }
       ],
       "object_marking_refs": [
@@ -11858,7 +11858,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2017"
         }
       ],
       "object_marking_refs": [
@@ -11892,7 +11892,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2018"
         }
       ],
       "object_marking_refs": [
@@ -11926,7 +11926,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2019"
         }
       ],
       "object_marking_refs": [
@@ -11960,7 +11960,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2020"
         }
       ],
       "object_marking_refs": [
@@ -11994,7 +11994,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2021"
         }
       ],
       "object_marking_refs": [
@@ -12028,7 +12028,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-2022",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-2022"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-2022"
         }
       ],
       "object_marking_refs": [
@@ -12062,7 +12062,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3001"
         }
       ],
       "object_marking_refs": [
@@ -12096,7 +12096,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3002"
         }
       ],
       "object_marking_refs": [
@@ -12130,7 +12130,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3003"
         }
       ],
       "object_marking_refs": [
@@ -12164,7 +12164,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3004"
         }
       ],
       "object_marking_refs": [
@@ -12198,7 +12198,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3005"
         }
       ],
       "object_marking_refs": [
@@ -12232,7 +12232,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3006"
         }
       ],
       "object_marking_refs": [
@@ -12266,7 +12266,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3007"
         }
       ],
       "object_marking_refs": [
@@ -12300,7 +12300,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3008"
         }
       ],
       "object_marking_refs": [
@@ -12334,7 +12334,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3009"
         }
       ],
       "object_marking_refs": [
@@ -12368,7 +12368,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3010"
         }
       ],
       "object_marking_refs": [
@@ -12402,7 +12402,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3011"
         }
       ],
       "object_marking_refs": [
@@ -12436,7 +12436,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3012"
         }
       ],
       "object_marking_refs": [
@@ -12470,7 +12470,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3013"
         }
       ],
       "object_marking_refs": [
@@ -12504,7 +12504,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3014"
         }
       ],
       "object_marking_refs": [
@@ -12538,7 +12538,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3015"
         }
       ],
       "object_marking_refs": [
@@ -12572,7 +12572,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3016"
         }
       ],
       "object_marking_refs": [
@@ -12606,7 +12606,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3017"
         }
       ],
       "object_marking_refs": [
@@ -12640,7 +12640,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3018"
         }
       ],
       "object_marking_refs": [
@@ -12674,7 +12674,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3019"
         }
       ],
       "object_marking_refs": [
@@ -12708,7 +12708,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3020"
         }
       ],
       "object_marking_refs": [
@@ -12742,7 +12742,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3021"
         }
       ],
       "object_marking_refs": [
@@ -12776,7 +12776,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3022",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3022"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3022"
         }
       ],
       "object_marking_refs": [
@@ -12810,7 +12810,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3023",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3023"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3023"
         }
       ],
       "object_marking_refs": [
@@ -12844,7 +12844,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-3024",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-3024"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-3024"
         }
       ],
       "object_marking_refs": [
@@ -12878,7 +12878,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4001"
         }
       ],
       "object_marking_refs": [
@@ -12912,7 +12912,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4002"
         }
       ],
       "object_marking_refs": [
@@ -12946,7 +12946,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4003"
         }
       ],
       "object_marking_refs": [
@@ -12980,7 +12980,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4004"
         }
       ],
       "object_marking_refs": [
@@ -13014,7 +13014,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4005"
         }
       ],
       "object_marking_refs": [
@@ -13048,7 +13048,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4006"
         }
       ],
       "object_marking_refs": [
@@ -13082,7 +13082,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4007"
         }
       ],
       "object_marking_refs": [
@@ -13116,7 +13116,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4008"
         }
       ],
       "object_marking_refs": [
@@ -13150,7 +13150,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4009"
         }
       ],
       "object_marking_refs": [
@@ -13184,7 +13184,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4010"
         }
       ],
       "object_marking_refs": [
@@ -13218,7 +13218,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4011"
         }
       ],
       "object_marking_refs": [
@@ -13252,7 +13252,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4012"
         }
       ],
       "object_marking_refs": [
@@ -13286,7 +13286,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4013"
         }
       ],
       "object_marking_refs": [
@@ -13320,7 +13320,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4014"
         }
       ],
       "object_marking_refs": [
@@ -13354,7 +13354,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4015"
         }
       ],
       "object_marking_refs": [
@@ -13388,7 +13388,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4016"
         }
       ],
       "object_marking_refs": [
@@ -13422,7 +13422,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4017"
         }
       ],
       "object_marking_refs": [
@@ -13456,7 +13456,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4018"
         }
       ],
       "object_marking_refs": [
@@ -13490,7 +13490,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4019"
         }
       ],
       "object_marking_refs": [
@@ -13524,7 +13524,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4020"
         }
       ],
       "object_marking_refs": [
@@ -13558,7 +13558,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4021"
         }
       ],
       "object_marking_refs": [
@@ -13592,7 +13592,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-4022",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-4022"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-4022"
         }
       ],
       "object_marking_refs": [
@@ -13626,7 +13626,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5001"
         }
       ],
       "object_marking_refs": [
@@ -13660,7 +13660,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5002"
         }
       ],
       "object_marking_refs": [
@@ -13694,7 +13694,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5003"
         }
       ],
       "object_marking_refs": [
@@ -13728,7 +13728,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5004"
         }
       ],
       "object_marking_refs": [
@@ -13762,7 +13762,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5005"
         }
       ],
       "object_marking_refs": [
@@ -13796,7 +13796,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5006"
         }
       ],
       "object_marking_refs": [
@@ -13830,7 +13830,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5007"
         }
       ],
       "object_marking_refs": [
@@ -13864,7 +13864,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5008"
         }
       ],
       "object_marking_refs": [
@@ -13898,7 +13898,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5009"
         }
       ],
       "object_marking_refs": [
@@ -13932,7 +13932,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5010"
         }
       ],
       "object_marking_refs": [
@@ -13966,7 +13966,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5011"
         }
       ],
       "object_marking_refs": [
@@ -14000,7 +14000,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5012"
         }
       ],
       "object_marking_refs": [
@@ -14034,7 +14034,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5013"
         }
       ],
       "object_marking_refs": [
@@ -14068,7 +14068,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5014"
         }
       ],
       "object_marking_refs": [
@@ -14102,7 +14102,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5015"
         }
       ],
       "object_marking_refs": [
@@ -14136,7 +14136,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5016"
         }
       ],
       "object_marking_refs": [
@@ -14170,7 +14170,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5017"
         }
       ],
       "object_marking_refs": [
@@ -14204,7 +14204,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5018"
         }
       ],
       "object_marking_refs": [
@@ -14238,7 +14238,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5019"
         }
       ],
       "object_marking_refs": [
@@ -14272,7 +14272,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-5020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-5020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-5020"
         }
       ],
       "object_marking_refs": [
@@ -14306,7 +14306,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6001"
         }
       ],
       "object_marking_refs": [
@@ -14340,7 +14340,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6002"
         }
       ],
       "object_marking_refs": [
@@ -14374,7 +14374,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6003"
         }
       ],
       "object_marking_refs": [
@@ -14408,7 +14408,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6004"
         }
       ],
       "object_marking_refs": [
@@ -14442,7 +14442,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6005"
         }
       ],
       "object_marking_refs": [
@@ -14476,7 +14476,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6006"
         }
       ],
       "object_marking_refs": [
@@ -14510,7 +14510,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6007"
         }
       ],
       "object_marking_refs": [
@@ -14544,7 +14544,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6008"
         }
       ],
       "object_marking_refs": [
@@ -14578,7 +14578,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6009"
         }
       ],
       "object_marking_refs": [
@@ -14612,7 +14612,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6010"
         }
       ],
       "object_marking_refs": [
@@ -14646,7 +14646,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6011"
         }
       ],
       "object_marking_refs": [
@@ -14680,7 +14680,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6012"
         }
       ],
       "object_marking_refs": [
@@ -14714,7 +14714,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6013"
         }
       ],
       "object_marking_refs": [
@@ -14748,7 +14748,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6014"
         }
       ],
       "object_marking_refs": [
@@ -14782,7 +14782,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6015"
         }
       ],
       "object_marking_refs": [
@@ -14816,7 +14816,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6016"
         }
       ],
       "object_marking_refs": [
@@ -14850,7 +14850,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6017"
         }
       ],
       "object_marking_refs": [
@@ -14884,7 +14884,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6018"
         }
       ],
       "object_marking_refs": [
@@ -14918,7 +14918,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6019"
         }
       ],
       "object_marking_refs": [
@@ -14952,7 +14952,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6020"
         }
       ],
       "object_marking_refs": [
@@ -14986,7 +14986,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6021"
         }
       ],
       "object_marking_refs": [
@@ -15020,7 +15020,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-6022",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-6022"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-6022"
         }
       ],
       "object_marking_refs": [
@@ -15054,7 +15054,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7001",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7001"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7001"
         }
       ],
       "object_marking_refs": [
@@ -15088,7 +15088,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7002",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7002"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7002"
         }
       ],
       "object_marking_refs": [
@@ -15122,7 +15122,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7003",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7003"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7003"
         }
       ],
       "object_marking_refs": [
@@ -15156,7 +15156,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7004",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7004"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7004"
         }
       ],
       "object_marking_refs": [
@@ -15190,7 +15190,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7005",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7005"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7005"
         }
       ],
       "object_marking_refs": [
@@ -15224,7 +15224,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7006",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7006"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7006"
         }
       ],
       "object_marking_refs": [
@@ -15258,7 +15258,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7007",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7007"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7007"
         }
       ],
       "object_marking_refs": [
@@ -15292,7 +15292,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7008",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7008"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7008"
         }
       ],
       "object_marking_refs": [
@@ -15326,7 +15326,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7009",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7009"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7009"
         }
       ],
       "object_marking_refs": [
@@ -15360,7 +15360,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7010",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7010"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7010"
         }
       ],
       "object_marking_refs": [
@@ -15394,7 +15394,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7011",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7011"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7011"
         }
       ],
       "object_marking_refs": [
@@ -15428,7 +15428,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7012",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7012"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7012"
         }
       ],
       "object_marking_refs": [
@@ -15462,7 +15462,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7013",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7013"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7013"
         }
       ],
       "object_marking_refs": [
@@ -15496,7 +15496,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7014",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7014"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7014"
         }
       ],
       "object_marking_refs": [
@@ -15530,7 +15530,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7015",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7015"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7015"
         }
       ],
       "object_marking_refs": [
@@ -15564,7 +15564,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7016",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7016"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7016"
         }
       ],
       "object_marking_refs": [
@@ -15598,7 +15598,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7017",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7017"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7017"
         }
       ],
       "object_marking_refs": [
@@ -15632,7 +15632,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7018",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7018"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7018"
         }
       ],
       "object_marking_refs": [
@@ -15666,7 +15666,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7019",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7019"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7019"
         }
       ],
       "object_marking_refs": [
@@ -15700,7 +15700,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7020",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7020"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7020"
         }
       ],
       "object_marking_refs": [
@@ -15734,7 +15734,7 @@
         {
           "source_name": "not-a-standard-tfa",
           "external_id": "TFA-D-7021",
-          "url": "https://notastandard.ai/tfa-matrix/detections/TFA-D-7021"
+          "url": "https://notastandard.org/tfa-matrix/detections/TFA-D-7021"
         }
       ],
       "object_marking_refs": [

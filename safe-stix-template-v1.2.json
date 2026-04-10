@@ -139,7 +139,7 @@
         {
           "source_name": "SAFE Framework",
           "external_id": "SAFE-COLLECTION-v1.0",
-          "url": "https://notastandard.com/safe-framework"
+          "url": "https://notastandard.org/safe-framework"
         }
       ],
       "x_mitre_contents": [
@@ -209,7 +209,7 @@
       "modified": "2026-03-07T00:00:00.000Z",
       "name": "SAFE Framework Technique Extension",
       "description": "Extension properties for the SAFE Framework interpersonal harm technique library. SAFE uses 'coordinates' (mode × mechanism × domain intersections) rather than traditional tactics. This extension covers all vectors: direct, proxy, and tech-facilitated.",
-      "schema": "https://notastandard.com/stix-extensions/safe-technique/v1",
+      "schema": "https://notastandard.org/stix-extensions/safe-technique/v1",
       "version": "1.2.0",
       "extension_types": [
         "property-extension"
@@ -510,7 +510,7 @@
         {
           "source_name": "SAFE Framework",
           "external_id": "SAFE-MATRIX",
-          "url": "https://notastandard.com/safe-framework"
+          "url": "https://notastandard.org/safe-framework"
         }
       ],
       "x_mitre_version": "1.0",
@@ -536,7 +536,7 @@
         {
           "source_name": "SAFE Framework",
           "external_id": "SAFE-C-AFP",
-          "url": "https://notastandard.com/safe-framework/coordinates/abuse-force-physical"
+          "url": "https://notastandard.org/safe-framework/coordinates/abuse-force-physical"
         }
       ],
       "x_mitre_version": "1.0",
@@ -577,7 +577,7 @@
         {
           "source_name": "SAFE Framework",
           "external_id": "SAFE-T-0001",
-          "url": "https://notastandard.com/safe-framework/techniques/SAFE-T-0001"
+          "url": "https://notastandard.org/safe-framework/techniques/SAFE-T-0001"
         }
       ],
       "object_marking_refs": [
@@ -673,7 +673,7 @@
         {
           "source_name": "SAFE Framework",
           "external_id": "SAFE-T-0072",
-          "url": "https://notastandard.com/safe-framework/techniques/SAFE-T-0072"
+          "url": "https://notastandard.org/safe-framework/techniques/SAFE-T-0072"
         },
         {
           "source_name": "TFA Matrix",

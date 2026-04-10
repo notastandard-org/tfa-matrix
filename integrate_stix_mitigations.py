@@ -42,7 +42,7 @@ SPEC_VERSION = "2.1"
 
 # Source name for external references
 SOURCE_NAME = "not-a-standard-tfa"
-BASE_URL = "https://notastandard.ai/tfa-matrix"
+BASE_URL = "https://notastandard.org/tfa-matrix"
 
 
 def deterministic_uuid(seed: str) -> str:
