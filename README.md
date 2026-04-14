@@ -8,9 +8,10 @@ The SAFE TFA Matrix applies the methodology of frameworks like [MITRE ATT&CK](ht
 
 ## What's in the matrix
 
-- **7 tactics** representing stages of technology-facilitated abuse
-- **74 techniques** with detailed descriptions, real-world indicators, mitigations, and detection guidance
-- **849 STIX objects** in a machine-readable threat intelligence bundle ([STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro.html))
+- **9 tactics** representing stages of technology-facilitated abuse
+- **94 techniques** with detailed descriptions, real-world indicators, mitigations, and detection guidance
+- **17 sub-techniques** providing granular breakdowns of key techniques
+- **777 STIX objects** in a machine-readable threat intelligence bundle ([STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro.html))
 - **210 recognition signals**, **242 safety actions**, and **43 safety warnings** embedded across the framework
 
 ## Dual-view design

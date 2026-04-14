@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pelican build output (legacy)
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env
+
+# Node
+node_modules/
+
+# Internal briefings and ops docs
+CC-*.md
+CC-*.json
+TFA-MATRIX-CLEANUP-BRIEF.md
+Ops/
+TFA-to-SAFE-Coordinate-Mapping.xlsx
+safe-stix-template-v1.2.json
+tfa-attack-pre-public.json
+
+# Utility/build scripts (kept locally, not part of public site)
+create_legal_pages.py
+generate_public_pages.py
+extract_public_to_stix.py
+extract_and_inject_public.py
+extract_public_sections.py
+inject_disclaimers.py
+inject_quick_exit_bar.py
+add_mobile_quick_exit.py
+integrate_stix_mitigations.py
+update_mitigations.py
+update_disclaimers.py
+technique_data.py
+master_mitigations_detections.csv
+macro-technique-refinement.html
+full-coverage.html
+scripts/
