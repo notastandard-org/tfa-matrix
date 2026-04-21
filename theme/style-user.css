@@ -1840,6 +1840,49 @@ div#sidebars {
   color: black;
 }
 
+/* Search result badges */
+.search-type-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.search-type-technique { background: #d4e8f7; color: #1a5276; }
+.search-type-tactic    { background: #d5f5e3; color: #1a6b3c; }
+.search-type-matrix    { background: #fdebd0; color: #7e5109; }
+.search-type-page      { background: #e8e8e8; color: #555; }
+.search-id-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-family: monospace;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: #f0f0f0;
+  color: #666;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+.search-result .title a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #39434c;
+  text-decoration: none;
+}
+.search-result .title a:hover {
+  text-decoration: underline;
+}
+.search-result .preview {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
 .btn-group-text {
   padding: 0.25rem, 0.5rem;
   font-size: 0.875rem;
