@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>SAFE TFA Matrix — Changelog</title>
+  <link>https://tfa.notastandard.org/changelog/</link>
+  <atom:link href="https://tfa.notastandard.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Substantive updates to the SAFE TFA Matrix — new techniques, edits to existing techniques, structural changes, and framework decisions.</description>
+  <language>en</language>
+  <lastBuildDate>Tue, 21 Apr 2026 10:13:49 +0000</lastBuildDate>
+  <item>
+    <title>2026-04-21 — Site audit pass: safety disclaimers, mitigations, and metadata</title>
+    <link>https://tfa.notastandard.org/changelog/#entry-2026-04-21</link>
+    <guid isPermaLink="true">https://tfa.notastandard.org/changelog/#entry-2026-04-21</guid>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[<p>Editorial pass prompted by review of site content.</p><ul><li><strong>All technique and tactic pages</strong> — Reordered safety disclaimer so &quot;Always consider your physical safety first&quot; leads. Added caveat to &quot;What You Can Do&quot; sections noting the list is not exhaustive.</li><li><strong>SAFE-T-0072 Stalkerware Installation (+ all sub-techniques)</strong> — Added notice that a normally-performing device is not proof of safety — modern stalkerware runs quietly.</li><li><strong>SAFE-T-0082 Credential Theft</strong> — Added Have I Been Pwned as a public action and as a technical mitigation (SAFE-M-0181 Credential Breach Monitoring).</li><li><strong>SAFE-T-0079 Calendar/Schedule Surveillance</strong> — Expanded calendar sharing instructions from Google Calendar only to cover Apple iCloud, Microsoft Outlook / Microsoft 365, Samsung, Proton, and Fastmail.</li><li><strong>SAFE-TA-0001 Surveillance &amp; Tracking; SAFE-T-0161; techniques index</strong> — Cross-references to SAFE-T-0145 (Technology Abuse Through Custody Arrangements) are now hyperlinks.</li><li><strong>All technique and tactic pages</strong> — Public view now shows the metadata card (ID, tactic, created, last modified) previously only visible in the technical view.</li><li><strong>Site-wide</strong> — Added sitemap.xml listing all published pages.</li></ul>]]></description>
+  </item>
+</channel>
+</rss>

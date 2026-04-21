@@ -1,0 +1,48 @@
+{
+  "intro": "The TFA Matrix exists because of people who share their experiences, expertise, and time. This page acknowledges those contributions. If you've contributed and aren't listed here, please let us know.",
+  "groups": [
+    {
+      "name": "Framework lead",
+      "description": "Direction, research, and editorial authority over the framework.",
+      "people": [
+        {
+          "name": "Em Holyoake",
+          "role": "Founder, Not A Standard — framework author and editorial lead",
+          "link": "https://notastandard.org"
+        }
+      ]
+    },
+    {
+      "name": "Contributors",
+      "description": "Research, writing, review, and technical input into specific techniques, tactics, mitigations, or detection indicators.",
+      "people": []
+    },
+    {
+      "name": "Lived experience",
+      "description": "People who shared their experiences of technology-facilitated abuse to inform the framework. Contributions are anonymous by default; named acknowledgements only appear here with explicit consent.",
+      "people": []
+    },
+    {
+      "name": "Practitioner review",
+      "description": "Specialists in domestic and family violence, digital forensics, law, and mental health who reviewed framework content for accuracy and safety.",
+      "people": []
+    }
+  ],
+  "upstream": [
+    {
+      "name": "MITRE ATT&CK®",
+      "description": "The structural model — tactics, techniques, matrices, STIX representation — is adapted from MITRE ATT&CK. The TFA Matrix applies that model to interpersonal harm.",
+      "link": "https://attack.mitre.org"
+    },
+    {
+      "name": "OASIS Open — STIX 2.1",
+      "description": "The STIX 2.1 data format that underpins the machine-readable representation of the framework.",
+      "link": "https://www.oasis-open.org"
+    },
+    {
+      "name": "Coalition Against Stalkerware",
+      "description": "Detection tooling and victim-support guidance referenced in mitigations for monitoring-app techniques.",
+      "link": "https://stopstalkerware.org"
+    }
+  ]
+}

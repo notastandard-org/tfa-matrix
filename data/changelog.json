@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "date": "2026-04-21",
+      "title": "Site audit pass: safety disclaimers, mitigations, and metadata",
+      "summary": "Editorial pass prompted by review of site content.",
+      "changes": [
+        {
+          "type": "content",
+          "scope": "All technique and tactic pages",
+          "description": "Reordered safety disclaimer so \"Always consider your physical safety first\" leads. Added caveat to \"What You Can Do\" sections noting the list is not exhaustive."
+        },
+        {
+          "type": "content",
+          "scope": "SAFE-T-0072 Stalkerware Installation (+ all sub-techniques)",
+          "description": "Added notice that a normally-performing device is not proof of safety — modern stalkerware runs quietly."
+        },
+        {
+          "type": "content",
+          "scope": "SAFE-T-0082 Credential Theft",
+          "description": "Added Have I Been Pwned as a public action and as a technical mitigation (SAFE-M-0181 Credential Breach Monitoring)."
+        },
+        {
+          "type": "content",
+          "scope": "SAFE-T-0079 Calendar/Schedule Surveillance",
+          "description": "Expanded calendar sharing instructions from Google Calendar only to cover Apple iCloud, Microsoft Outlook / Microsoft 365, Samsung, Proton, and Fastmail."
+        },
+        {
+          "type": "content",
+          "scope": "SAFE-TA-0001 Surveillance & Tracking; SAFE-T-0161; techniques index",
+          "description": "Cross-references to SAFE-T-0145 (Technology Abuse Through Custody Arrangements) are now hyperlinks."
+        },
+        {
+          "type": "structure",
+          "scope": "All technique and tactic pages",
+          "description": "Public view now shows the metadata card (ID, tactic, created, last modified) previously only visible in the technical view."
+        },
+        {
+          "type": "infrastructure",
+          "scope": "Site-wide",
+          "description": "Added sitemap.xml listing all published pages."
+        }
+      ]
+    }
+  ]
+}

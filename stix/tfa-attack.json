@@ -536,6 +536,10 @@
           "x_safe_public_safety_warning": "If you think there's a monitoring app on your phone, don't remove it straight away. The person who installed it may be alerted and could become dangerous. Get advice from a specialist service first.",
           "x_safe_public_notices": [
             {
+              "signal": "Your device seems fine — but that's not proof",
+              "detail": "Modern stalkerware is designed to run quietly. A phone that isn't slowing down, overheating, or draining its battery does not mean monitoring software is absent. Trust patterns of behaviour (the other person knowing things they shouldn't) over device performance alone."
+            },
+            {
               "signal": "Your phone battery is draining much faster than usual",
               "detail": "Monitoring apps run constantly in the background, which uses a lot of battery power."
             },
@@ -1407,7 +1411,7 @@
           "x_safe_public_actions": [
             {
               "action": "Review calendar sharing settings",
-              "detail": "In Google Calendar: Settings > each calendar > Share with specific people. Remove anyone unexpected.",
+              "detail": "Check sharing settings on every calendar you use:\n• Google Calendar — Settings > each calendar > Share with specific people\n• Apple iCloud Calendar — iPhone: Calendar app > Calendars > (i) next to each shared calendar > Remove Person; Mac: Calendar > right-click calendar > Sharing Settings\n• Microsoft Outlook / Microsoft 365 — Calendar > Share > Calendar Permissions (desktop) or Settings > Calendar > Shared calendars (Outlook on the web)\n• Samsung Calendar, Proton Calendar, Fastmail, and others — look for 'sharing', 'collaborators', or 'permissions' in calendar settings.\nRemove anyone unexpected.",
               "safety_note": null
             },
             {
@@ -1759,6 +1763,11 @@
               "action": "Enable two-factor authentication",
               "detail": "This adds a second step (like a code sent to your phone) when logging in.",
               "safety_note": "Make sure the second factor goes to a device only you control."
+            },
+            {
+              "action": "Check if your accounts have appeared in known data breaches",
+              "detail": "Free services like Have I Been Pwned (haveibeenpwned.com) let you search for your email address to see if it has been exposed in a public breach. If it has, change the password on that account and any other account using the same password.",
+              "safety_note": "Searching on a shared or monitored device may alert the other person. Use a device they don't have access to."
             }
           ],
           "x_safe_vector": "tech_facilitated",
@@ -28487,6 +28496,33 @@
         "marking-definition--a1b2c3d4-1234-5678-9abc-def012345678",
         "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
       ]
+    },
+    {
+      "type": "course-of-action",
+      "spec_version": "2.1",
+      "id": "course-of-action--6fd1304f-8b75-4441-9f29-1923e7b39dac",
+      "created": "2026-04-21T00:00:00.000Z",
+      "modified": "2026-04-21T00:00:00.000Z",
+      "name": "Credential Breach Monitoring",
+      "description": "Monitor exposure of user credentials in known data breaches using services such as Have I Been Pwned (https://haveibeenpwned.com). Rotate any credential that appears in a breach corpus and audit reuse of compromised passwords across accounts.",
+      "external_references": [
+        {
+          "source_name": "SAFE Framework",
+          "external_id": "SAFE-M-0181",
+          "url": "https://tfa.notastandard.org/mitigations/SAFE-M-0181/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fd4563fa-c481-49a7-8b16-d7eb896f5632",
+      "created": "2026-04-21T00:00:00.000Z",
+      "modified": "2026-04-21T00:00:00.000Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--6fd1304f-8b75-4441-9f29-1923e7b39dac",
+      "target_ref": "attack-pattern--8e447f09-1d9d-5c83-9807-d21e5e5bfd17",
+      "description": "Credential Breach Monitoring mitigates SAFE-T-0082"
     }
   ]
 }
