@@ -2801,4 +2801,29 @@ body.technical-view .technique-cell[data-public-title] a .public-title {
   color: #fff;
 }
 
+/* Public-view metadata card — floats top-right on desktop, stacks on mobile. */
+.public-meta-card {
+  float: right;
+  width: 35%;
+  max-width: 320px;
+  margin: 0 0 1rem 1rem;
+}
+.public-meta-card .card-body {
+  padding: 0.75rem 1rem;
+}
+.public-meta-card .card-data {
+  margin-bottom: 0.25rem;
+}
+.public-meta-card .card-title {
+  font-size: 0.95rem;
+}
+@media (max-width: 767.98px) {
+  .public-meta-card {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 1rem 0;
+  }
+}
+
 /*# sourceMappingURL=style-user.css.map */
