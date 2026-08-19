@@ -1,177 +1,118 @@
-
 <!DOCTYPE html>
-<html lang='en'>
-
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The TFA Matrix is being rebuilt</title>
+<meta name="description" content="The TFA Matrix is being rebuilt. We'll be back soon.">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<style>
+  :root {
+    --bg-top: #190b37;
+    --bg-bottom: #1b2a4a;
+    --text: #f2f3f7;
+    --text-soft: #c3c8d8;
+    --accent: #7fd4e3;
+    --accent-ink: #12203a;
+    --focus: #ffd166;
+  }
 
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1,shrink-to-fit=no'>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel='shortcut icon' href='/theme/favicon.ico' type='image/x-icon'>
-        <title>SAFE TFA Matrix</title>
-        <!-- Bootstrap CSS -->
-        <link rel='stylesheet' href='/theme/style/vendors/bootstrap.min.css' />
-        <link rel='stylesheet' href='/theme/style/vendors/bootstrap-tourist.css' />
-        <link rel='stylesheet' href='/theme/style/vendors/bootstrap-select.min.css' />
-        <!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/fontawesome.min.css"/>
-        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/brands.min.css"/>
-        <link rel="stylesheet" href="/theme/style/vendors/fontawesome-6.5.1/css/solid.min.css"/>
-            <link rel="stylesheet" href="/theme/style-user.css"/>
+  * { box-sizing: border-box; }
 
+  html, body { height: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg-top);
+    /* Flat through the upper band so the logo's own backing colour (#190b37)
+       blends seamlessly; the shift to navy happens below the content. */
+    background-image: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-top) 62%, var(--bg-bottom) 100%);
+    background-attachment: fixed;
+    color: var(--text);
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    max-width: 34rem;
+  }
+
+  .logo {
+    width: 200px;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 2.25rem;
+  }
+
+  h1 {
+    font-size: clamp(1.6rem, 5vw, 2.3rem);
+    line-height: 1.25;
+    font-weight: 600;
+    margin: 0 0 1.25rem;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    font-size: clamp(1rem, 2.4vw, 1.1rem);
+    color: var(--text-soft);
+    margin: 0 0 1.15rem;
+  }
+
+  .cta {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+  }
+
+  .cta:hover,
+  .cta:focus-visible {
+    background: #a4e3ee;
+    transform: translateY(-1px);
+  }
+
+  a:focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 3px;
+  }
+
+  footer {
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    color: #8f97ad;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cta { transition: none; }
+    .cta:hover, .cta:focus-visible { transform: none; }
+  }
+</style>
 </head>
-
 <body>
+  <main>
+    <img src="/logo.png" alt="SAFE Framework" class="logo">
 
-    <div class="safety-banner" id="browser-safety-banner">
-        <div class="safety-banner-content">
-            <strong>Is someone checking your browsing?</strong>
-            This website will appear in your browser history. If you're concerned someone may be monitoring your internet use, consider using a trusted friend's device, a library computer, or your browser's private/incognito mode. You can press <strong>Quick Exit</strong> or hit <strong>Escape</strong> at any time to leave this site quickly.
-            <a href="/about/online-safety/">Learn more about staying safe online</a>
-        </div>
-        <button class="safety-banner-close" id="close-safety-banner" aria-label="Dismiss safety notice">&times;</button>
-    </div>
+    <h1>The TFA Matrix is being rebuilt.</h1>
 
+    <p>We've taken the site down for a while so we can rebuild it properly &mdash; clearer, easier to use, and more useful to the people who rely on it.</p>
 
-    <div class="container-fluid attack-website-wrapper d-flex flex-column h-100">
-        <div class="row sticky-top flex-grow-0 flex-shrink-1">
-            <header class="col px-0">
-                    <nav class='navbar navbar-expand-lg navbar-dark position-static'>
-        <a class='navbar-brand' href='/'><img src="/theme/images/safe_logo_header.png" class="attack-logo"></a>
-        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarCollapse'
-                aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
-                <span class='navbar-toggler-icon'></span>
-        </button>
-        <div class='collapse navbar-collapse' id='navbarCollapse'>
-            <ul class='nav nav-tabs ml-auto'>
-                        <li class="nav-item">
-                            <a href="/matrices/tfa/"  class="nav-link" ><b>Matrix</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/tactics/tfa/"  class="nav-link" ><b>Tactics</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/techniques/tfa/"  class="nav-link" ><b>Techniques</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/about/"  class="nav-link" ><b>About</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <button id="search-button" class="btn search-button">Search <div id="search-icon" class="icon-button search-icon"></div></button>
-                        </li>
+    <p>Nothing has been lost, and this isn't goodbye. We'll be back soon.</p>
 
+    <a class="cta" href="https://notastandard.org">Get in touch at notastandard.org</a>
+  </main>
 
-            </ul>
-            <a href="https://doodles.google" id="quick-exit-btn" class="btn ml-3"
-               style="background-color: #e65100; color: white; font-weight: bold; padding: 8px 16px; border-radius: 4px;"
-               title="Press Escape to quickly leave this site">Quick Exit</a>
-        </div>
-    </nav>
-    <div class="quick-exit-bar">
-        <a href="https://doodles.google" id="quick-exit-mobile" title="Press Escape to quickly leave this site">&#9889; Quick Exit</a>
-    </div>
-
-            </header>
-        </div>
-        <div class="row flex-grow-0 flex-shrink-1">
-            <div class="col px-0">
-                <!-- !versions banner! -->
-            </div>
-        </div>
-        <div class="row flex-grow-1 flex-shrink-0">
-            <!--start-indexing-for-search-->
-
-    <div id="attack-jumbotron" class="col jumbotron-fluid">
-        <div class="container home-banner">
-            <div class="row-main-page pt-5">
-                    <p class="text-justify">
-                        The <strong>TFA Matrix</strong> (Technology-Facilitated Abuse Matrix) is a knowledge base of tactics and techniques used in technology-facilitated interpersonal harm. It provides a structured framework for understanding, documenting, and addressing technology-enabled abuse.
-                    </p>
-                    <p class="text-justify pb-2">
-                        <strong>WE'RE TAKING A BREAK! The TFA Matrix will be back soon fully rebuilt with a new look.</strong> 
-                    </p>
-                    <div class="p-line">
-                        <p class="py-3">
-                            
-                        </p>
-                    </div>
-            </div>
-        </div>
-    </div>
-   
-            <!--stop-indexing-for-search-->
-        </div>
-        <div class="row flex-grow-0 flex-shrink-1">
-            <footer class="col footer">
-                <div class="container-fluid">
-                    <div class="row row-footer">
-                        <div class="col-2 col-sm-2 col-md-2">
-                            <div class="footer-center-responsive my-auto">
-                                <a href="https://notastandard.org" target="_blank" rel="noopener" aria-label="Not A Standard">
-                                    <img src="/theme/images/safe_logo_footer.png" class="mitre-logo-wtrans">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-2 col-sm-2 footer-responsive-break"></div>
-                        <div class="footer-link-group">
-                            <div class="row row-footer">
-                                <div class="px-3 col-footer">
-                                    <u class="footer-link"><a href="/about/" class="footer-link">About</a></u>
-                                </div>
-                                <div class="px-3 col-footer">
-                                    <u class="footer-link"><a href="https://notastandard.org" class="footer-link">About SAFE</a></u>
-                                </div>
-                                <div class="px-3 col-footer">
-                                    <u class="footer-link"><a href="https://form.jotform.com/260340396646056" class="footer-link" target="_blank">Submit a Pattern</a></u>
-                                </div>
-                                <div class="px-3 col-footer">
-                                    <u class="footer-link"><a href="https://github.com/notastandard-org/tfa-matrix" class="footer-link" target="_blank">Contribute</a></u>
-                                </div>
-                                <div class="px-3 col-footer">
-                                    <u class="footer-link"><a href="https://www.notastandard.org/contact-8" class="footer-link">Contact</a></u>
-                                </div>
-                            </div>
-                            <div class="row row-footer footer-legal-row">
-                                <div class="px-3 col-footer"><a href="/about/online-safety/" class="footer-link">Your Safety Online</a></div>
-                                <div class="px-3 col-footer"><a href="/about/privacy/" class="footer-link">Privacy</a></div>
-                                <div class="px-3 col-footer"><a href="/about/terms/" class="footer-link">Terms</a></div>
-                                <div class="px-3 col-footer"><a href="/about/licensing/" class="footer-link">Licensing</a></div>
-                            </div>
-                            <div class="row">
-                                <small class="px-3">&copy;&nbsp;2026, Not A Standard Pty Ltd. SAFE and TFA Matrix are trademarks of Not A Standard Pty Ltd.</small>
-                            </div>
-                        </div>
-                        <div class="w-100 p-2 footer-responsive-break"></div>
-                        <div class="col footer-float-right-responsive-centered">
-                            <div><div><a href="https://tfa.notastandard.org" class="btn btn-primary w-100">tfa.notastandard.org</a></div></div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
-
-<!--stopindex-->
-
-</div>
-    <script src="/theme/scripts/jquery-3.5.1.min.js"></script>
-    <script src="/theme/scripts/popper.min.js"></script>
-    <script src="/theme/scripts/bootstrap-select.min.js"></script>
-    <script src="/theme/scripts/bootstrap.bundle.min.js"></script>
-    <script src="/theme/scripts/site.js"></script>
-    <script src="/theme/scripts/settings.js"></script>
-    <script src="/theme/scripts/fuse.min.js"></script>
-    <script src="/theme/scripts/tfa-search.js"></script>
-    <script>
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') { window.location.href = 'https://doodles.google'; }
-        });
-    </script>
-    <script src="/theme/scripts/matrix.js"></script>
-    <script src="/theme/scripts/bootstrap-tourist.js"></script>
-    <script src="/theme/scripts/settings.js"></script>
-    <script src="/theme/scripts/tour/tour-introduction.js"></script>
-    <script src="/theme/scripts/random_page.js"></script>
-    <script src="/theme/scripts/safety-banner.js"></script>
+  <footer>Thank you for your patience.</footer>
 </body>
 </html>
